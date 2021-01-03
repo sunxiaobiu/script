@@ -1,0 +1,6 @@
+# Default ignored files
+/workspace.xml
+encodings.xml
+vcs.xml
+target
+../target/
