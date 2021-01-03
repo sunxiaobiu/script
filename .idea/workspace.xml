@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="329d82a7-dff4-4e11-bd1e-3e061dc9650e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TJG5yOk613mWM2o4BU7pxDFHqV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/res" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.21026284" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="HSO" />
+      <recent name="DroidRA" />
+      <recent name="util" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/res" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ResultLog">
+    <configuration name="AutoTest_class2java" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="AutoUnitTest.processtest.Class2Java" />
+      <module name="script" />
+      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/UnitTest-results/test_case_class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CSV" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="DroidRA.ExtractCSVFiles" />
+      <module name="script" />
+      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/test &quot;2011-01-01 00:00:00&quot; $PROJECT_DIR$/../android-platforms/android-17/android.jar" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculateDynamicFragmentNum" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="DroidRA.CalculateDynamicFragmentNum" />
+      <module name="script" />
+      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/origintest1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculateNumberOfLeaks" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="HSO.CalculateNumberOfLeaks" />
+      <module name="script" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/../../HSO-related/HSO_FlowDroid/output" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompareCallGraphSize" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="DroidRA.CompareCallGraphSize" />
+      <module name="script" />
+      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/origintest1 $USER_HOME$/Desktop/test2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompareSootResultAnalysis" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="DroidRA.CompareSootResultAnalysis" />
+      <module name="script" />
+      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/origintest1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteCompileFailFile" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="AutoUnitTest.processtest.DeleteCompileFailFile" />
+      <module name="script" />
+      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/UnitTest-results/needDeleteJava.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExtractMinTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AutoUnitTest.experimantalsetup.ExtractMinTarget" />
+      <module name="script" />
+      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/UnitTest-script/collectAPK/results/yanjieSDK.txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AutoUnitTest.experimantalsetup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExtractSpecialTxtFile" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="DroidRA.ExtractSpecialTxtFile" />
+      <module name="script" />
+      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/test2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IncrementalResult" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="DroidRA.IncrementalResultAnalysis" />
+      <module name="script" />
+      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/origintest1 $USER_HOME$/Desktop/test2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinMaxTargetVersion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AutoUnitTest.experimantalsetup.MinMaxTargetVersion" />
+      <module name="script" />
+      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/test/test.txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AutoUnitTest.experimantalsetup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NoLineageAPKList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AutoUnitTest.experimantalsetup.NoLineageAPKList" />
+      <module name="script" />
+      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/UnitTest-script/collectAPK/results/androoZooOpen29Local.txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AutoUnitTest.experimantalsetup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProcessJavaTestFile" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="AutoUnitTest.processtest.ProcessJavaTestFile" />
+      <module name="script" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/../BasicUnitAndroidTest/app/src/androidTest/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadCsv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AutoUnitTest.processtest.ReadCsv" />
+      <module name="script" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AutoUnitTest.processtest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Rerun" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="DroidRA.Rerun" />
+      <module name="script" />
+      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/test1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResultLog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AutoUnitTest.result.ResultLog" />
+      <module name="script" />
+      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/UnitTest-results/Crowdsourcing/API30_log.txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AutoUnitTest.result.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TriggerNum" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HSO.RQ1.TriggerNum" />
+      <module name="script" />
+      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/HSO_final/malware" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HSO.RQ1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="incrementalCSV" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="DroidRA.IncrementalExtractCSVFiles" />
+      <module name="script" />
+      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="json" type="Application" factoryName="Application">
+      <module name="script" />
+      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/left.json" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.AutoTest_class2java" />
+      <item itemvalue="Application.ProcessJavaTestFile" />
+      <item itemvalue="Application.DeleteCompileFailFile" />
+      <item itemvalue="Application.json" />
+      <item itemvalue="Application.CompareSootResultAnalysis" />
+      <item itemvalue="Application.CalculateDynamicFragmentNum" />
+      <item itemvalue="Application.ExtractSpecialTxtFile" />
+      <item itemvalue="Application.IncrementalResult" />
+      <item itemvalue="Application.CSV" />
+      <item itemvalue="Application.CalculateNumberOfLeaks" />
+      <item itemvalue="Application.CompareCallGraphSize" />
+      <item itemvalue="Application.incrementalCSV" />
+      <item itemvalue="Application.Rerun" />
+      <item itemvalue="Application.TriggerNum" />
+      <item itemvalue="Application.MinMaxTargetVersion" />
+      <item itemvalue="Application.ExtractMinTarget" />
+      <item itemvalue="Application.NoLineageAPKList" />
+      <item itemvalue="Application.ReadCsv" />
+      <item itemvalue="Application.ResultLog" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ResultLog" />
+        <item itemvalue="Application.ReadCsv" />
+        <item itemvalue="Application.NoLineageAPKList" />
+        <item itemvalue="Application.ExtractMinTarget" />
+        <item itemvalue="Application.MinMaxTargetVersion" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="329d82a7-dff4-4e11-bd1e-3e061dc9650e" name="Default Changelist" comment="" />
+      <created>1573170605042</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573170605042</updated>
+      <workItem from="1573170607427" duration="24926000" />
+      <workItem from="1573447229306" duration="7343000" />
+      <workItem from="1573560028688" duration="48042000" />
+      <workItem from="1575185140856" duration="18991000" />
+      <workItem from="1578263512091" duration="61494000" />
+      <workItem from="1581656963922" duration="5612000" />
+      <workItem from="1581908952632" duration="12523000" />
+      <workItem from="1583238806843" duration="7616000" />
+      <workItem from="1583625789104" duration="1446000" />
+      <workItem from="1584921192042" duration="3310000" />
+      <workItem from="1585282398159" duration="708000" />
+      <workItem from="1589257252043" duration="2011000" />
+      <workItem from="1590649804712" duration="3328000" />
+      <workItem from="1590655690621" duration="2398000" />
+      <workItem from="1591065175470" duration="9209000" />
+      <workItem from="1591179912488" duration="3115000" />
+      <workItem from="1591233249228" duration="15359000" />
+      <workItem from="1591519151264" duration="12464000" />
+      <workItem from="1591669421032" duration="16000" />
+      <workItem from="1591764841715" duration="2614000" />
+      <workItem from="1591862937346" duration="9352000" />
+      <workItem from="1592188169398" duration="7521000" />
+      <workItem from="1592624248244" duration="3638000" />
+      <workItem from="1593045685010" duration="4005000" />
+      <workItem from="1596106124433" duration="9588000" />
+      <workItem from="1596235480025" duration="607000" />
+      <workItem from="1596255901827" duration="4000" />
+      <workItem from="1596283403601" duration="1051000" />
+      <workItem from="1596338703262" duration="165000" />
+      <workItem from="1596350577223" duration="5000" />
+      <workItem from="1596413351138" duration="9689000" />
+      <workItem from="1596458538929" duration="16278000" />
+      <workItem from="1596590563484" duration="4975000" />
+      <workItem from="1596617827350" duration="13515000" />
+      <workItem from="1596700629914" duration="166000" />
+      <workItem from="1596771579458" duration="55801000" />
+      <workItem from="1597221721917" duration="1787000" />
+      <workItem from="1597238913333" duration="19571000" />
+      <workItem from="1597398881786" duration="44655000" />
+      <workItem from="1597845242710" duration="17052000" />
+      <workItem from="1597987401550" duration="84848000" />
+      <workItem from="1598238542681" duration="129784000" />
+      <workItem from="1599364473315" duration="19519000" />
+      <workItem from="1599544388010" duration="8339000" />
+      <workItem from="1599715683536" duration="666000" />
+      <workItem from="1599984581543" duration="10340000" />
+      <workItem from="1600652342020" duration="10106000" />
+      <workItem from="1600820781677" duration="12930000" />
+      <workItem from="1601167304566" duration="100470000" />
+      <workItem from="1602026637426" duration="31958000" />
+      <workItem from="1602212083377" duration="20007000" />
+      <workItem from="1602326347362" duration="41763000" />
+      <workItem from="1602668970325" duration="10134000" />
+      <workItem from="1604022754618" duration="553000" />
+      <workItem from="1607680867767" duration="19111000" />
+      <workItem from="1608282033377" duration="16938000" />
+      <workItem from="1609062949074" duration="12018000" />
+      <workItem from="1609568039030" duration="9289000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="83" y="354" width="1071" height="543" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609674600537">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="83" y="354" width="1071" height="543" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1609674600537" />
+    <state x="250" y="386" width="1071" height="519" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.965@0.23.1680.965" timestamp="1601975147170" />
+    <state x="653" y="241" key="#com.intellij.ide.util.MemberChooser" timestamp="1602299959948">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="653" y="241" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1602299959948" />
+    <state x="565" y="278" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1609413134085">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="565" y="278" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1609413134085" />
+    <state x="430" y="301" width="824" height="313" key="#xdebugger.evaluate" timestamp="1609413216377">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="430" y="301" width="824" height="313" key="#xdebugger.evaluate/0.0.1680.1050@0.0.1680.1050" timestamp="1609413216377" />
+    <state width="595" height="466" key="DebuggerActiveHint" timestamp="1608611280776">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="595" height="466" key="DebuggerActiveHint/0.0.1680.1050@0.0.1680.1050" timestamp="1608611280776" />
+    <state width="1638" height="392" key="GridCell.Tab.0.bottom" timestamp="1609675820504">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="392" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1609675820504" />
+    <state width="1638" height="312" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1602330717175" />
+    <state width="1638" height="271" key="GridCell.Tab.0.bottom/0.23.1680.954@0.23.1680.954" timestamp="1602888949824" />
+    <state width="1638" height="307" key="GridCell.Tab.0.bottom/0.23.1680.956@0.23.1680.956" timestamp="1608985446083" />
+    <state width="1638" height="307" key="GridCell.Tab.0.bottom/0.23.1680.958@0.23.1680.958" timestamp="1608700933140" />
+    <state width="1638" height="374" key="GridCell.Tab.0.bottom/0.23.1680.960@0.23.1680.960" timestamp="1608275339690" />
+    <state width="1638" height="374" key="GridCell.Tab.0.bottom/0.23.1680.961@0.23.1680.961" timestamp="1608209597040" />
+    <state width="1638" height="459" key="GridCell.Tab.0.bottom/0.23.1680.963@0.23.1680.963" timestamp="1602424950523" />
+    <state width="1638" height="461" key="GridCell.Tab.0.bottom/0.23.1680.965@0.23.1680.965" timestamp="1601987833919" />
+    <state width="1638" height="392" key="GridCell.Tab.0.center" timestamp="1609675820502">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="392" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1609675820502" />
+    <state width="1638" height="352" key="GridCell.Tab.0.center/0.0.1680.981@0.0.1680.981" timestamp="1602661325482" />
+    <state width="1638" height="312" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1602330717173" />
+    <state width="1638" height="271" key="GridCell.Tab.0.center/0.23.1680.954@0.23.1680.954" timestamp="1602888949822" />
+    <state width="1638" height="307" key="GridCell.Tab.0.center/0.23.1680.956@0.23.1680.956" timestamp="1608985446082" />
+    <state width="1638" height="307" key="GridCell.Tab.0.center/0.23.1680.958@0.23.1680.958" timestamp="1608700933138" />
+    <state width="1638" height="374" key="GridCell.Tab.0.center/0.23.1680.960@0.23.1680.960" timestamp="1608275339688" />
+    <state width="1638" height="374" key="GridCell.Tab.0.center/0.23.1680.961@0.23.1680.961" timestamp="1608209597038" />
+    <state width="1638" height="459" key="GridCell.Tab.0.center/0.23.1680.963@0.23.1680.963" timestamp="1602424950521" />
+    <state width="1638" height="461" key="GridCell.Tab.0.center/0.23.1680.965@0.23.1680.965" timestamp="1601987833918" />
+    <state width="1638" height="392" key="GridCell.Tab.0.left" timestamp="1609675820502">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="392" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1609675820502" />
+    <state width="1638" height="312" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1602330717173" />
+    <state width="1638" height="271" key="GridCell.Tab.0.left/0.23.1680.954@0.23.1680.954" timestamp="1602888949821" />
+    <state width="1638" height="307" key="GridCell.Tab.0.left/0.23.1680.956@0.23.1680.956" timestamp="1608985446081" />
+    <state width="1638" height="352" key="GridCell.Tab.0.left/0.23.1680.958@0.0.1680.981" timestamp="1602661325352" />
+    <state width="1638" height="307" key="GridCell.Tab.0.left/0.23.1680.958@0.23.1680.958" timestamp="1608700933137" />
+    <state width="1638" height="374" key="GridCell.Tab.0.left/0.23.1680.960@0.23.1680.960" timestamp="1608275339687" />
+    <state width="1638" height="374" key="GridCell.Tab.0.left/0.23.1680.961@0.23.1680.961" timestamp="1608209597037" />
+    <state width="1638" height="459" key="GridCell.Tab.0.left/0.23.1680.963@0.23.1680.963" timestamp="1602424950520" />
+    <state width="1638" height="461" key="GridCell.Tab.0.left/0.23.1680.965@0.23.1680.965" timestamp="1601987833916" />
+    <state width="1638" height="392" key="GridCell.Tab.0.right" timestamp="1609675820503">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="392" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1609675820503" />
+    <state width="1638" height="352" key="GridCell.Tab.0.right/0.0.1680.981@0.0.1680.981" timestamp="1602661325484" />
+    <state width="1638" height="312" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1602330717174" />
+    <state width="1638" height="271" key="GridCell.Tab.0.right/0.23.1680.954@0.23.1680.954" timestamp="1602888949823" />
+    <state width="1638" height="307" key="GridCell.Tab.0.right/0.23.1680.956@0.23.1680.956" timestamp="1608985446082" />
+    <state width="1638" height="307" key="GridCell.Tab.0.right/0.23.1680.958@0.23.1680.958" timestamp="1608700933139" />
+    <state width="1638" height="374" key="GridCell.Tab.0.right/0.23.1680.960@0.23.1680.960" timestamp="1608275339689" />
+    <state width="1638" height="374" key="GridCell.Tab.0.right/0.23.1680.961@0.23.1680.961" timestamp="1608209597039" />
+    <state width="1638" height="459" key="GridCell.Tab.0.right/0.23.1680.963@0.23.1680.963" timestamp="1602424950522" />
+    <state width="1638" height="461" key="GridCell.Tab.0.right/0.23.1680.965@0.23.1680.965" timestamp="1601987833918" />
+    <state width="1638" height="377" key="GridCell.Tab.1.bottom" timestamp="1609414162603">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="377" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1609414162603" />
+    <state width="1638" height="307" key="GridCell.Tab.1.bottom/0.23.1680.956@0.23.1680.956" timestamp="1608985446086" />
+    <state width="1638" height="307" key="GridCell.Tab.1.bottom/0.23.1680.958@0.23.1680.958" timestamp="1608700933145" />
+    <state width="1638" height="401" key="GridCell.Tab.1.bottom/0.23.1680.960@0.23.1680.960" timestamp="1608247893955" />
+    <state width="1638" height="401" key="GridCell.Tab.1.bottom/0.23.1680.961@0.23.1680.961" timestamp="1602477149570" />
+    <state width="1638" height="461" key="GridCell.Tab.1.bottom/0.23.1680.965@0.23.1680.965" timestamp="1601987833921" />
+    <state width="1638" height="377" key="GridCell.Tab.1.center" timestamp="1609414162600">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="377" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1609414162600" />
+    <state width="1638" height="307" key="GridCell.Tab.1.center/0.23.1680.956@0.23.1680.956" timestamp="1608985446085" />
+    <state width="1638" height="307" key="GridCell.Tab.1.center/0.23.1680.958@0.23.1680.958" timestamp="1608700933142" />
+    <state width="1638" height="401" key="GridCell.Tab.1.center/0.23.1680.960@0.23.1680.960" timestamp="1608247893950" />
+    <state width="1638" height="401" key="GridCell.Tab.1.center/0.23.1680.961@0.23.1680.961" timestamp="1602477149569" />
+    <state width="1638" height="461" key="GridCell.Tab.1.center/0.23.1680.965@0.23.1680.965" timestamp="1601987833920" />
+    <state width="1638" height="377" key="GridCell.Tab.1.left" timestamp="1609414162598">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="377" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1609414162598" />
+    <state width="1638" height="307" key="GridCell.Tab.1.left/0.23.1680.956@0.23.1680.956" timestamp="1608985446084" />
+    <state width="1638" height="307" key="GridCell.Tab.1.left/0.23.1680.958@0.23.1680.958" timestamp="1608700933141" />
+    <state width="1638" height="401" key="GridCell.Tab.1.left/0.23.1680.960@0.23.1680.960" timestamp="1608247893948" />
+    <state width="1638" height="401" key="GridCell.Tab.1.left/0.23.1680.961@0.23.1680.961" timestamp="1602477149568" />
+    <state width="1638" height="461" key="GridCell.Tab.1.left/0.23.1680.965@0.23.1680.965" timestamp="1601987833920" />
+    <state width="1638" height="377" key="GridCell.Tab.1.right" timestamp="1609414162601">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="377" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1609414162601" />
+    <state width="1638" height="307" key="GridCell.Tab.1.right/0.23.1680.956@0.23.1680.956" timestamp="1608985446086" />
+    <state width="1638" height="307" key="GridCell.Tab.1.right/0.23.1680.958@0.23.1680.958" timestamp="1608700933144" />
+    <state width="1638" height="401" key="GridCell.Tab.1.right/0.23.1680.960@0.23.1680.960" timestamp="1608247893952" />
+    <state width="1638" height="401" key="GridCell.Tab.1.right/0.23.1680.961@0.23.1680.961" timestamp="1602477149569" />
+    <state width="1638" height="461" key="GridCell.Tab.1.right/0.23.1680.965@0.23.1680.965" timestamp="1601987833921" />
+    <state x="200" y="84" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602889574553">
+      <screen x="0" y="23" width="1680" height="954" />
+    </state>
+    <state x="200" y="84" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1602889321879" />
+    <state x="200" y="84" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1680.954@0.23.1680.954" timestamp="1602889574553" />
+    <state x="200" y="84" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1680.961@0.23.1680.961" timestamp="1602476708319" />
+    <state x="519" y="326" key="com.intellij.ide.util.TipDialog" timestamp="1609568066083">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="519" y="326" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1609568066083" />
+    <state x="528" y="566" width="524" height="484" key="extract.method.dialog" timestamp="1602729351915">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="528" y="566" width="524" height="484" key="extract.method.dialog/0.0.1680.1050@0.0.1680.1050" timestamp="1602729351915" />
+    <state x="506" y="282" width="683" height="486" key="find.popup" timestamp="1608612868065">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="506" y="282" width="683" height="486" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1608612868065" />
+    <state x="506" y="282" width="683" height="486" key="find.popup/0.23.1680.965@0.23.1680.965" timestamp="1601971773881" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1609411852671">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1609411852671" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.23.1680.956@0.23.1680.956" timestamp="1608691780985" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DroidRA/ResultAnalysis.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DroidRA/ResultAnalysis.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DroidRA/ResultAnalysis.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/json/CompareJson.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/json/CompareJson.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/json/CompareJson.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/json/CompareJson.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DroidRA/ResultAnalysis.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DroidRA/ResultAnalysis.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/json/CompareJson.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/json/CompareJson.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/json/CompareJson.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/json/CompareJson.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/json/CompareJson.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DroidRA/ResultAnalysis.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DroidRA/CompareSootResultAnalysis.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DroidRA/CompareSootResultAnalysis.java</url>
+          <line>139</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DroidRA/ExtractCSVFiles.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DroidRA/ExtractCSVFiles.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DroidRA/ExtractCSVFiles.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DroidRA/IncrementalExtractCSVFiles.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DroidRA/IncrementalExtractCSVFiles.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DroidRA/IncrementalExtractCSVFiles.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DroidRA/IncrementalExtractCSVFiles.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DroidRA/IncrementalExtractCSVFiles.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DroidRA/IncrementalExtractCSVFiles.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DroidRA/IncrementalExtractCSVFiles.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DroidRA/Rerun.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DroidRA/Rerun.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DroidRA/Rerun.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DroidRA/Rerun.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DroidRA/Rerun.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DroidRA/Rerun.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DroidRA/Rerun.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DroidRA/IncrementalResultAnalysis.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DroidRA/IncrementalResultAnalysis.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DroidRA/IncrementalResultAnalysis.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DroidRA/IncrementalResultAnalysis.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DroidRA/IncrementalResultAnalysis.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DroidRA/CompareSootResultAnalysis.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DroidRA/CalculateDynamicFragmentNum.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DroidRA/ExtractCSVFiles.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DroidRA/ExtractCSVFiles.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DroidRA/IncrementalResultAnalysis.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/HSO/CalculateNumberOfLeaks.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/csv/SourceSinkFrequentAnalysis.java</url>
+          <line>155</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/csv/SourceSinkFrequentAnalysis.java</url>
+          <line>156</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/csv/SourceSinkFrequentAnalysis.java</url>
+          <line>157</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/DroidRA/StarResult.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/HSO/commoncases/extractCommonCasesMap.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/HSO/commoncases/extractCommonCasesMap.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/HSO/RQ2/Performance.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/HSO/Section5/HSDF.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="230" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/HSO/Section5/HSDF.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/HSO/fuzzing/CopyFiles.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="275" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/HSO/fuzzing/CopyFiles.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="276" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/HSO/fuzzing/CopyFiles.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="277" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/HSO/fuzzing/CopyFiles.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="279" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/HSO/flowdroid/ExtractAPK.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="288" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/HSO/RQ1/TriggerSensitivePair.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="293" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/HSO/flowdroid/CopyFile.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="295" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/HSO/flowdroid/CopyFile.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="299" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/HSO/flowdroid/CopyFile.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="300" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/HSO/flowdroid/CopyFile.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="302" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/HSO/flowdroid/HSDF.java</url>
+          <line>204</line>
+          <option name="timeStamp" value="304" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/AutoUnitTest/experimantalsetup/ExtractMinTarget.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="344" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/AutoUnitTest/processtest/ReadCsv.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="349" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/AutoUnitTest/processtest/ReadCsv.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="350" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/AutoUnitTest/processtest/ProcessJavaTestFile.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="353" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/AutoUnitTest/processtest/DeleteCompileFailFile.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="356" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/AutoUnitTest/processtest/DeleteCompileFailFile.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="357" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/script$CopyFile.ic" NAME="CopyFile Coverage Results" MODIFIED="1602395946737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>HSO.flowdroid.*</FILTER>
+    </SUITE>
+  </component>
+</project>
