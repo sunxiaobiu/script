@@ -50,6 +50,11 @@ public class ProcessJavaTestFile {
                     fileContent.set(i, fileContent.get(i).replace(runnableString,"(Runnable)(new Runnable() {public void run() {}})"));
                 }
 
+//                String bufferString = getSubUtilSimple(fileContent.get(i), "(\\(Buffer\\)var[0-9]+)");
+//                if(StringUtils.isNotBlank(bufferString)){
+//                    fileContent.set(i, fileContent.get(i).replace(bufferString,"(Runnable)(new Runnable() {public void run() {}})"));
+//                }
+
 
             }
 
