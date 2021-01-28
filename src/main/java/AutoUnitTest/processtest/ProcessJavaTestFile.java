@@ -50,26 +50,26 @@ public class ProcessJavaTestFile {
                     fileContent.set(i, fileContent.get(i).replace(runnableString,"(Runnable)(new Runnable() {public void run() {}})"));
                 }
 
-//                String bufferString = getSubUtilSimple(fileContent.get(i), "(\\(Buffer\\)var[0-9]+)");
-//                if(StringUtils.isNotBlank(bufferString)){
-//                    fileContent.set(i, fileContent.get(i).replace(bufferString,"(Runnable)(new Runnable() {public void run() {}})"));
-//                }
+                String throwableString = getSubUtilSimple(fileContent.get(i), "(\\(Throwable\\)var[0-9]+)");
+                if(StringUtils.isNotBlank(throwableString)){
+                    fileContent.set(i, fileContent.get(i).replace(throwableString,"(Throwable)(new Throwable())"));
+                }
+
+                String rectString = getSubUtilSimple(fileContent.get(i), "(\\(Rect\\)null)");
+                if(StringUtils.isNotBlank(rectString)){
+                    fileContent.set(i, fileContent.get(i).replace(rectString,"(Rect)(new Rect())"));
+                }
+
+                String handlerString = getSubUtilSimple(fileContent.get(i), "(new Handler;)");
+                if(StringUtils.isNotBlank(handlerString)){
+                    fileContent.set(i, fileContent.get(i).replace(handlerString,"new Handler();"));
+                }
+
 
 
             }
 
             Files.write(file.toPath(), fileContent, StandardCharsets.UTF_8);
-//            File filePath = new File(testCasesFilePath + "/" + classFileName);
-//            BufferedReader br = null;
-//            String line = "";
-//
-//            br = new BufferedReader(new FileReader(filePath));
-//
-//            while ((line = br.readLine()) != null) {
-//                if(line.startsWith("import") && line.contains("[]")){
-//                    line = line.replaceAll("\\[]","");
-//                }
-//            }
         }
 
     }

@@ -16,7 +16,9 @@ public class DeleteCompileFailFile {
         List<String> fileContent = new ArrayList<>(Files.readAllLines(file.toPath(), StandardCharsets.UTF_8));
 
         for (int i = 0; i < fileContent.size(); i++) {
-            File toDelFile = new File("/Users/xsun0035/workspace/monash/testing-samples/unit/BasicUnitAndroidTest/"+fileContent.get(i));
+            //app/src/androidTest/java/
+            File toDelFile = new File("/Users/xsun0035/workspace/monash/BasicUnitAndroidTest/app/src/androidTest/java/"+fileContent.get(i));
+            System.out.println(toDelFile.getName());
             if(toDelFile.exists()){
                 toDelFile.delete();
             }

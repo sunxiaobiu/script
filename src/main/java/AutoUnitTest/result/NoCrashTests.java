@@ -16,7 +16,7 @@ public class NoCrashTests {
     public static void main(String[] args) throws IOException {
         String logFolder = args[0];
 
-        HashMap<String, String> sdk21 = new HashMap<>();
+//        HashMap<String, String> sdk21 = new HashMap<>();
 //        HashMap<String, String> sdk22 = new HashMap<>();
 //        HashMap<String, String> sdk23 = new HashMap<>();
 //        HashMap<String, String> sdk24 = new HashMap<>();
@@ -24,11 +24,11 @@ public class NoCrashTests {
 //        HashMap<String, String> sdk26 = new HashMap<>();
 //        HashMap<String, String> sdk27 = new HashMap<>();
 //        HashMap<String, String> sdk28 = new HashMap<>();
-//        HashMap<String, String> sdk29 = new HashMap<>();
+        HashMap<String, String> sdk29 = new HashMap<>();
 
         //=========================================SDK 21-29==============================================
 
-        getSDKHashLog(logFolder, sdk21, "21");
+//        getSDKHashLog(logFolder, sdk21, "21");
 //        getSDKHashLog(logFolder, sdk22, "22");
 //        getSDKHashLog(logFolder, sdk23, "23");
 //        getSDKHashLog(logFolder, sdk24, "24");
@@ -36,16 +36,18 @@ public class NoCrashTests {
 //        getSDKHashLog(logFolder, sdk26, "26");
 //        getSDKHashLog(logFolder, sdk27, "27");
 //        getSDKHashLog(logFolder, sdk28, "28");
-//        getSDKHashLog(logFolder, sdk29, "29");
+        getSDKHashLog(logFolder, sdk29, "29");
 
-        for(String key : sdk21.keySet()){
-            System.out.println(key);
+        for(String key : sdk29.keySet()){
+            System.out.println(key+".java");
         }
 
     }
 
     private static void getSDKHashLog(String logFolder, HashMap<String, String> sdkHashMap, String sdkVersion) throws IOException {
-        File file = new File(logFolder + "/API" + sdkVersion + "_log.txt");
+        //File file = new File(logFolder + "/API" + sdkVersion + "_log.txt");
+        File file = new File(logFolder + "220001.txt");
+
         List<String> fileContent = new ArrayList<>(Files.readAllLines(file.toPath(), StandardCharsets.UTF_8));
         for (int i = 0; i < fileContent.size(); i++) {
             String currentLine = fileContent.get(i);

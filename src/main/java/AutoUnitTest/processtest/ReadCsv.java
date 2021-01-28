@@ -8,9 +8,9 @@ import java.util.List;
 public class ReadCsv {
 
     public static void main(String[] args) throws IOException {
-        String crunchifyCSVFile = "/Users/xsun0035/Desktop/UnitTest-results/utNameAPISigCsvPath.csv";
+        String crunchifyCSVFile = "/Users/xsun0035/Desktop/UI-UnitTest/utNameAPISigCsvPath.csv";
 
-        PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("/Users/xsun0035/Desktop/UnitTest-results/utNameAPISigCsvPath.txt", true)));
+        PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("/Users/xsun0035/Desktop/UI-UnitTest/utNameAPISigCsvPath.txt", true)));
 
         BufferedReader crunchifyBufferReader = null;
         String crunchifyLine = "";
