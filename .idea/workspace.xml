@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="329d82a7-dff4-4e11-bd1e-3e061dc9650e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AutoUnitTest/RQ1/BoxPlotPerAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AutoUnitTest/RQ1/BoxPlotPerAPK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AutoUnitTest/RQ2/Performance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AutoUnitTest/example/Methodology.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AutoUnitTest/result/DistinctAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AutoUnitTest/result/EasyMockErrorNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AutoUnitTest/result/ExcutableRate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/APIMisuse/ClassOrInterfaceVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/APIMisuse/JavaSourceVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/APIMisuse/MethodSig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/APIMisuse/extractCommentIno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/GetSensorAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/SelectAvaliableAPK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/collectFieldLeak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AutoUnitTest/ShardFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutoUnitTest/ShardFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AutoUnitTest/processtest/DeleteCompileFailFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutoUnitTest/processtest/DeleteCompileFailFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AutoUnitTest/processtest/ProcessJavaTestFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutoUnitTest/processtest/ProcessJavaTestFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AutoUnitTest/processtest/ReadCsv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutoUnitTest/processtest/ReadCsv.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AutoUnitTest/result/CompatibilityIssues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutoUnitTest/result/CompatibilityIssues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AutoUnitTest/result/NoCrashTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutoUnitTest/result/NoCrashTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +41,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.21026284" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -54,6 +50,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="APIMisuse" />
       <recent name="HSO" />
       <recent name="DroidRA" />
       <recent name="util" />
@@ -65,39 +62,11 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CompatibilityIssues">
+  <component name="RunManager" selected="Application.SelectAvaliableAPK">
     <configuration name="AutoTest_class2java" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="AutoUnitTest.processtest.Class2Java" />
       <module name="script" />
       <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/UnitTest-results/test_case_class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BoxPlotPerAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AutoUnitTest.RQ1.BoxPlotPerAPI" />
-      <module name="script" />
-      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/UnitTest-results/improve_success_rate/2k/utNameAPISigCsvPath_2k.csv $USER_HOME$/Desktop/UnitTest-results/improve_success_rate/2k/test_case_java_success/all.txt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AutoUnitTest.RQ1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BoxPlotPerAPK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AutoUnitTest.RQ1.BoxPlotPerAPK" />
-      <module name="script" />
-      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/UnitTest-results/improve_success_rate/3k/output/ $USER_HOME$/Desktop/UnitTest-results/improve_success_rate/3k/test_case_java_success/all.txt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AutoUnitTest.RQ1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,20 +111,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompatibilityIssues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AutoUnitTest.result.CompatibilityIssues" />
-      <module name="script" />
-      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/UnitTest-results/Crowdsourcing/minSDK21_TestCase5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AutoUnitTest.result.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DeleteCompileFailFile" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="AutoUnitTest.processtest.DeleteCompileFailFile" />
       <module name="script" />
@@ -172,38 +127,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GetSensorAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FieldFlowDroid.GetSensorAPI" />
+      <module name="script" />
+      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FieldFlowDroid.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IncrementalResult" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="DroidRA.IncrementalResultAnalysis" />
       <module name="script" />
       <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/origintest1 $USER_HOME$/Desktop/test2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Methodology" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AutoUnitTest.example.Methodology" />
-      <module name="script" />
-      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/UnitTest-results/utNameAPISigCsvPath.csv $USER_HOME$/Desktop/test/all.txt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AutoUnitTest.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Performance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AutoUnitTest.RQ2.Performance" />
-      <module name="script" />
-      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/UnitTest-results/improve_success_rate/3k/output/" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AutoUnitTest.RQ2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -238,6 +179,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SelectAvaliableAPK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FieldFlowDroid.SelectAvaliableAPK" />
+      <module name="script" />
+      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/test $USER_HOME$/Desktop/des" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FieldFlowDroid.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ShareFile" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="AutoUnitTest.ShardFile" />
       <module name="script" />
@@ -260,6 +215,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="collectFieldLeak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FieldFlowDroid.collectFieldLeak" />
+      <module name="script" />
+      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/output" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FieldFlowDroid.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="extractCommentIno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="APIMisuse.extractCommentIno" />
+      <module name="script" />
+      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/test/TestCase_com_franco_focus_204162586.java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="APIMisuse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="incrementalCSV" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="DroidRA.IncrementalExtractCSVFiles" />
       <module name="script" />
@@ -271,6 +254,19 @@
     <configuration name="json" type="Application" factoryName="Application">
       <module name="script" />
       <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/left.json" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.test" />
+      <module name="script" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -292,19 +288,19 @@
       <item itemvalue="Application.Rerun" />
       <item itemvalue="Application.TriggerNum" />
       <item itemvalue="Application.ResultLogNumber" />
-      <item itemvalue="Application.BoxPlotPerAPK" />
-      <item itemvalue="Application.Performance" />
-      <item itemvalue="Application.BoxPlotPerAPI" />
-      <item itemvalue="Application.Methodology" />
-      <item itemvalue="Application.CompatibilityIssues" />
+      <item itemvalue="Application.test" />
+      <item itemvalue="Application.extractCommentIno" />
+      <item itemvalue="Application.collectFieldLeak" />
+      <item itemvalue="Application.GetSensorAPI" />
+      <item itemvalue="Application.SelectAvaliableAPK" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CompatibilityIssues" />
-        <item itemvalue="Application.Performance" />
-        <item itemvalue="Application.BoxPlotPerAPK" />
-        <item itemvalue="Application.Methodology" />
-        <item itemvalue="Application.BoxPlotPerAPI" />
+        <item itemvalue="Application.SelectAvaliableAPK" />
+        <item itemvalue="Application.GetSensorAPI" />
+        <item itemvalue="Application.collectFieldLeak" />
+        <item itemvalue="Application.extractCommentIno" />
+        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -394,7 +390,27 @@
       <workItem from="1610979162344" duration="13567000" />
       <workItem from="1611041527179" duration="30757000" />
       <workItem from="1611306567703" duration="11570000" />
-      <workItem from="1611796192737" duration="4271000" />
+      <workItem from="1611796192737" duration="4810000" />
+      <workItem from="1612133263157" duration="561000" />
+      <workItem from="1612426527380" duration="760000" />
+      <workItem from="1613370534772" duration="9686000" />
+      <workItem from="1613715462007" duration="143000" />
+      <workItem from="1613715834101" duration="348000" />
+      <workItem from="1613716567902" duration="1803000" />
+      <workItem from="1614389378459" duration="621000" />
+      <workItem from="1614556662567" duration="5602000" />
+      <workItem from="1614745935259" duration="10927000" />
+      <workItem from="1615852915131" duration="5307000" />
+      <workItem from="1616022541720" duration="88000" />
+      <workItem from="1616025878207" duration="2079000" />
+      <workItem from="1616495712330" duration="684000" />
+      <workItem from="1617272284432" duration="607000" />
+      <workItem from="1617448767154" duration="1275000" />
+      <workItem from="1617494456093" duration="4447000" />
+      <workItem from="1618136852515" duration="994000" />
+      <workItem from="1618210155823" duration="1814000" />
+      <workItem from="1618479075804" duration="3025000" />
+      <workItem from="1618572910163" duration="4708000" />
     </task>
     <servers />
   </component>
@@ -402,126 +418,118 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="185" width="1597" height="519" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611808272128">
+    <state x="0" y="185" width="1597" height="519" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618577209275">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="0" y="185" width="1597" height="543" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1611808272128" />
+    <state x="0" y="185" width="1597" height="543" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1618577209275" />
     <state x="0" y="209" width="1597" height="519" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.954@0.23.1680.954" timestamp="1610583733380" />
     <state x="565" y="278" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1610190388898">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="565" y="278" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1610190388898" />
-    <state x="621" y="406" width="824" height="313" key="#xdebugger.evaluate" timestamp="1611207696906">
+    <state x="617" y="530" width="989" height="510" key="#xdebugger.evaluate" timestamp="1615284993099">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="621" y="406" width="824" height="313" key="#xdebugger.evaluate/0.0.1680.1050@0.0.1680.1050" timestamp="1611207696906" />
+    <state x="617" y="530" width="989" height="510" key="#xdebugger.evaluate/0.0.1680.1050@0.0.1680.1050" timestamp="1615284993099" />
     <state width="595" height="466" key="DebuggerActiveHint" timestamp="1610101137283">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="595" height="466" key="DebuggerActiveHint/0.0.1680.1050@0.0.1680.1050" timestamp="1610101137283" />
-    <state width="1638" height="555" key="GridCell.Tab.0.bottom" timestamp="1611808273999">
+    <state width="1638" height="346" key="GridCell.Tab.0.bottom" timestamp="1618578847511">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="555" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1611808273999" />
-    <state width="1638" height="320" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1610785693376" />
-    <state width="1638" height="338" key="GridCell.Tab.0.bottom/0.23.1680.954@0.23.1680.954" timestamp="1611235144364" />
-    <state width="1638" height="398" key="GridCell.Tab.0.bottom/0.23.1680.956@0.23.1680.956" timestamp="1611100875971" />
-    <state width="1638" height="307" key="GridCell.Tab.0.bottom/0.23.1680.958@0.23.1680.958" timestamp="1608700933140" />
-    <state width="1638" height="374" key="GridCell.Tab.0.bottom/0.23.1680.960@0.23.1680.960" timestamp="1608275339690" />
-    <state width="1638" height="374" key="GridCell.Tab.0.bottom/0.23.1680.961@0.23.1680.961" timestamp="1608209597040" />
-    <state width="1638" height="555" key="GridCell.Tab.0.center" timestamp="1611808273997">
+    <state width="1638" height="346" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1618578847511" />
+    <state width="1638" height="376" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1617457544639" />
+    <state width="1638" height="369" key="GridCell.Tab.0.bottom/0.23.1680.954@0.23.1680.954" timestamp="1615256401331" />
+    <state width="1638" height="369" key="GridCell.Tab.0.bottom/0.23.1680.956@0.23.1680.956" timestamp="1613715216188" />
+    <state width="1638" height="400" key="GridCell.Tab.0.bottom/0.23.1680.958@0.23.1680.958" timestamp="1612861438224" />
+    <state width="1638" height="262" key="GridCell.Tab.0.bottom/0.25.1680.947@0.25.1680.947" timestamp="1618577509101" />
+    <state width="1638" height="390" key="GridCell.Tab.0.bottom/954.1080.1680.1050/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615768193130" />
+    <state width="1638" height="346" key="GridCell.Tab.0.center" timestamp="1618578847509">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="555" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1611808273997" />
+    <state width="1638" height="346" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1618578847509" />
     <state width="1638" height="350" key="GridCell.Tab.0.center/0.0.1680.977@0.0.1680.977" timestamp="1610251320875" />
-    <state width="1638" height="320" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1610785693375" />
-    <state width="1638" height="338" key="GridCell.Tab.0.center/0.23.1680.954@0.23.1680.954" timestamp="1611235144362" />
-    <state width="1638" height="398" key="GridCell.Tab.0.center/0.23.1680.956@0.23.1680.956" timestamp="1611100875970" />
-    <state width="1638" height="307" key="GridCell.Tab.0.center/0.23.1680.958@0.23.1680.958" timestamp="1608700933138" />
-    <state width="1638" height="374" key="GridCell.Tab.0.center/0.23.1680.960@0.23.1680.960" timestamp="1608275339688" />
-    <state width="1638" height="374" key="GridCell.Tab.0.center/0.23.1680.961@0.23.1680.961" timestamp="1608209597038" />
-    <state width="1638" height="555" key="GridCell.Tab.0.left" timestamp="1611808273996">
+    <state width="1638" height="376" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1617457544638" />
+    <state width="1638" height="369" key="GridCell.Tab.0.center/0.23.1680.954@0.23.1680.954" timestamp="1615256401325" />
+    <state width="1638" height="369" key="GridCell.Tab.0.center/0.23.1680.956@0.23.1680.956" timestamp="1613715216187" />
+    <state width="1638" height="400" key="GridCell.Tab.0.center/0.23.1680.958@0.23.1680.958" timestamp="1612861438222" />
+    <state width="1638" height="262" key="GridCell.Tab.0.center/0.25.1680.947@0.25.1680.947" timestamp="1618577509093" />
+    <state width="1638" height="390" key="GridCell.Tab.0.center/954.1080.1680.1050/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615768193127" />
+    <state width="1638" height="346" key="GridCell.Tab.0.left" timestamp="1618578847507">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="555" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1611808273996" />
+    <state width="1638" height="346" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1618578847507" />
     <state width="1638" height="398" key="GridCell.Tab.0.left/0.0.1680.975@0.0.1680.1050" timestamp="1610875421331" />
     <state width="1638" height="350" key="GridCell.Tab.0.left/0.0.1680.977@0.0.1680.977" timestamp="1610251320870" />
-    <state width="1638" height="320" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1610785693374" />
-    <state width="1638" height="338" key="GridCell.Tab.0.left/0.23.1680.954@0.23.1680.954" timestamp="1611235144361" />
-    <state width="1638" height="398" key="GridCell.Tab.0.left/0.23.1680.956@0.23.1680.956" timestamp="1611100875969" />
-    <state width="1638" height="307" key="GridCell.Tab.0.left/0.23.1680.958@0.23.1680.958" timestamp="1608700933137" />
-    <state width="1638" height="374" key="GridCell.Tab.0.left/0.23.1680.960@0.23.1680.960" timestamp="1608275339687" />
-    <state width="1638" height="374" key="GridCell.Tab.0.left/0.23.1680.961@0.23.1680.961" timestamp="1608209597037" />
-    <state width="1638" height="555" key="GridCell.Tab.0.right" timestamp="1611808273998">
+    <state width="1638" height="376" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1617457544638" />
+    <state width="1638" height="369" key="GridCell.Tab.0.left/0.23.1680.954@0.23.1680.954" timestamp="1615256401323" />
+    <state width="1638" height="369" key="GridCell.Tab.0.left/0.23.1680.956@0.23.1680.956" timestamp="1613715216186" />
+    <state width="1638" height="400" key="GridCell.Tab.0.left/0.23.1680.958@0.23.1680.958" timestamp="1612861438221" />
+    <state width="1638" height="262" key="GridCell.Tab.0.left/0.25.1680.947@0.25.1680.947" timestamp="1618577509091" />
+    <state width="1638" height="390" key="GridCell.Tab.0.left/954.1080.1680.1050/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615768193125" />
+    <state width="1638" height="346" key="GridCell.Tab.0.right" timestamp="1618578847510">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="555" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1611808273998" />
-    <state width="1638" height="320" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1610785693375" />
-    <state width="1638" height="338" key="GridCell.Tab.0.right/0.23.1680.954@0.23.1680.954" timestamp="1611235144363" />
-    <state width="1638" height="398" key="GridCell.Tab.0.right/0.23.1680.956@0.23.1680.956" timestamp="1611100875971" />
-    <state width="1638" height="307" key="GridCell.Tab.0.right/0.23.1680.958@0.23.1680.958" timestamp="1608700933139" />
-    <state width="1638" height="374" key="GridCell.Tab.0.right/0.23.1680.960@0.23.1680.960" timestamp="1608275339689" />
-    <state width="1638" height="374" key="GridCell.Tab.0.right/0.23.1680.961@0.23.1680.961" timestamp="1608209597039" />
-    <state width="1638" height="400" key="GridCell.Tab.1.bottom" timestamp="1611222733829">
+    <state width="1638" height="346" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1618578847510" />
+    <state width="1638" height="376" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1617457544639" />
+    <state width="1638" height="369" key="GridCell.Tab.0.right/0.23.1680.954@0.23.1680.954" timestamp="1615256401327" />
+    <state width="1638" height="369" key="GridCell.Tab.0.right/0.23.1680.956@0.23.1680.956" timestamp="1613715216188" />
+    <state width="1638" height="400" key="GridCell.Tab.0.right/0.23.1680.958@0.23.1680.958" timestamp="1612861438224" />
+    <state width="1638" height="262" key="GridCell.Tab.0.right/0.25.1680.947@0.25.1680.947" timestamp="1618577509099" />
+    <state width="1638" height="390" key="GridCell.Tab.0.right/954.1080.1680.1050/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615768193129" />
+    <state width="1638" height="315" key="GridCell.Tab.1.bottom" timestamp="1618577459815">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="400" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1611222733829" />
+    <state width="1638" height="315" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1618577459815" />
     <state width="1638" height="444" key="GridCell.Tab.1.bottom/0.23.1680.952@0.23.1680.952" timestamp="1611116194888" />
-    <state width="1638" height="398" key="GridCell.Tab.1.bottom/0.23.1680.954@0.23.1680.954" timestamp="1609896593568" />
-    <state width="1638" height="378" key="GridCell.Tab.1.bottom/0.23.1680.956@0.23.1680.956" timestamp="1609766028097" />
-    <state width="1638" height="307" key="GridCell.Tab.1.bottom/0.23.1680.958@0.23.1680.958" timestamp="1608700933145" />
-    <state width="1638" height="401" key="GridCell.Tab.1.bottom/0.23.1680.960@0.23.1680.960" timestamp="1608247893955" />
-    <state width="1638" height="400" key="GridCell.Tab.1.center" timestamp="1611222733826">
+    <state width="1638" height="369" key="GridCell.Tab.1.bottom/0.23.1680.954@0.23.1680.954" timestamp="1615284256528" />
+    <state width="1638" height="369" key="GridCell.Tab.1.bottom/0.23.1680.956@0.23.1680.956" timestamp="1613715216191" />
+    <state width="1638" height="400" key="GridCell.Tab.1.bottom/0.23.1680.958@0.23.1680.958" timestamp="1612861438231" />
+    <state width="1638" height="390" key="GridCell.Tab.1.bottom/954.1080.1680.1050/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615768193137" />
+    <state width="1638" height="315" key="GridCell.Tab.1.center" timestamp="1618577459814">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="400" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1611222733826" />
+    <state width="1638" height="315" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1618577459814" />
     <state width="1638" height="444" key="GridCell.Tab.1.center/0.23.1680.952@0.23.1680.952" timestamp="1611116194887" />
-    <state width="1638" height="398" key="GridCell.Tab.1.center/0.23.1680.954@0.23.1680.954" timestamp="1609896593568" />
-    <state width="1638" height="378" key="GridCell.Tab.1.center/0.23.1680.956@0.23.1680.956" timestamp="1609766028095" />
-    <state width="1638" height="307" key="GridCell.Tab.1.center/0.23.1680.958@0.23.1680.958" timestamp="1608700933142" />
-    <state width="1638" height="401" key="GridCell.Tab.1.center/0.23.1680.960@0.23.1680.960" timestamp="1608247893950" />
-    <state width="1638" height="400" key="GridCell.Tab.1.left" timestamp="1611222733825">
+    <state width="1638" height="369" key="GridCell.Tab.1.center/0.23.1680.954@0.23.1680.954" timestamp="1615284256527" />
+    <state width="1638" height="369" key="GridCell.Tab.1.center/0.23.1680.956@0.23.1680.956" timestamp="1613715216190" />
+    <state width="1638" height="400" key="GridCell.Tab.1.center/0.23.1680.958@0.23.1680.958" timestamp="1612861438229" />
+    <state width="1638" height="390" key="GridCell.Tab.1.center/954.1080.1680.1050/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615768193134" />
+    <state width="1638" height="315" key="GridCell.Tab.1.left" timestamp="1618577459813">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="400" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1611222733825" />
+    <state width="1638" height="315" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1618577459813" />
     <state width="1638" height="444" key="GridCell.Tab.1.left/0.23.1680.952@0.23.1680.952" timestamp="1611116194886" />
-    <state width="1638" height="398" key="GridCell.Tab.1.left/0.23.1680.954@0.23.1680.954" timestamp="1609896593567" />
-    <state width="1638" height="378" key="GridCell.Tab.1.left/0.23.1680.956@0.23.1680.956" timestamp="1609766028095" />
-    <state width="1638" height="307" key="GridCell.Tab.1.left/0.23.1680.958@0.23.1680.958" timestamp="1608700933141" />
-    <state width="1638" height="401" key="GridCell.Tab.1.left/0.23.1680.960@0.23.1680.960" timestamp="1608247893948" />
-    <state width="1638" height="400" key="GridCell.Tab.1.right" timestamp="1611222733828">
+    <state width="1638" height="369" key="GridCell.Tab.1.left/0.23.1680.954@0.23.1680.954" timestamp="1615284256526" />
+    <state width="1638" height="369" key="GridCell.Tab.1.left/0.23.1680.956@0.23.1680.956" timestamp="1613715216189" />
+    <state width="1638" height="400" key="GridCell.Tab.1.left/0.23.1680.958@0.23.1680.958" timestamp="1612861438225" />
+    <state width="1638" height="390" key="GridCell.Tab.1.left/954.1080.1680.1050/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615768193132" />
+    <state width="1638" height="315" key="GridCell.Tab.1.right" timestamp="1618577459814">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="400" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1611222733828" />
+    <state width="1638" height="315" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1618577459814" />
     <state width="1638" height="444" key="GridCell.Tab.1.right/0.23.1680.952@0.23.1680.952" timestamp="1611116194887" />
-    <state width="1638" height="398" key="GridCell.Tab.1.right/0.23.1680.954@0.23.1680.954" timestamp="1609896593568" />
-    <state width="1638" height="378" key="GridCell.Tab.1.right/0.23.1680.956@0.23.1680.956" timestamp="1609766028097" />
-    <state width="1638" height="307" key="GridCell.Tab.1.right/0.23.1680.958@0.23.1680.958" timestamp="1608700933144" />
-    <state width="1638" height="401" key="GridCell.Tab.1.right/0.23.1680.960@0.23.1680.960" timestamp="1608247893952" />
+    <state width="1638" height="369" key="GridCell.Tab.1.right/0.23.1680.954@0.23.1680.954" timestamp="1615284256528" />
+    <state width="1638" height="369" key="GridCell.Tab.1.right/0.23.1680.956@0.23.1680.956" timestamp="1613715216190" />
+    <state width="1638" height="400" key="GridCell.Tab.1.right/0.23.1680.958@0.23.1680.958" timestamp="1612861438230" />
+    <state width="1638" height="390" key="GridCell.Tab.1.right/954.1080.1680.1050/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615768193136" />
     <state x="341" y="155" key="SettingsEditor" timestamp="1611119194642">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="341" y="155" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1611119194642" />
     <state x="341" y="164" key="SettingsEditor/0.23.1680.956@0.23.1680.956" timestamp="1610777098204" />
-    <state x="519" y="301" key="com.intellij.ide.util.TipDialog" timestamp="1611306567993">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="519" y="296" key="com.intellij.ide.util.TipDialog" timestamp="1616495712851">
+      <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state x="519" y="301" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1611306567993" />
+    <state x="519" y="301" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1616025804163" />
+    <state x="519" y="296" key="com.intellij.ide.util.TipDialog/0.23.1680.952@0.23.1680.952" timestamp="1616495712851" />
     <state x="519" y="313" key="com.intellij.ide.util.TipDialog/0.23.1680.954@0.23.1680.954" timestamp="1610583716730" />
     <state x="519" y="314" key="com.intellij.ide.util.TipDialog/0.23.1680.956@0.23.1680.956" timestamp="1610778841317" />
-    <state x="528" y="566" width="524" height="484" key="extract.method.dialog" timestamp="1609802972798">
+    <state x="506" y="282" width="837" height="550" key="find.popup" timestamp="1618577499445">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="528" y="566" width="524" height="484" key="extract.method.dialog/0.0.1680.1050@0.0.1680.1050" timestamp="1609802972798" />
-    <state x="506" y="282" width="837" height="550" key="find.popup" timestamp="1611807532115">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="506" y="282" width="837" height="550" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1611807532115" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1609411852671">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1609411852671" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.23.1680.956@0.23.1680.956" timestamp="1608691780985" />
+    <state x="506" y="282" width="837" height="550" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1618577499445" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -955,6 +963,26 @@
           <url>file://$PROJECT_DIR$/src/main/java/AutoUnitTest/result/DistinctAPI.java</url>
           <line>39</line>
           <option name="timeStamp" value="401" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test/test.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="404" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/APIMisuse/extractCommentIno.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="405" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/FieldFlowDroid/SelectAvaliableAPK.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="415" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/FieldFlowDroid/SelectAvaliableAPK.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="416" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
