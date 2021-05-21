@@ -170,7 +170,7 @@
                                 <!-- 打成可执行的jar包 的主方法入口-->
                                 <transformer
                                         implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>FieldFlowDroid.SelectAvaliableAPK</mainClass>
+                                    <mainClass>FieldFlowDroid.SuccessRun</mainClass>
                                 </transformer>
 
                                 <!--                                <transformer-->

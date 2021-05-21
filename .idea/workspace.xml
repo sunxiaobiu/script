@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="329d82a7-dff4-4e11-bd1e-3e061dc9650e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/APIMisuse/ClassOrInterfaceVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/APIMisuse/JavaSourceVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/APIMisuse/MethodSig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/APIMisuse/extractCommentIno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/GetSensorAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/SelectAvaliableAPK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/collectFieldLeak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/ExtractReRunAPK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/Performance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/SuccessRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/filter/HasSensor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/filter/SelectResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/thirdparty/PackageName.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/SelectAvaliableAPK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/preprocess/SelectAvaliableAPK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/collectFieldLeak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/collectFieldLeak.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +50,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="FieldFlowDroid" />
       <recent name="APIMisuse" />
       <recent name="HSO" />
       <recent name="DroidRA" />
       <recent name="util" />
-      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/.idea" />
@@ -62,7 +62,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SelectAvaliableAPK">
+  <component name="RunManager" selected="Application.Performance">
     <configuration name="AutoTest_class2java" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="AutoUnitTest.processtest.Class2Java" />
       <module name="script" />
@@ -127,13 +127,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetSensorAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FieldFlowDroid.GetSensorAPI" />
+    <configuration name="HasSensor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FieldFlowDroid.filter.HasSensor" />
       <module name="script" />
-      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/test" />
+      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/SensorLeak/APKHasSensor_goodware/output" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FieldFlowDroid.*" />
+          <option name="PATTERN" value="FieldFlowDroid.filter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,6 +145,34 @@
       <option name="MAIN_CLASS_NAME" value="DroidRA.IncrementalResultAnalysis" />
       <module name="script" />
       <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/origintest1 $USER_HOME$/Desktop/test2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PackageName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FieldFlowDroid.thirdparty.PackageName" />
+      <module name="script" />
+      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/5ba219a652f9810fd2b09af1c7a19ba8.apk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FieldFlowDroid.thirdparty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Performance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FieldFlowDroid.Performance" />
+      <module name="script" />
+      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/SensorLeak/malware_output/ $USER_HOME$/Desktop/malware_name.txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FieldFlowDroid.preprocess.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -179,13 +207,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectAvaliableAPK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FieldFlowDroid.SelectAvaliableAPK" />
+    <configuration name="SelectResult" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FieldFlowDroid.filter.SelectResult" />
       <module name="script" />
-      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/test $USER_HOME$/Desktop/des" />
+      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/SensorLeak/goodware_output" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FieldFlowDroid.*" />
+          <option name="PATTERN" value="FieldFlowDroid.filter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,24 +246,10 @@
     <configuration name="collectFieldLeak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FieldFlowDroid.collectFieldLeak" />
       <module name="script" />
-      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/output" />
+      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/SensorLeak/malware_output $USER_HOME$/Desktop/malware_name.txt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FieldFlowDroid.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="extractCommentIno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="APIMisuse.extractCommentIno" />
-      <module name="script" />
-      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/test/TestCase_com_franco_focus_204162586.java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="APIMisuse.*" />
+          <option name="PATTERN" value="FieldFlowDroid.preprocess.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -258,19 +272,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.test" />
-      <module name="script" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.AutoTest_class2java" />
       <item itemvalue="Application.ProcessJavaTestFile" />
@@ -288,19 +289,19 @@
       <item itemvalue="Application.Rerun" />
       <item itemvalue="Application.TriggerNum" />
       <item itemvalue="Application.ResultLogNumber" />
-      <item itemvalue="Application.test" />
-      <item itemvalue="Application.extractCommentIno" />
       <item itemvalue="Application.collectFieldLeak" />
-      <item itemvalue="Application.GetSensorAPI" />
-      <item itemvalue="Application.SelectAvaliableAPK" />
+      <item itemvalue="Application.Performance" />
+      <item itemvalue="Application.SelectResult" />
+      <item itemvalue="Application.HasSensor" />
+      <item itemvalue="Application.PackageName" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SelectAvaliableAPK" />
-        <item itemvalue="Application.GetSensorAPI" />
+        <item itemvalue="Application.Performance" />
         <item itemvalue="Application.collectFieldLeak" />
-        <item itemvalue="Application.extractCommentIno" />
-        <item itemvalue="Application.test" />
+        <item itemvalue="Application.SelectResult" />
+        <item itemvalue="Application.PackageName" />
+        <item itemvalue="Application.HasSensor" />
       </list>
     </recent_temporary>
   </component>
@@ -410,7 +411,19 @@
       <workItem from="1618136852515" duration="994000" />
       <workItem from="1618210155823" duration="1814000" />
       <workItem from="1618479075804" duration="3025000" />
-      <workItem from="1618572910163" duration="4708000" />
+      <workItem from="1618572910163" duration="10200000" />
+      <workItem from="1618669623482" duration="14000" />
+      <workItem from="1618745007050" duration="7938000" />
+      <workItem from="1618887849753" duration="895000" />
+      <workItem from="1619243744683" duration="14567000" />
+      <workItem from="1619662644601" duration="13587000" />
+      <workItem from="1619931428528" duration="10201000" />
+      <workItem from="1620112584328" duration="4502000" />
+      <workItem from="1620286074858" duration="468000" />
+      <workItem from="1620286558696" duration="12609000" />
+      <workItem from="1620783439845" duration="194000" />
+      <workItem from="1620783650018" duration="26218000" />
+      <workItem from="1621575749210" duration="433000" />
     </task>
     <servers />
   </component>
@@ -418,118 +431,144 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="185" width="1597" height="519" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618577209275">
+    <state x="0" y="90" width="1597" height="525" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621001307783">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="0" y="185" width="1597" height="543" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1618577209275" />
-    <state x="0" y="209" width="1597" height="519" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.954@0.23.1680.954" timestamp="1610583733380" />
-    <state x="565" y="278" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1610190388898">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="565" y="278" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1610190388898" />
+    <state x="0" y="90" width="1597" height="543" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1621001307783" />
+    <state x="0" y="94" width="1597" height="525" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1680.1050@0.0.1920.1080" timestamp="1620286745682" />
+    <state x="0" y="94" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1920.1080/954.1080.1680.1050@0.0.1920.1080" timestamp="1620280757852" />
+    <state x="0" y="93" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1976.0.1920.1080/1061.1080.1680.1050@0.0.1920.1080" timestamp="1620792285721" />
     <state x="617" y="530" width="989" height="510" key="#xdebugger.evaluate" timestamp="1615284993099">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="617" y="530" width="989" height="510" key="#xdebugger.evaluate/0.0.1680.1050@0.0.1680.1050" timestamp="1615284993099" />
-    <state width="595" height="466" key="DebuggerActiveHint" timestamp="1610101137283">
+    <state width="462" height="466" key="DebuggerActiveHint" timestamp="1619412850238">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="595" height="466" key="DebuggerActiveHint/0.0.1680.1050@0.0.1680.1050" timestamp="1610101137283" />
-    <state width="1638" height="346" key="GridCell.Tab.0.bottom" timestamp="1618578847511">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="462" height="466" key="DebuggerActiveHint/0.0.1680.1050@0.0.1680.1050" timestamp="1619412850238" />
+    <state width="1638" height="346" key="GridCell.Tab.0.bottom" timestamp="1621131573696">
+      <screen x="0" y="25" width="1680" height="945" />
     </state>
-    <state width="1638" height="346" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1618578847511" />
+    <state width="1638" height="375" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1621001310953" />
+    <state width="1878" height="373" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080/954.1080.1680.1050@0.0.1920.1080" timestamp="1620280753378" />
+    <state width="1878" height="416" key="GridCell.Tab.0.bottom/0.0.1920.1080/1976.0.1920.1080/1061.1080.1680.1050@0.0.1920.1080" timestamp="1620792307993" />
     <state width="1638" height="376" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1617457544639" />
     <state width="1638" height="369" key="GridCell.Tab.0.bottom/0.23.1680.954@0.23.1680.954" timestamp="1615256401331" />
     <state width="1638" height="369" key="GridCell.Tab.0.bottom/0.23.1680.956@0.23.1680.956" timestamp="1613715216188" />
-    <state width="1638" height="400" key="GridCell.Tab.0.bottom/0.23.1680.958@0.23.1680.958" timestamp="1612861438224" />
-    <state width="1638" height="262" key="GridCell.Tab.0.bottom/0.25.1680.947@0.25.1680.947" timestamp="1618577509101" />
+    <state width="1638" height="346" key="GridCell.Tab.0.bottom/0.25.1680.1025@0.25.1680.1025" timestamp="1620541966629" />
+    <state width="1638" height="346" key="GridCell.Tab.0.bottom/0.25.1680.945@0.25.1680.945" timestamp="1621131573696" />
+    <state width="1638" height="328" key="GridCell.Tab.0.bottom/0.25.1680.947@0.25.1680.947" timestamp="1618887069917" />
+    <state width="1638" height="409" key="GridCell.Tab.0.bottom/0.25.1680.949@0.25.1680.949" timestamp="1619265747890" />
+    <state width="1638" height="319" key="GridCell.Tab.0.bottom/0.25.1680.951@0.25.1680.951" timestamp="1620111329626" />
+    <state width="1878" height="595" key="GridCell.Tab.0.bottom/0.25.1920.971/1920.25.1920.1055/954.1105.1680.1025@0.25.1920.971" timestamp="1620285820529" />
     <state width="1638" height="390" key="GridCell.Tab.0.bottom/954.1080.1680.1050/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615768193130" />
-    <state width="1638" height="346" key="GridCell.Tab.0.center" timestamp="1618578847509">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="346" key="GridCell.Tab.0.center" timestamp="1621131573695">
+      <screen x="0" y="25" width="1680" height="945" />
     </state>
-    <state width="1638" height="346" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1618578847509" />
-    <state width="1638" height="350" key="GridCell.Tab.0.center/0.0.1680.977@0.0.1680.977" timestamp="1610251320875" />
+    <state width="1638" height="375" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1621001310950" />
+    <state width="1878" height="373" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080/954.1080.1680.1050@0.0.1920.1080" timestamp="1620280753375" />
+    <state width="1878" height="416" key="GridCell.Tab.0.center/0.0.1920.1080/1976.0.1920.1080/1061.1080.1680.1050@0.0.1920.1080" timestamp="1620792307990" />
     <state width="1638" height="376" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1617457544638" />
     <state width="1638" height="369" key="GridCell.Tab.0.center/0.23.1680.954@0.23.1680.954" timestamp="1615256401325" />
     <state width="1638" height="369" key="GridCell.Tab.0.center/0.23.1680.956@0.23.1680.956" timestamp="1613715216187" />
-    <state width="1638" height="400" key="GridCell.Tab.0.center/0.23.1680.958@0.23.1680.958" timestamp="1612861438222" />
-    <state width="1638" height="262" key="GridCell.Tab.0.center/0.25.1680.947@0.25.1680.947" timestamp="1618577509093" />
+    <state width="1638" height="346" key="GridCell.Tab.0.center/0.25.1680.1025@0.25.1680.1025" timestamp="1620541966621" />
+    <state width="1638" height="346" key="GridCell.Tab.0.center/0.25.1680.945@0.25.1680.945" timestamp="1621131573695" />
+    <state width="1638" height="328" key="GridCell.Tab.0.center/0.25.1680.947@0.25.1680.947" timestamp="1618887069916" />
+    <state width="1638" height="409" key="GridCell.Tab.0.center/0.25.1680.949@0.25.1680.949" timestamp="1619265747887" />
+    <state width="1638" height="319" key="GridCell.Tab.0.center/0.25.1680.951@0.25.1680.951" timestamp="1620111329624" />
+    <state width="1878" height="595" key="GridCell.Tab.0.center/0.25.1920.971/1920.25.1920.1055/954.1105.1680.1025@0.25.1920.971" timestamp="1620285820527" />
     <state width="1638" height="390" key="GridCell.Tab.0.center/954.1080.1680.1050/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615768193127" />
-    <state width="1638" height="346" key="GridCell.Tab.0.left" timestamp="1618578847507">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="346" key="GridCell.Tab.0.left" timestamp="1621131573694">
+      <screen x="0" y="25" width="1680" height="945" />
     </state>
-    <state width="1638" height="346" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1618578847507" />
-    <state width="1638" height="398" key="GridCell.Tab.0.left/0.0.1680.975@0.0.1680.1050" timestamp="1610875421331" />
-    <state width="1638" height="350" key="GridCell.Tab.0.left/0.0.1680.977@0.0.1680.977" timestamp="1610251320870" />
+    <state width="1638" height="375" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1621001310949" />
+    <state width="1638" height="327" key="GridCell.Tab.0.left/0.0.1680.1050@0.25.1680.1025" timestamp="1620541966375" />
+    <state width="1878" height="373" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080/954.1080.1680.1050@0.0.1920.1080" timestamp="1620280753374" />
+    <state width="1878" height="416" key="GridCell.Tab.0.left/0.0.1920.1080/1976.0.1920.1080/1061.1080.1680.1050@0.0.1920.1080" timestamp="1620792307989" />
     <state width="1638" height="376" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1617457544638" />
     <state width="1638" height="369" key="GridCell.Tab.0.left/0.23.1680.954@0.23.1680.954" timestamp="1615256401323" />
     <state width="1638" height="369" key="GridCell.Tab.0.left/0.23.1680.956@0.23.1680.956" timestamp="1613715216186" />
-    <state width="1638" height="400" key="GridCell.Tab.0.left/0.23.1680.958@0.23.1680.958" timestamp="1612861438221" />
-    <state width="1638" height="262" key="GridCell.Tab.0.left/0.25.1680.947@0.25.1680.947" timestamp="1618577509091" />
+    <state width="1638" height="346" key="GridCell.Tab.0.left/0.25.1680.1025@0.25.1680.1025" timestamp="1620541966620" />
+    <state width="1638" height="346" key="GridCell.Tab.0.left/0.25.1680.945@0.25.1680.945" timestamp="1621131573694" />
+    <state width="1638" height="328" key="GridCell.Tab.0.left/0.25.1680.947@0.25.1680.947" timestamp="1618887069915" />
+    <state width="1638" height="409" key="GridCell.Tab.0.left/0.25.1680.949@0.25.1680.949" timestamp="1619265747885" />
+    <state width="1638" height="319" key="GridCell.Tab.0.left/0.25.1680.951@0.25.1680.951" timestamp="1620111329623" />
+    <state width="1878" height="595" key="GridCell.Tab.0.left/0.25.1920.971/1920.25.1920.1055/954.1105.1680.1025@0.25.1920.971" timestamp="1620285820526" />
     <state width="1638" height="390" key="GridCell.Tab.0.left/954.1080.1680.1050/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615768193125" />
-    <state width="1638" height="346" key="GridCell.Tab.0.right" timestamp="1618578847510">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="346" key="GridCell.Tab.0.right" timestamp="1621131573696">
+      <screen x="0" y="25" width="1680" height="945" />
     </state>
-    <state width="1638" height="346" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1618578847510" />
+    <state width="1638" height="375" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1621001310953" />
+    <state width="1878" height="373" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080/954.1080.1680.1050@0.0.1920.1080" timestamp="1620280753377" />
+    <state width="1878" height="416" key="GridCell.Tab.0.right/0.0.1920.1080/1976.0.1920.1080/1061.1080.1680.1050@0.0.1920.1080" timestamp="1620792307992" />
     <state width="1638" height="376" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1617457544639" />
     <state width="1638" height="369" key="GridCell.Tab.0.right/0.23.1680.954@0.23.1680.954" timestamp="1615256401327" />
     <state width="1638" height="369" key="GridCell.Tab.0.right/0.23.1680.956@0.23.1680.956" timestamp="1613715216188" />
-    <state width="1638" height="400" key="GridCell.Tab.0.right/0.23.1680.958@0.23.1680.958" timestamp="1612861438224" />
-    <state width="1638" height="262" key="GridCell.Tab.0.right/0.25.1680.947@0.25.1680.947" timestamp="1618577509099" />
+    <state width="1638" height="346" key="GridCell.Tab.0.right/0.25.1680.1025@0.25.1680.1025" timestamp="1620541966624" />
+    <state width="1638" height="346" key="GridCell.Tab.0.right/0.25.1680.945@0.25.1680.945" timestamp="1621131573696" />
+    <state width="1638" height="328" key="GridCell.Tab.0.right/0.25.1680.947@0.25.1680.947" timestamp="1618887069917" />
+    <state width="1638" height="409" key="GridCell.Tab.0.right/0.25.1680.949@0.25.1680.949" timestamp="1619265747889" />
+    <state width="1638" height="319" key="GridCell.Tab.0.right/0.25.1680.951@0.25.1680.951" timestamp="1620111329625" />
+    <state width="1878" height="595" key="GridCell.Tab.0.right/0.25.1920.971/1920.25.1920.1055/954.1105.1680.1025@0.25.1920.971" timestamp="1620285820528" />
     <state width="1638" height="390" key="GridCell.Tab.0.right/954.1080.1680.1050/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615768193129" />
-    <state width="1638" height="315" key="GridCell.Tab.1.bottom" timestamp="1618577459815">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="346" key="GridCell.Tab.1.bottom" timestamp="1621131573698">
+      <screen x="0" y="25" width="1680" height="945" />
     </state>
-    <state width="1638" height="315" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1618577459815" />
-    <state width="1638" height="444" key="GridCell.Tab.1.bottom/0.23.1680.952@0.23.1680.952" timestamp="1611116194888" />
+    <state width="1638" height="346" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1620861451407" />
     <state width="1638" height="369" key="GridCell.Tab.1.bottom/0.23.1680.954@0.23.1680.954" timestamp="1615284256528" />
     <state width="1638" height="369" key="GridCell.Tab.1.bottom/0.23.1680.956@0.23.1680.956" timestamp="1613715216191" />
-    <state width="1638" height="400" key="GridCell.Tab.1.bottom/0.23.1680.958@0.23.1680.958" timestamp="1612861438231" />
+    <state width="1638" height="346" key="GridCell.Tab.1.bottom/0.25.1680.1025@0.25.1680.1025" timestamp="1620541967402" />
+    <state width="1638" height="346" key="GridCell.Tab.1.bottom/0.25.1680.945@0.25.1680.945" timestamp="1621131573698" />
+    <state width="1638" height="346" key="GridCell.Tab.1.bottom/0.25.1680.951@0.25.1680.951" timestamp="1620111329612" />
     <state width="1638" height="390" key="GridCell.Tab.1.bottom/954.1080.1680.1050/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615768193137" />
-    <state width="1638" height="315" key="GridCell.Tab.1.center" timestamp="1618577459814">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="346" key="GridCell.Tab.1.center" timestamp="1621131573697">
+      <screen x="0" y="25" width="1680" height="945" />
     </state>
-    <state width="1638" height="315" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1618577459814" />
-    <state width="1638" height="444" key="GridCell.Tab.1.center/0.23.1680.952@0.23.1680.952" timestamp="1611116194887" />
+    <state width="1638" height="346" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1620861451401" />
     <state width="1638" height="369" key="GridCell.Tab.1.center/0.23.1680.954@0.23.1680.954" timestamp="1615284256527" />
     <state width="1638" height="369" key="GridCell.Tab.1.center/0.23.1680.956@0.23.1680.956" timestamp="1613715216190" />
-    <state width="1638" height="400" key="GridCell.Tab.1.center/0.23.1680.958@0.23.1680.958" timestamp="1612861438229" />
+    <state width="1638" height="346" key="GridCell.Tab.1.center/0.25.1680.1025@0.25.1680.1025" timestamp="1620541967401" />
+    <state width="1638" height="346" key="GridCell.Tab.1.center/0.25.1680.945@0.25.1680.945" timestamp="1621131573697" />
+    <state width="1638" height="346" key="GridCell.Tab.1.center/0.25.1680.951@0.25.1680.951" timestamp="1620111329611" />
     <state width="1638" height="390" key="GridCell.Tab.1.center/954.1080.1680.1050/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615768193134" />
-    <state width="1638" height="315" key="GridCell.Tab.1.left" timestamp="1618577459813">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="346" key="GridCell.Tab.1.left" timestamp="1621131573697">
+      <screen x="0" y="25" width="1680" height="945" />
     </state>
-    <state width="1638" height="315" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1618577459813" />
-    <state width="1638" height="444" key="GridCell.Tab.1.left/0.23.1680.952@0.23.1680.952" timestamp="1611116194886" />
+    <state width="1638" height="346" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1620861451398" />
     <state width="1638" height="369" key="GridCell.Tab.1.left/0.23.1680.954@0.23.1680.954" timestamp="1615284256526" />
     <state width="1638" height="369" key="GridCell.Tab.1.left/0.23.1680.956@0.23.1680.956" timestamp="1613715216189" />
-    <state width="1638" height="400" key="GridCell.Tab.1.left/0.23.1680.958@0.23.1680.958" timestamp="1612861438225" />
+    <state width="1638" height="346" key="GridCell.Tab.1.left/0.25.1680.1025@0.25.1680.1025" timestamp="1620541967400" />
+    <state width="1638" height="346" key="GridCell.Tab.1.left/0.25.1680.945@0.25.1680.945" timestamp="1621131573697" />
+    <state width="1638" height="346" key="GridCell.Tab.1.left/0.25.1680.951@0.25.1680.951" timestamp="1620111329610" />
     <state width="1638" height="390" key="GridCell.Tab.1.left/954.1080.1680.1050/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615768193132" />
-    <state width="1638" height="315" key="GridCell.Tab.1.right" timestamp="1618577459814">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="346" key="GridCell.Tab.1.right" timestamp="1621131573698">
+      <screen x="0" y="25" width="1680" height="945" />
     </state>
-    <state width="1638" height="315" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1618577459814" />
-    <state width="1638" height="444" key="GridCell.Tab.1.right/0.23.1680.952@0.23.1680.952" timestamp="1611116194887" />
+    <state width="1638" height="346" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1620861451404" />
     <state width="1638" height="369" key="GridCell.Tab.1.right/0.23.1680.954@0.23.1680.954" timestamp="1615284256528" />
     <state width="1638" height="369" key="GridCell.Tab.1.right/0.23.1680.956@0.23.1680.956" timestamp="1613715216190" />
-    <state width="1638" height="400" key="GridCell.Tab.1.right/0.23.1680.958@0.23.1680.958" timestamp="1612861438230" />
+    <state width="1638" height="346" key="GridCell.Tab.1.right/0.25.1680.1025@0.25.1680.1025" timestamp="1620541967401" />
+    <state width="1638" height="346" key="GridCell.Tab.1.right/0.25.1680.945@0.25.1680.945" timestamp="1621131573698" />
+    <state width="1638" height="346" key="GridCell.Tab.1.right/0.25.1680.951@0.25.1680.951" timestamp="1620111329611" />
     <state width="1638" height="390" key="GridCell.Tab.1.right/954.1080.1680.1050/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615768193136" />
-    <state x="341" y="155" key="SettingsEditor" timestamp="1611119194642">
+    <state x="519" y="296" key="com.intellij.ide.util.TipDialog" timestamp="1618669633650">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="341" y="155" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1611119194642" />
-    <state x="341" y="164" key="SettingsEditor/0.23.1680.956@0.23.1680.956" timestamp="1610777098204" />
-    <state x="519" y="296" key="com.intellij.ide.util.TipDialog" timestamp="1616495712851">
-      <screen x="0" y="23" width="1680" height="952" />
-    </state>
-    <state x="519" y="301" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1616025804163" />
+    <state x="519" y="296" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1618669633650" />
     <state x="519" y="296" key="com.intellij.ide.util.TipDialog/0.23.1680.952@0.23.1680.952" timestamp="1616495712851" />
-    <state x="519" y="313" key="com.intellij.ide.util.TipDialog/0.23.1680.954@0.23.1680.954" timestamp="1610583716730" />
-    <state x="519" y="314" key="com.intellij.ide.util.TipDialog/0.23.1680.956@0.23.1680.956" timestamp="1610778841317" />
-    <state x="506" y="282" width="837" height="550" key="find.popup" timestamp="1618577499445">
+    <state x="578" y="290" width="957" height="566" key="find.popup" timestamp="1620795603582">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="506" y="282" width="837" height="550" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1618792069861" />
+    <state x="578" y="290" width="957" height="566" key="find.popup/0.0.1920.1080/1976.0.1920.1080/1061.1080.1680.1050@0.0.1920.1080" timestamp="1620795603582" />
+    <state x="1304" y="1306" key="new project wizard" timestamp="1621581114614">
+      <screen x="1061" y="1080" width="1680" height="1050" />
+    </state>
+    <state x="1304" y="1306" key="new project wizard/0.0.1920.1080/1976.0.1920.1080/1061.1080.1680.1050@1061.1080.1680.1050" timestamp="1621581114614" />
+    <state x="505" y="233" key="search.everywhere.popup" timestamp="1618792251567">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="506" y="282" width="837" height="550" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1618577499445" />
+    <state x="505" y="233" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1618792251567" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -975,14 +1014,19 @@
           <option name="timeStamp" value="405" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/FieldFlowDroid/SelectAvaliableAPK.java</url>
-          <line>44</line>
+          <url>file://$PROJECT_DIR$/src/main/java/FieldFlowDroid/preprocess/SelectAvaliableAPK.java</url>
+          <line>54</line>
           <option name="timeStamp" value="415" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/FieldFlowDroid/SelectAvaliableAPK.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="416" />
+          <url>file://$PROJECT_DIR$/src/main/java/FieldFlowDroid/ExtractReRunAPK.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="423" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/FieldFlowDroid/Performance.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="427" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
