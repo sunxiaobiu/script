@@ -2,16 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="329d82a7-dff4-4e11-bd1e-3e061dc9650e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/ExtractReRunAPK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/Performance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/SuccessRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/filter/HasSensor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/filter/SelectResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/thirdparty/PackageName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RemoteTest/InsertSqlGenerate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/SelectAvaliableAPK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/preprocess/SelectAvaliableAPK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/collectFieldLeak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/collectFieldLeak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/ExtractReRunAPK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SensorLeak/ExtractReRunAPK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/GetSensorAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SensorLeak/GetSensorAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/Performance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SensorLeak/Performance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/SuccessRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SensorLeak/SuccessRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/collectFieldLeak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SensorLeak/collectFieldLeak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/filter/HasSensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SensorLeak/filter/HasSensor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/filter/SelectResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SensorLeak/filter/SelectResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/preprocess/SelectAvaliableAPK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SensorLeak/preprocess/SelectAvaliableAPK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/thirdparty/PackageName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SensorLeak/thirdparty/PackageName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SuccessRun.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FieldFlowDroid/ExtractReRunAPK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FieldFlowDroid/GetSensorAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FieldFlowDroid/Performance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FieldFlowDroid/SuccessRun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FieldFlowDroid/collectFieldLeak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FieldFlowDroid/filter/HasSensor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FieldFlowDroid/filter/SelectResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FieldFlowDroid/preprocess/SelectAvaliableAPK.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FieldFlowDroid/thirdparty/PackageName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-script-1.0-SNAPSHOT.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +60,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.21026284" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -57,12 +76,12 @@
       <recent name="util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/.idea" />
       <recent name="$PROJECT_DIR$/res" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Performance">
+  <component name="RunManager" selected="Application.InsertSqlGenerate">
     <configuration name="AutoTest_class2java" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="AutoUnitTest.processtest.Class2Java" />
       <module name="script" />
@@ -127,20 +146,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HasSensor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FieldFlowDroid.filter.HasSensor" />
-      <module name="script" />
-      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/SensorLeak/APKHasSensor_goodware/output" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="FieldFlowDroid.filter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="IncrementalResult" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="DroidRA.IncrementalResultAnalysis" />
       <module name="script" />
@@ -149,13 +154,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InsertSqlGenerate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RemoteTest.InsertSqlGenerate" />
+      <module name="script" />
+      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/testcasename.txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RemoteTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PackageName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FieldFlowDroid.thirdparty.PackageName" />
+      <option name="MAIN_CLASS_NAME" value="SensorLeak.thirdparty.PackageName" />
       <module name="script" />
       <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/5ba219a652f9810fd2b09af1c7a19ba8.apk" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FieldFlowDroid.thirdparty.*" />
+          <option name="PATTERN" value="SensorLeak.thirdparty.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,12 +183,12 @@
       </method>
     </configuration>
     <configuration name="Performance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FieldFlowDroid.Performance" />
+      <option name="MAIN_CLASS_NAME" value="SensorLeak.Performance" />
       <module name="script" />
       <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/SensorLeak/malware_output/ $USER_HOME$/Desktop/malware_name.txt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FieldFlowDroid.preprocess.*" />
+          <option name="PATTERN" value="SensorLeak.preprocess.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,12 +227,12 @@
       </method>
     </configuration>
     <configuration name="SelectResult" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FieldFlowDroid.filter.SelectResult" />
+      <option name="MAIN_CLASS_NAME" value="SensorLeak.filter.SelectResult" />
       <module name="script" />
       <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/SensorLeak/goodware_output" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FieldFlowDroid.filter.*" />
+          <option name="PATTERN" value="SensorLeak.filter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -244,12 +263,12 @@
       </method>
     </configuration>
     <configuration name="collectFieldLeak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FieldFlowDroid.collectFieldLeak" />
+      <option name="MAIN_CLASS_NAME" value="SensorLeak.collectFieldLeak" />
       <module name="script" />
       <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/SensorLeak/malware_output $USER_HOME$/Desktop/malware_name.txt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FieldFlowDroid.preprocess.*" />
+          <option name="PATTERN" value="SensorLeak.preprocess.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -292,16 +311,16 @@
       <item itemvalue="Application.collectFieldLeak" />
       <item itemvalue="Application.Performance" />
       <item itemvalue="Application.SelectResult" />
-      <item itemvalue="Application.HasSensor" />
       <item itemvalue="Application.PackageName" />
+      <item itemvalue="Application.InsertSqlGenerate" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsertSqlGenerate" />
         <item itemvalue="Application.Performance" />
         <item itemvalue="Application.collectFieldLeak" />
         <item itemvalue="Application.SelectResult" />
         <item itemvalue="Application.PackageName" />
-        <item itemvalue="Application.HasSensor" />
       </list>
     </recent_temporary>
   </component>
@@ -423,7 +442,12 @@
       <workItem from="1620286558696" duration="12609000" />
       <workItem from="1620783439845" duration="194000" />
       <workItem from="1620783650018" duration="26218000" />
-      <workItem from="1621575749210" duration="433000" />
+      <workItem from="1621575749210" duration="1477000" />
+      <workItem from="1621686095917" duration="24000" />
+      <workItem from="1621777090438" duration="742000" />
+      <workItem from="1621828930631" duration="2222000" />
+      <workItem from="1621833603102" duration="1219000" />
+      <workItem from="1621850064539" duration="4099000" />
     </task>
     <servers />
   </component>
@@ -431,13 +455,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="90" width="1597" height="525" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621001307783">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="1061" y="1170" width="1597" height="525" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621834652491">
+      <screen x="1061" y="1080" width="1680" height="1050" />
     </state>
     <state x="0" y="90" width="1597" height="543" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1621001307783" />
     <state x="0" y="94" width="1597" height="525" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1680.1050@0.0.1920.1080" timestamp="1620286745682" />
     <state x="0" y="94" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1920.1080/954.1080.1680.1050@0.0.1920.1080" timestamp="1620280757852" />
     <state x="0" y="93" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1976.0.1920.1080/1061.1080.1680.1050@0.0.1920.1080" timestamp="1620792285721" />
+    <state x="1061" y="1170" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1976.0.1920.1080/1061.1080.1680.1050@1061.1080.1680.1050" timestamp="1621834652491" />
     <state x="617" y="530" width="989" height="510" key="#xdebugger.evaluate" timestamp="1615284993099">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -446,10 +471,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="462" height="466" key="DebuggerActiveHint/0.0.1680.1050@0.0.1680.1050" timestamp="1619412850238" />
-    <state width="1638" height="346" key="GridCell.Tab.0.bottom" timestamp="1621131573696">
-      <screen x="0" y="25" width="1680" height="945" />
+    <state width="1638" height="504" key="GridCell.Tab.0.bottom" timestamp="1621853123277">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="375" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1621001310953" />
+    <state width="1638" height="504" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1621853123277" />
     <state width="1878" height="373" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080/954.1080.1680.1050@0.0.1920.1080" timestamp="1620280753378" />
     <state width="1878" height="416" key="GridCell.Tab.0.bottom/0.0.1920.1080/1976.0.1920.1080/1061.1080.1680.1050@0.0.1920.1080" timestamp="1620792307993" />
     <state width="1638" height="376" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1617457544639" />
@@ -462,10 +487,10 @@
     <state width="1638" height="319" key="GridCell.Tab.0.bottom/0.25.1680.951@0.25.1680.951" timestamp="1620111329626" />
     <state width="1878" height="595" key="GridCell.Tab.0.bottom/0.25.1920.971/1920.25.1920.1055/954.1105.1680.1025@0.25.1920.971" timestamp="1620285820529" />
     <state width="1638" height="390" key="GridCell.Tab.0.bottom/954.1080.1680.1050/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615768193130" />
-    <state width="1638" height="346" key="GridCell.Tab.0.center" timestamp="1621131573695">
-      <screen x="0" y="25" width="1680" height="945" />
+    <state width="1638" height="504" key="GridCell.Tab.0.center" timestamp="1621853123275">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="375" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1621001310950" />
+    <state width="1638" height="504" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1621853123275" />
     <state width="1878" height="373" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080/954.1080.1680.1050@0.0.1920.1080" timestamp="1620280753375" />
     <state width="1878" height="416" key="GridCell.Tab.0.center/0.0.1920.1080/1976.0.1920.1080/1061.1080.1680.1050@0.0.1920.1080" timestamp="1620792307990" />
     <state width="1638" height="376" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1617457544638" />
@@ -478,10 +503,10 @@
     <state width="1638" height="319" key="GridCell.Tab.0.center/0.25.1680.951@0.25.1680.951" timestamp="1620111329624" />
     <state width="1878" height="595" key="GridCell.Tab.0.center/0.25.1920.971/1920.25.1920.1055/954.1105.1680.1025@0.25.1920.971" timestamp="1620285820527" />
     <state width="1638" height="390" key="GridCell.Tab.0.center/954.1080.1680.1050/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615768193127" />
-    <state width="1638" height="346" key="GridCell.Tab.0.left" timestamp="1621131573694">
-      <screen x="0" y="25" width="1680" height="945" />
+    <state width="1638" height="504" key="GridCell.Tab.0.left" timestamp="1621853123274">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="375" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1621001310949" />
+    <state width="1638" height="504" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1621853123274" />
     <state width="1638" height="327" key="GridCell.Tab.0.left/0.0.1680.1050@0.25.1680.1025" timestamp="1620541966375" />
     <state width="1878" height="373" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080/954.1080.1680.1050@0.0.1920.1080" timestamp="1620280753374" />
     <state width="1878" height="416" key="GridCell.Tab.0.left/0.0.1920.1080/1976.0.1920.1080/1061.1080.1680.1050@0.0.1920.1080" timestamp="1620792307989" />
@@ -495,10 +520,10 @@
     <state width="1638" height="319" key="GridCell.Tab.0.left/0.25.1680.951@0.25.1680.951" timestamp="1620111329623" />
     <state width="1878" height="595" key="GridCell.Tab.0.left/0.25.1920.971/1920.25.1920.1055/954.1105.1680.1025@0.25.1920.971" timestamp="1620285820526" />
     <state width="1638" height="390" key="GridCell.Tab.0.left/954.1080.1680.1050/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615768193125" />
-    <state width="1638" height="346" key="GridCell.Tab.0.right" timestamp="1621131573696">
-      <screen x="0" y="25" width="1680" height="945" />
+    <state width="1638" height="504" key="GridCell.Tab.0.right" timestamp="1621853123276">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="375" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1621001310953" />
+    <state width="1638" height="504" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1621853123276" />
     <state width="1878" height="373" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080/954.1080.1680.1050@0.0.1920.1080" timestamp="1620280753377" />
     <state width="1878" height="416" key="GridCell.Tab.0.right/0.0.1920.1080/1976.0.1920.1080/1061.1080.1680.1050@0.0.1920.1080" timestamp="1620792307992" />
     <state width="1638" height="376" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1617457544639" />
@@ -551,20 +576,25 @@
     <state width="1638" height="346" key="GridCell.Tab.1.right/0.25.1680.945@0.25.1680.945" timestamp="1621131573698" />
     <state width="1638" height="346" key="GridCell.Tab.1.right/0.25.1680.951@0.25.1680.951" timestamp="1620111329611" />
     <state width="1638" height="390" key="GridCell.Tab.1.right/954.1080.1680.1050/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615768193136" />
+    <state x="1439" y="1264" key="Maven.ArtifactSearchDialog" timestamp="1621833803881">
+      <screen x="1061" y="1080" width="1680" height="1050" />
+    </state>
+    <state x="1439" y="1264" key="Maven.ArtifactSearchDialog/0.0.1920.1080/1976.0.1920.1080/1061.1080.1680.1050@1061.1080.1680.1050" timestamp="1621833803881" />
     <state x="519" y="296" key="com.intellij.ide.util.TipDialog" timestamp="1618669633650">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="519" y="296" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1618669633650" />
     <state x="519" y="296" key="com.intellij.ide.util.TipDialog/0.23.1680.952@0.23.1680.952" timestamp="1616495712851" />
-    <state x="578" y="290" width="957" height="566" key="find.popup" timestamp="1620795603582">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="506" y="282" width="837" height="550" key="find.popup" timestamp="1621855033156">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="506" y="282" width="837" height="550" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1618792069861" />
+    <state x="506" y="282" width="837" height="550" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1621855033156" />
     <state x="578" y="290" width="957" height="566" key="find.popup/0.0.1920.1080/1976.0.1920.1080/1061.1080.1680.1050@0.0.1920.1080" timestamp="1620795603582" />
-    <state x="1304" y="1306" key="new project wizard" timestamp="1621581114614">
+    <state x="1567" y="1362" width="838" height="551" key="find.popup/0.0.1920.1080/1976.0.1920.1080/1061.1080.1680.1050@1061.1080.1680.1050" timestamp="1621828970306" />
+    <state x="1304" y="1306" key="new project wizard" timestamp="1621581304423">
       <screen x="1061" y="1080" width="1680" height="1050" />
     </state>
-    <state x="1304" y="1306" key="new project wizard/0.0.1920.1080/1976.0.1920.1080/1061.1080.1680.1050@1061.1080.1680.1050" timestamp="1621581114614" />
+    <state x="1304" y="1306" key="new project wizard/0.0.1920.1080/1976.0.1920.1080/1061.1080.1680.1050@1061.1080.1680.1050" timestamp="1621581304423" />
     <state x="505" y="233" key="search.everywhere.popup" timestamp="1618792251567">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -1014,17 +1044,17 @@
           <option name="timeStamp" value="405" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/FieldFlowDroid/preprocess/SelectAvaliableAPK.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/SensorLeak/preprocess/SelectAvaliableAPK.java</url>
           <line>54</line>
           <option name="timeStamp" value="415" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/FieldFlowDroid/ExtractReRunAPK.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/SensorLeak/ExtractReRunAPK.java</url>
           <line>62</line>
           <option name="timeStamp" value="423" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/FieldFlowDroid/Performance.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/SensorLeak/Performance.java</url>
           <line>21</line>
           <option name="timeStamp" value="427" />
         </line-breakpoint>
