@@ -6,6 +6,7 @@ import org.apache.commons.lang3.StringUtils;
 import util.ApplicationClassFilter;
 
 import java.io.*;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -22,10 +23,17 @@ public class TriggerNum {
 
     public static void main(String[] args) throws IOException {
         String outputFilePath = args[0];
+        String neededFilePath = args[1];
+        File neededFileFile = new File(neededFilePath);
+        List<String> neededFiles = new ArrayList<>(Files.readAllLines(neededFileFile.toPath(), StandardCharsets.UTF_8));
 
         List<String> txtFileNames = new ArrayList<>();
 
         getFileList(outputFilePath, txtFileNames);
+
+        txtFileNames = txtFileNames.stream().filter(txtFileName ->{
+            return neededFiles.contains(txtFileName);
+        }).collect(Collectors.toList());
 
         List<HSO> result = new ArrayList<>();
 
@@ -125,6 +133,7 @@ public class TriggerNum {
 //        }
 //
 //        System.out.println("Trigger sum:"+num);
+        HashMap<String, Integer> apkHSONumber = new HashMap<>();
 
         /**
          * 分类统计trigger condition
@@ -144,6 +153,7 @@ public class TriggerNum {
             AtomicReference<String> keyLocation = new AtomicReference<>("");
             checkLocation(hso, keyLocation);
             if (StringUtils.isNotBlank(keyLocation.get())) {
+                put2Map(hso.file, apkHSONumber);
                 put2Map(keyLocation, tcbHashMap);
                 flag = true;
                 triggerNum ++;
@@ -153,6 +163,7 @@ public class TriggerNum {
                 AtomicReference<String> keyTime = new AtomicReference<>("");
                 checkTime(hso, keyTime);
                 if (StringUtils.isNotBlank(keyTime.get())) {
+                    put2Map(hso.file, apkHSONumber);
                     put2Map(keyTime, tcbHashMap);
                     flag = true;
                     triggerNum++;
@@ -163,6 +174,7 @@ public class TriggerNum {
                 AtomicReference<String> keySMS = new AtomicReference<>("");
                 checkSMS(hso, keySMS);
                 if (StringUtils.isNotBlank(keySMS.get())) {
+                    put2Map(hso.file, apkHSONumber);
                     put2Map(keySMS, tcbHashMap);
                     flag = true;
                     triggerNum++;
@@ -173,6 +185,7 @@ public class TriggerNum {
                 AtomicReference<String> keyAdroidOS = new AtomicReference<>("");
                 checkAdroidOS(hso, keyAdroidOS);
                 if (StringUtils.isNotBlank(keyAdroidOS.get())) {
+                    put2Map(hso.file, apkHSONumber);
                     put2Map(keyAdroidOS, tcbHashMap);
                     flag = true;
                     triggerNum++;
@@ -183,6 +196,7 @@ public class TriggerNum {
                 AtomicReference<String> keyPackage = new AtomicReference<>("");
                 checkPackage(hso, keyPackage);
                 if (StringUtils.isNotBlank(keyPackage.get())) {
+                    put2Map(hso.file, apkHSONumber);
                     put2Map(keyPackage, tcbHashMap);
                     flag = true;
                     triggerNum++;
@@ -193,6 +207,7 @@ public class TriggerNum {
                 AtomicReference<String> keyHardwareAddress = new AtomicReference<>("");
                 checkHardwareAddress(hso, keyHardwareAddress);
                 if (StringUtils.isNotBlank(keyHardwareAddress.get())) {
+                    put2Map(hso.file, apkHSONumber);
                     put2Map(keyHardwareAddress, tcbHashMap);
                     flag = true;
                     triggerNum++;
@@ -203,6 +218,7 @@ public class TriggerNum {
                 AtomicReference<String> keyCheckContent = new AtomicReference<>("");
                 checkContent(hso, keyCheckContent);
                 if (StringUtils.isNotBlank(keyCheckContent.get())) {
+                    put2Map(hso.file, apkHSONumber);
                     put2Map(keyCheckContent, tcbHashMap);
                     flag = true;
                     triggerNum ++;
@@ -213,6 +229,7 @@ public class TriggerNum {
                 AtomicReference<String> keyAll = new AtomicReference<>("");
                 checkAll(hso, keyAll);
                 if (StringUtils.isNotBlank(keyAll.get())) {
+                    put2Map(hso.file, apkHSONumber);
                     put2Map(keyAll, tcbHashMap);
                     flag = true;
                     triggerNum ++;
@@ -230,14 +247,27 @@ public class TriggerNum {
 
         System.out.println("hsoNumNoCCs:"+hsoNumNoCCs);
 
-        //sort
-        List<Map.Entry<String, Integer>> list = new ArrayList<Map.Entry<String, Integer>>(tcbHashMap.entrySet());
-        Collections.sort(list, new Comparator<Map.Entry<String, Integer>>() {
-            public int compare(Map.Entry<String, Integer> o1, Map.Entry<String, Integer> o2) {
-                return (o2.getValue() - o1.getValue());
-            }
-        });
-        for (Map.Entry<String, Integer> t : list) {
+//        //sort
+//        List<Map.Entry<String, Integer>> list = new ArrayList<Map.Entry<String, Integer>>(tcbHashMap.entrySet());
+//        Collections.sort(list, new Comparator<Map.Entry<String, Integer>>() {
+//            public int compare(Map.Entry<String, Integer> o1, Map.Entry<String, Integer> o2) {
+//                return (o2.getValue() - o1.getValue());
+//            }
+//        });
+//        for (Map.Entry<String, Integer> t : list) {
+//            System.out.println(t.getKey() + ":" + t.getValue());
+//        }
+
+        System.out.println("================apkHSONumber================");
+
+        //sort apkHSONumber
+        List<Map.Entry<String, Integer>> apkHSONumberList = new ArrayList<Map.Entry<String, Integer>>(apkHSONumber.entrySet());
+//        Collections.sort(apkHSONumberList, new Comparator<Map.Entry<String, Integer>>() {
+//            public int compare(Map.Entry<String, Integer> o1, Map.Entry<String, Integer> o2) {
+//                return (o2.getValue() - o1.getValue());
+//            }
+//        });
+        for (Map.Entry<String, Integer> t : apkHSONumberList) {
             System.out.println(t.getKey() + ":" + t.getValue());
         }
 
@@ -470,6 +500,8 @@ public class TriggerNum {
 
                 ) {
                     key.set(matcher.group(1));
+                    hso.coreAPIInTrigger = matcher.group(1);
+                    System.out.println(hso.coreAPIInTrigger);
                 }
 
             }
@@ -489,7 +521,9 @@ public class TriggerNum {
 
                 ) {
                     key.set("hardware Address:");
-                    //System.out.println("hardware Address:"+hso.file+"======"+hso.triggerConditionBlock.APIs+"---------"+hso.sensitiveStmt.APIs);
+                    hso.coreAPIInTrigger = matcher.group(1);
+                    System.out.println(hso.coreAPIInTrigger);
+                    //System.out.println("hardware Address:"+hso.file+"======"+hso.declareMethod+"----------"+hso.ifStatement+"---------"+hso.sensitiveStmt.APIs);
                 }
             }
         });
@@ -505,7 +539,9 @@ public class TriggerNum {
 
                 ) {
                     key.set("android content:");
-                    //System.out.println("android content："+hso.file+"======"+hso.triggerConditionBlock.APIs+"---------"+hso.sensitiveStmt.APIs);
+                    hso.coreAPIInTrigger = matcher.group(1);
+                    System.out.println(hso.coreAPIInTrigger);
+                    //System.out.println("android content:"+hso.file+"======"+hso.declareMethod+"----------"+hso.ifStatement+"---------"+hso.sensitiveStmt.APIs);
                 }
             }
         });
@@ -531,8 +567,8 @@ public class TriggerNum {
                 ) {
                     key.set("Package Manager");
                     hso.coreAPIInTrigger = matcher.group(1);
-                    //System.out.println(hso.file+"======"+hso.triggerConditionBlock.APIs+"---------"+hso.sensitiveStmt.APIs);
-
+                    System.out.println(hso.coreAPIInTrigger);
+                    //System.out.println("Package Manager:"+hso.file+"======"+hso.declareMethod+"----------"+hso.ifStatement+"---------"+hso.sensitiveStmt.APIs);
                 }
             }
         });
@@ -559,7 +595,8 @@ public class TriggerNum {
                 ) {
                     key.set("System Properties");
                     hso.coreAPIInTrigger = matcher.group(1);
-                    //System.out.println(hso.file+"======"+hso.triggerConditionBlock.APIs+"---------"+hso.sensitiveStmt.APIs);
+                    //System.out.println(hso.coreAPIInTrigger);
+
                 }
             }
         });
@@ -582,7 +619,8 @@ public class TriggerNum {
                 ) {
                     key.set("SMS");
                     hso.coreAPIInTrigger = matcher.group(1);
-                    //System.out.println("SMS："+hso.file+"======"+hso.triggerConditionBlock.APIs+"---------"+hso.sensitiveStmt.APIs);
+                    System.out.println(hso.coreAPIInTrigger);
+                    //System.out.println("SMS:"+hso.file+"======"+hso.declareMethod+"----------"+hso.ifStatement+"---------"+hso.sensitiveStmt.APIs);
                 }
             }
         });
@@ -604,8 +642,8 @@ public class TriggerNum {
                 ) {
                     key.set("Time");
                     hso.coreAPIInTrigger = matcher.group(1);
-                    //System.out.println(hso.file);
-                    //System.out.println("Time："+hso.file+"======"+ hso.declareMethod+ "---------" +hso.triggerConditionBlock.APIs+"---------"+hso.sensitiveStmt.APIs);
+                    System.out.println(hso.coreAPIInTrigger);
+                    //System.out.println("Time:"+hso.file+"======"+hso.declareMethod+"----------"+hso.ifStatement+"---------"+hso.sensitiveStmt.APIs);
                 }
             }
         });
@@ -644,8 +682,8 @@ public class TriggerNum {
                 ) {
                     key.set("Location");
                     hso.coreAPIInTrigger = matcher.group(1);
-                    //System.out.println("Location:"+hso.file+"======"+hso.declareMethod+"----------"+hso.ifStatement+"---------"+hso.triggerConditionBlock.APIs);
-                    //System.out.println("Location:"+hso.file+"======"+a);
+                    System.out.println(hso.coreAPIInTrigger);
+                    //System.out.println("Location:"+hso.file+"======"+hso.declareMethod+"----------"+hso.ifStatement+"---------"+hso.sensitiveStmt.APIs);
                 }
             }
         });

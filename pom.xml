@@ -46,13 +46,8 @@
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>1.7.6</version>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
-            <version>1.7.6</version>
+            <version>1.8.0-alpha2</version>
         </dependency>
         <dependency>
             <groupId>com.opencsv</groupId>
@@ -75,9 +70,9 @@
             <version>3.6.1</version>
         </dependency>
         <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-log4j12</artifactId>
-            <version>1.8.0-alpha2</version>
+            <groupId>com.monitorjbl</groupId>
+            <artifactId>xlsx-streamer</artifactId>
+            <version>2.1.0</version>
         </dependency>
     </dependencies>
 
@@ -174,7 +169,7 @@
                                 <!-- 打成可执行的jar包 的主方法入口-->
                                 <transformer
                                         implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>SensorLeak.SuccessRun</mainClass>
+                                    <mainClass>socket.Server</mainClass>
                                 </transformer>
 
                                 <!--                                <transformer-->

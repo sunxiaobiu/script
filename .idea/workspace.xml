@@ -2,40 +2,89 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="329d82a7-dff4-4e11-bd1e-3e061dc9650e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/RemoteTest/InsertSqlGenerate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AutoUnitTest/CiD/CiDJunitTestGenDiff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AutoUnitTest/CiD/CompareCiD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AutoUnitTest/CiD/JunitTestGenRes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AutoUnitTest/CiD/OnlyJunitTestGenType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HSO/GooglePlay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RemoteTest/RQ2/CalculateExceptionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RemoteTest/RQ2/CalculateMinExceptionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RemoteTest/RQ2/CalculateRes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RemoteTest/RQ2/CompatibilityIssues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RemoteTest/RQ2/ModelSpecific.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RemoteTest/RQ2/VendorSpecific.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RemoteTest/SystemCommandExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RemoteTest/TestShell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RemoteTest/ThreadedStreamHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RemoteTest/chulitest/DeleteCompileFailFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RemoteTest/chulitest/ProcessJavaTestFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RemoteTest/chulitinkerapk/DeleteTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RemoteTest/chulitinkerapk/ReplaceInstrumentUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RemoteTest/chulitinkerapk/SearchInstrumentUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RemoteTest/collectCtsTests/CollectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RemoteTest/collectCtsTests/TongjiTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RemoteTest/compareCiD/CiDLazyCowDiff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RemoteTest/compareCiD/CiDRes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RemoteTest/compareCiD/CiDTestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RemoteTest/compareCiD/FalsePositives/CalculateExceptionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RemoteTest/compareCiD/FalsePositives/CheckCiDFalsePositive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RemoteTest/compareCiD/FalsePositives/ModelSpecific.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RemoteTest/compareCiD/FalsePositives/VendorSpecific.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RemoteTest/compareCiD/LazyCowRes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RemoteTest/extractgoogletest/CollectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RemoteTest/extractgoogletest/TongjiTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RemoteTest/testrunner/CompatibilityIssues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RemoteTest/testrunner/chuliCSV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RemoteTest/testrunner/chuliLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RemoteTest/testrunner/chuliTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RemoteTest/testrunner/collectSuccessTestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TriggerScope/CollectFileName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TriggerScope/CompareWithHiSenDroid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TriggerScope/result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/permission/CompareAPICommet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/permission/CompareAPIPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/permission/PermissionCompatibility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/permission/generatetest/FilterAPIConstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/permission/literaturereview/CollectFromArcade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/permission/literaturereview/CollectFromAxplorer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/permission/literaturereview/CollectFromNatidroid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/permission/literaturereview/CollectFromPsCout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/permission/literaturereview/CompareDiff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/permission/other/AllAndroidAPIMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/permission/other/AllSubClsMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/permission/other/CalculateTotalTestNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/permission/other/DeleteDir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/permission/other/DeleteFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/permission/other/EasyClassConstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/permission/other/ManagerServiceMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/permission/other/NotEasyClassConstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/permission/runtest/CalculateExecuteCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/permission/runtest/CollectAllPermissions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/permission/runtest/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socket/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/CollectionIntersection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/IncrementHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/JNIResolve.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/String2Date.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/xiaoyu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/ExtractReRunAPK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SensorLeak/ExtractReRunAPK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/GetSensorAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SensorLeak/GetSensorAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/Performance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SensorLeak/Performance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/SuccessRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SensorLeak/SuccessRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/collectFieldLeak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SensorLeak/collectFieldLeak.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/filter/HasSensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SensorLeak/filter/HasSensor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/filter/SelectResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SensorLeak/filter/SelectResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/preprocess/SelectAvaliableAPK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SensorLeak/preprocess/SelectAvaliableAPK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FieldFlowDroid/thirdparty/PackageName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SensorLeak/thirdparty/PackageName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SuccessRun.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FieldFlowDroid/ExtractReRunAPK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FieldFlowDroid/GetSensorAPI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FieldFlowDroid/Performance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FieldFlowDroid/SuccessRun.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FieldFlowDroid/collectFieldLeak.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FieldFlowDroid/filter/HasSensor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FieldFlowDroid/filter/SelectResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FieldFlowDroid/preprocess/SelectAvaliableAPK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FieldFlowDroid/thirdparty/PackageName.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/original-script-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HSO/RQ1/TriggerNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HSO/RQ1/TriggerNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RemoteTest/InsertSqlGenerate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RemoteTest/InsertSqlGenerate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/Regex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Regex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HSO/RQ1/TriggerNum$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HSO/RQ1/TriggerNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HSO/RQ1/TriggerNum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/Regex.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Regex.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="221" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -48,6 +97,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1TJG5yOk613mWM2o4BU7pxDFHqV" />
   <component name="ProjectViewState">
@@ -56,32 +106,42 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/RemoteTest/compareCiD/FalsePositives" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.21026284" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="FieldFlowDroid" />
-      <recent name="APIMisuse" />
-      <recent name="HSO" />
-      <recent name="DroidRA" />
+      <recent name="RemoteTest.compareCiD.FalsePositives" />
+      <recent name="RemoteTest.compareCiD" />
+      <recent name="RemoteTest.RQ2" />
+      <recent name="permission.other" />
       <recent name="util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/RemoteTest/compareCiD/FalsePositives" />
+      <recent name="$PROJECT_DIR$/src/main/java/RemoteTest/collectCtsTests" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/.idea" />
       <recent name="$PROJECT_DIR$/res" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InsertSqlGenerate">
+  <component name="RunManager" selected="Application.TriggerNum">
     <configuration name="AutoTest_class2java" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="AutoUnitTest.processtest.Class2Java" />
       <module name="script" />
@@ -106,6 +166,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculateExceptionType (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RemoteTest.RQ2.CalculateExceptionType" />
+      <module name="script" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RemoteTest.RQ2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculateExecuteCommand" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="permission.runtest.CalculateExecuteCommand" />
+      <module name="script" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="permission.runtest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculateNumberOfLeaks" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="HSO.CalculateNumberOfLeaks" />
       <module name="script" />
@@ -114,10 +200,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CollectAllPermissions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="permission.runtest.CollectAllPermissions" />
+      <module name="script" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="permission.runtest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CompareCallGraphSize" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="DroidRA.CompareCallGraphSize" />
       <module name="script" />
       <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/origintest1 $USER_HOME$/Desktop/test2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompareDiff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="permission.literaturereview.CompareDiff" />
+      <module name="script" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="permission.literaturereview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,6 +250,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DeleteCompileFailFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RemoteTest.chulitest.DeleteCompileFailFile" />
+      <module name="script" />
+      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/deleteTest.txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RemoteTest.chulitest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteCompileFailFile" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="RemoteTest.chulitest.DeleteCompileFailFile" />
+      <module name="script" />
+      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/deleteTest.txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RemoteTest.chulitest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExtractSpecialTxtFile" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="DroidRA.ExtractSpecialTxtFile" />
       <module name="script" />
@@ -154,52 +294,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertSqlGenerate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RemoteTest.InsertSqlGenerate" />
-      <module name="script" />
-      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/testcasename.txt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RemoteTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PackageName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SensorLeak.thirdparty.PackageName" />
-      <module name="script" />
-      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/5ba219a652f9810fd2b09af1c7a19ba8.apk" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SensorLeak.thirdparty.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Performance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SensorLeak.Performance" />
-      <module name="script" />
-      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/SensorLeak/malware_output/ $USER_HOME$/Desktop/malware_name.txt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SensorLeak.preprocess.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ProcessJavaTestFile" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="AutoUnitTest.processtest.ProcessJavaTestFile" />
       <module name="script" />
-      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/../BasicUnitAndroidTest/app/src/androidTest/java" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/../LazyCow/app/src/main/java/tinker/sample/android/androidtest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProcessJavaTestFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RemoteTest.chulitest.ProcessJavaTestFile" />
+      <module name="script" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/../LazyCow/app/src/main/java/tinker/sample/android/androidtest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RemoteTest.chulitest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProcessJavaTestFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RemoteTest.chulitest.ProcessJavaTestFile" />
+      <module name="script" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/../LazyCow/app/src/main/java/tinker/sample/android/androidtest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RemoteTest.chulitest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -226,20 +352,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectResult" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SensorLeak.filter.SelectResult" />
-      <module name="script" />
-      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/SensorLeak/goodware_output" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SensorLeak.filter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ShareFile" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="AutoUnitTest.ShardFile" />
       <module name="script" />
@@ -251,24 +363,10 @@
     <configuration name="TriggerNum" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HSO.RQ1.TriggerNum" />
       <module name="script" />
-      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/HSO_final/malware" />
+      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/HSO/HSO_final/all $USER_HOME$/Desktop/all.txt" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="HSO.RQ1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="collectFieldLeak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SensorLeak.collectFieldLeak" />
-      <module name="script" />
-      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/SensorLeak/malware_output $USER_HOME$/Desktop/malware_name.txt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SensorLeak.preprocess.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -291,10 +389,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="xiaoyu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="util.xiaoyu" />
+      <module name="script" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.AutoTest_class2java" />
-      <item itemvalue="Application.ProcessJavaTestFile" />
-      <item itemvalue="Application.DeleteCompileFailFile" />
       <item itemvalue="Application.json" />
       <item itemvalue="Application.CompareSootResultAnalysis" />
       <item itemvalue="Application.CalculateDynamicFragmentNum" />
@@ -308,19 +417,21 @@
       <item itemvalue="Application.Rerun" />
       <item itemvalue="Application.TriggerNum" />
       <item itemvalue="Application.ResultLogNumber" />
-      <item itemvalue="Application.collectFieldLeak" />
-      <item itemvalue="Application.Performance" />
-      <item itemvalue="Application.SelectResult" />
-      <item itemvalue="Application.PackageName" />
-      <item itemvalue="Application.InsertSqlGenerate" />
+      <item itemvalue="Application.ProcessJavaTestFile" />
+      <item itemvalue="Application.DeleteCompileFailFile" />
+      <item itemvalue="Application.CalculateExceptionType (1)" />
+      <item itemvalue="Application.CompareDiff" />
+      <item itemvalue="Application.CalculateExecuteCommand" />
+      <item itemvalue="Application.CollectAllPermissions" />
+      <item itemvalue="Application.xiaoyu" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InsertSqlGenerate" />
-        <item itemvalue="Application.Performance" />
-        <item itemvalue="Application.collectFieldLeak" />
-        <item itemvalue="Application.SelectResult" />
-        <item itemvalue="Application.PackageName" />
+        <item itemvalue="Application.xiaoyu" />
+        <item itemvalue="Application.CalculateExecuteCommand" />
+        <item itemvalue="Application.CollectAllPermissions" />
+        <item itemvalue="Application.CompareDiff" />
+        <item itemvalue="Application.CalculateExceptionType (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -447,7 +558,70 @@
       <workItem from="1621777090438" duration="742000" />
       <workItem from="1621828930631" duration="2222000" />
       <workItem from="1621833603102" duration="1219000" />
-      <workItem from="1621850064539" duration="4099000" />
+      <workItem from="1621850064539" duration="4457000" />
+      <workItem from="1622078260425" duration="228000" />
+      <workItem from="1622182932533" duration="30783000" />
+      <workItem from="1622284430434" duration="1513000" />
+      <workItem from="1622461427874" duration="1716000" />
+      <workItem from="1622509793647" duration="734000" />
+      <workItem from="1622543827886" duration="1023000" />
+      <workItem from="1622989057264" duration="1381000" />
+      <workItem from="1623161426238" duration="2776000" />
+      <workItem from="1623221010883" duration="25000" />
+      <workItem from="1623241467526" duration="1772000" />
+      <workItem from="1623248475231" duration="602000" />
+      <workItem from="1623292685359" duration="286000" />
+      <workItem from="1623320893273" duration="1548000" />
+      <workItem from="1623408569307" duration="1569000" />
+      <workItem from="1623638459048" duration="6632000" />
+      <workItem from="1624067838215" duration="2408000" />
+      <workItem from="1624440719429" duration="3278000" />
+      <workItem from="1624543759051" duration="3727000" />
+      <workItem from="1625400660328" duration="5746000" />
+      <workItem from="1626331925762" duration="10009000" />
+      <workItem from="1626437946374" duration="389000" />
+      <workItem from="1626533609539" duration="17776000" />
+      <workItem from="1626674000204" duration="45504000" />
+      <workItem from="1627349025980" duration="595000" />
+      <workItem from="1627464374514" duration="3786000" />
+      <workItem from="1628549295195" duration="5692000" />
+      <workItem from="1628829732819" duration="1074000" />
+      <workItem from="1629351785594" duration="1482000" />
+      <workItem from="1629759711306" duration="14907000" />
+      <workItem from="1629939892032" duration="2032000" />
+      <workItem from="1629985377017" duration="11279000" />
+      <workItem from="1630738984775" duration="104000" />
+      <workItem from="1630739270114" duration="8274000" />
+      <workItem from="1630898292211" duration="8763000" />
+      <workItem from="1631085283563" duration="1585000" />
+      <workItem from="1632018913982" duration="9000" />
+      <workItem from="1632022010853" duration="2082000" />
+      <workItem from="1632109719987" duration="563000" />
+      <workItem from="1632185969464" duration="8017000" />
+      <workItem from="1632621630405" duration="28000" />
+      <workItem from="1632871890321" duration="2492000" />
+      <workItem from="1633429214896" duration="196000" />
+      <workItem from="1633481642841" duration="2379000" />
+      <workItem from="1633641348158" duration="1292000" />
+      <workItem from="1634077789876" duration="3464000" />
+      <workItem from="1634090785926" duration="2754000" />
+      <workItem from="1634631791102" duration="26197000" />
+      <workItem from="1635152803760" duration="16407000" />
+      <workItem from="1636501063246" duration="11440000" />
+      <workItem from="1636946969656" duration="37336000" />
+      <workItem from="1637407626003" duration="19211000" />
+      <workItem from="1638065187053" duration="25801000" />
+      <workItem from="1638424515806" duration="28610000" />
+      <workItem from="1638856874622" duration="27529000" />
+      <workItem from="1639367259894" duration="1365000" />
+      <workItem from="1639370299418" duration="33939000" />
+      <workItem from="1641012789101" duration="674000" />
+      <workItem from="1641018159755" duration="1212000" />
+      <workItem from="1641034980484" duration="8689000" />
+      <workItem from="1641357912087" duration="59793000" />
+      <workItem from="1642469668578" duration="85100000" />
+      <workItem from="1643601550506" duration="10084000" />
+      <workItem from="1644663531565" duration="7279000" />
     </task>
     <servers />
   </component>
@@ -455,150 +629,114 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1061" y="1170" width="1597" height="525" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621834652491">
-      <screen x="1061" y="1080" width="1680" height="1050" />
-    </state>
-    <state x="0" y="90" width="1597" height="543" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1621001307783" />
-    <state x="0" y="94" width="1597" height="525" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1680.1050@0.0.1920.1080" timestamp="1620286745682" />
-    <state x="0" y="94" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1920.1080/954.1080.1680.1050@0.0.1920.1080" timestamp="1620280757852" />
-    <state x="0" y="93" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1976.0.1920.1080/1061.1080.1680.1050@0.0.1920.1080" timestamp="1620792285721" />
-    <state x="1061" y="1170" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1976.0.1920.1080/1061.1080.1680.1050@1061.1080.1680.1050" timestamp="1621834652491" />
-    <state x="617" y="530" width="989" height="510" key="#xdebugger.evaluate" timestamp="1615284993099">
+    <state x="83" y="222" width="1597" height="662" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1644664072485">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="617" y="530" width="989" height="510" key="#xdebugger.evaluate/0.0.1680.1050@0.0.1680.1050" timestamp="1615284993099" />
-    <state width="462" height="466" key="DebuggerActiveHint" timestamp="1619412850238">
+    <state x="83" y="222" width="1597" height="662" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1644664072485" />
+    <state x="464" y="453" width="843" height="574" key="#xdebugger.evaluate" timestamp="1643370336716">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="462" height="466" key="DebuggerActiveHint/0.0.1680.1050@0.0.1680.1050" timestamp="1619412850238" />
-    <state width="1638" height="504" key="GridCell.Tab.0.bottom" timestamp="1621853123277">
+    <state x="464" y="453" width="843" height="574" key="#xdebugger.evaluate/0.0.1680.1050@0.0.1680.1050" timestamp="1643370336716" />
+    <state x="530" y="466" key="#xdebugger.evaluate/1920.0.1920.1080/0.0.1920.1080/1125.1080.1680.1050@0.0.1920.1080" timestamp="1643162228221" />
+    <state x="708" y="391" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1642907004574">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="708" y="391" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.0.1920.1080/0.0.1920.1080/1125.1080.1680.1050@0.0.1920.1080" timestamp="1642907004574" />
+    <state width="1032" height="672" key="DebuggerActiveHint" timestamp="1643415089014">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="504" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1621853123277" />
-    <state width="1878" height="373" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080/954.1080.1680.1050@0.0.1920.1080" timestamp="1620280753378" />
-    <state width="1878" height="416" key="GridCell.Tab.0.bottom/0.0.1920.1080/1976.0.1920.1080/1061.1080.1680.1050@0.0.1920.1080" timestamp="1620792307993" />
-    <state width="1638" height="376" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1617457544639" />
-    <state width="1638" height="369" key="GridCell.Tab.0.bottom/0.23.1680.954@0.23.1680.954" timestamp="1615256401331" />
-    <state width="1638" height="369" key="GridCell.Tab.0.bottom/0.23.1680.956@0.23.1680.956" timestamp="1613715216188" />
-    <state width="1638" height="346" key="GridCell.Tab.0.bottom/0.25.1680.1025@0.25.1680.1025" timestamp="1620541966629" />
-    <state width="1638" height="346" key="GridCell.Tab.0.bottom/0.25.1680.945@0.25.1680.945" timestamp="1621131573696" />
-    <state width="1638" height="328" key="GridCell.Tab.0.bottom/0.25.1680.947@0.25.1680.947" timestamp="1618887069917" />
-    <state width="1638" height="409" key="GridCell.Tab.0.bottom/0.25.1680.949@0.25.1680.949" timestamp="1619265747890" />
-    <state width="1638" height="319" key="GridCell.Tab.0.bottom/0.25.1680.951@0.25.1680.951" timestamp="1620111329626" />
-    <state width="1878" height="595" key="GridCell.Tab.0.bottom/0.25.1920.971/1920.25.1920.1055/954.1105.1680.1025@0.25.1920.971" timestamp="1620285820529" />
-    <state width="1638" height="390" key="GridCell.Tab.0.bottom/954.1080.1680.1050/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615768193130" />
-    <state width="1638" height="504" key="GridCell.Tab.0.center" timestamp="1621853123275">
+    <state width="1032" height="672" key="DebuggerActiveHint/0.0.1680.1050@0.0.1680.1050" timestamp="1643415089014" />
+    <state width="1032" height="672" key="DebuggerActiveHint/0.25.1680.1025@0.25.1680.1025" timestamp="1643365688218" />
+    <state width="1180" height="692" key="DebuggerActiveHint/1920.0.1920.1080/0.0.1920.1080/1125.1080.1680.1050@0.0.1920.1080" timestamp="1643164987271" />
+    <state x="100" y="100" width="1480" height="850" key="DiffContextDialog" timestamp="1643190210053">
+      <screen x="0" y="25" width="1680" height="1025" />
+    </state>
+    <state x="100" y="100" width="1480" height="850" key="DiffContextDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1643190160560" />
+    <state x="100" y="100" width="1480" height="850" key="DiffContextDialog/0.25.1680.1025@0.25.1680.1025" timestamp="1643190210053" />
+    <state width="1638" height="322" key="GridCell.Tab.0.bottom" timestamp="1644814605911">
+      <screen x="0" y="25" width="1680" height="1025" />
+    </state>
+    <state width="1638" height="394" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1644724703288" />
+    <state width="1638" height="322" key="GridCell.Tab.0.bottom/0.25.1680.1025@0.25.1680.1025" timestamp="1644814605911" />
+    <state width="1878" height="476" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080/1125.1080.1680.1050@0.0.1920.1080" timestamp="1643242502735" />
+    <state width="1878" height="384" key="GridCell.Tab.0.bottom/1920.25.1920.1055/0.25.1920.1055/1125.1105.1680.1025@0.25.1920.1055" timestamp="1643241636178" />
+    <state width="1638" height="322" key="GridCell.Tab.0.center" timestamp="1644814605909">
+      <screen x="0" y="25" width="1680" height="1025" />
+    </state>
+    <state width="1638" height="394" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1644724703287" />
+    <state width="1638" height="322" key="GridCell.Tab.0.center/0.25.1680.1025@0.25.1680.1025" timestamp="1644814605909" />
+    <state width="1878" height="476" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080/1125.1080.1680.1050@0.0.1920.1080" timestamp="1643242502732" />
+    <state width="1878" height="384" key="GridCell.Tab.0.center/1920.25.1920.1055/0.25.1920.1055/1125.1105.1680.1025@0.25.1920.1055" timestamp="1643241636156" />
+    <state width="1638" height="322" key="GridCell.Tab.0.left" timestamp="1644814605908">
+      <screen x="0" y="25" width="1680" height="1025" />
+    </state>
+    <state width="1638" height="394" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1644724703287" />
+    <state width="1638" height="322" key="GridCell.Tab.0.left/0.25.1680.1025@0.25.1680.1025" timestamp="1644814605908" />
+    <state width="1878" height="476" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080/1125.1080.1680.1050@0.0.1920.1080" timestamp="1643242502731" />
+    <state width="1878" height="384" key="GridCell.Tab.0.left/1920.25.1920.1055/0.25.1920.1055/1125.1105.1680.1025@0.25.1920.1055" timestamp="1643241636154" />
+    <state width="1638" height="322" key="GridCell.Tab.0.right" timestamp="1644814605910">
+      <screen x="0" y="25" width="1680" height="1025" />
+    </state>
+    <state width="1638" height="394" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1644724703288" />
+    <state width="1638" height="322" key="GridCell.Tab.0.right/0.25.1680.1025@0.25.1680.1025" timestamp="1644814605910" />
+    <state width="1878" height="476" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080/1125.1080.1680.1050@0.0.1920.1080" timestamp="1643242502734" />
+    <state width="1878" height="384" key="GridCell.Tab.0.right/1920.25.1920.1055/0.25.1920.1055/1125.1105.1680.1025@0.25.1920.1055" timestamp="1643241636177" />
+    <state width="1638" height="394" key="GridCell.Tab.1.bottom" timestamp="1644724703289">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="504" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1621853123275" />
-    <state width="1878" height="373" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080/954.1080.1680.1050@0.0.1920.1080" timestamp="1620280753375" />
-    <state width="1878" height="416" key="GridCell.Tab.0.center/0.0.1920.1080/1976.0.1920.1080/1061.1080.1680.1050@0.0.1920.1080" timestamp="1620792307990" />
-    <state width="1638" height="376" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1617457544638" />
-    <state width="1638" height="369" key="GridCell.Tab.0.center/0.23.1680.954@0.23.1680.954" timestamp="1615256401325" />
-    <state width="1638" height="369" key="GridCell.Tab.0.center/0.23.1680.956@0.23.1680.956" timestamp="1613715216187" />
-    <state width="1638" height="346" key="GridCell.Tab.0.center/0.25.1680.1025@0.25.1680.1025" timestamp="1620541966621" />
-    <state width="1638" height="346" key="GridCell.Tab.0.center/0.25.1680.945@0.25.1680.945" timestamp="1621131573695" />
-    <state width="1638" height="328" key="GridCell.Tab.0.center/0.25.1680.947@0.25.1680.947" timestamp="1618887069916" />
-    <state width="1638" height="409" key="GridCell.Tab.0.center/0.25.1680.949@0.25.1680.949" timestamp="1619265747887" />
-    <state width="1638" height="319" key="GridCell.Tab.0.center/0.25.1680.951@0.25.1680.951" timestamp="1620111329624" />
-    <state width="1878" height="595" key="GridCell.Tab.0.center/0.25.1920.971/1920.25.1920.1055/954.1105.1680.1025@0.25.1920.971" timestamp="1620285820527" />
-    <state width="1638" height="390" key="GridCell.Tab.0.center/954.1080.1680.1050/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615768193127" />
-    <state width="1638" height="504" key="GridCell.Tab.0.left" timestamp="1621853123274">
+    <state width="1638" height="394" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1644724703289" />
+    <state width="1638" height="394" key="GridCell.Tab.1.bottom/0.25.1680.1025@0.25.1680.1025" timestamp="1644450972647" />
+    <state width="1878" height="319" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.0.1920.1080/1125.1080.1680.1050@0.0.1920.1080" timestamp="1643241785115" />
+    <state width="1638" height="394" key="GridCell.Tab.1.center" timestamp="1644724703289">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="504" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1621853123274" />
-    <state width="1638" height="327" key="GridCell.Tab.0.left/0.0.1680.1050@0.25.1680.1025" timestamp="1620541966375" />
-    <state width="1878" height="373" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080/954.1080.1680.1050@0.0.1920.1080" timestamp="1620280753374" />
-    <state width="1878" height="416" key="GridCell.Tab.0.left/0.0.1920.1080/1976.0.1920.1080/1061.1080.1680.1050@0.0.1920.1080" timestamp="1620792307989" />
-    <state width="1638" height="376" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1617457544638" />
-    <state width="1638" height="369" key="GridCell.Tab.0.left/0.23.1680.954@0.23.1680.954" timestamp="1615256401323" />
-    <state width="1638" height="369" key="GridCell.Tab.0.left/0.23.1680.956@0.23.1680.956" timestamp="1613715216186" />
-    <state width="1638" height="346" key="GridCell.Tab.0.left/0.25.1680.1025@0.25.1680.1025" timestamp="1620541966620" />
-    <state width="1638" height="346" key="GridCell.Tab.0.left/0.25.1680.945@0.25.1680.945" timestamp="1621131573694" />
-    <state width="1638" height="328" key="GridCell.Tab.0.left/0.25.1680.947@0.25.1680.947" timestamp="1618887069915" />
-    <state width="1638" height="409" key="GridCell.Tab.0.left/0.25.1680.949@0.25.1680.949" timestamp="1619265747885" />
-    <state width="1638" height="319" key="GridCell.Tab.0.left/0.25.1680.951@0.25.1680.951" timestamp="1620111329623" />
-    <state width="1878" height="595" key="GridCell.Tab.0.left/0.25.1920.971/1920.25.1920.1055/954.1105.1680.1025@0.25.1920.971" timestamp="1620285820526" />
-    <state width="1638" height="390" key="GridCell.Tab.0.left/954.1080.1680.1050/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615768193125" />
-    <state width="1638" height="504" key="GridCell.Tab.0.right" timestamp="1621853123276">
+    <state width="1638" height="394" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1644724703289" />
+    <state width="1638" height="394" key="GridCell.Tab.1.center/0.25.1680.1025@0.25.1680.1025" timestamp="1644450972646" />
+    <state width="1878" height="319" key="GridCell.Tab.1.center/1920.0.1920.1080/0.0.1920.1080/1125.1080.1680.1050@0.0.1920.1080" timestamp="1643241785111" />
+    <state width="1638" height="394" key="GridCell.Tab.1.left" timestamp="1644724703289">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="504" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1621853123276" />
-    <state width="1878" height="373" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080/954.1080.1680.1050@0.0.1920.1080" timestamp="1620280753377" />
-    <state width="1878" height="416" key="GridCell.Tab.0.right/0.0.1920.1080/1976.0.1920.1080/1061.1080.1680.1050@0.0.1920.1080" timestamp="1620792307992" />
-    <state width="1638" height="376" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1617457544639" />
-    <state width="1638" height="369" key="GridCell.Tab.0.right/0.23.1680.954@0.23.1680.954" timestamp="1615256401327" />
-    <state width="1638" height="369" key="GridCell.Tab.0.right/0.23.1680.956@0.23.1680.956" timestamp="1613715216188" />
-    <state width="1638" height="346" key="GridCell.Tab.0.right/0.25.1680.1025@0.25.1680.1025" timestamp="1620541966624" />
-    <state width="1638" height="346" key="GridCell.Tab.0.right/0.25.1680.945@0.25.1680.945" timestamp="1621131573696" />
-    <state width="1638" height="328" key="GridCell.Tab.0.right/0.25.1680.947@0.25.1680.947" timestamp="1618887069917" />
-    <state width="1638" height="409" key="GridCell.Tab.0.right/0.25.1680.949@0.25.1680.949" timestamp="1619265747889" />
-    <state width="1638" height="319" key="GridCell.Tab.0.right/0.25.1680.951@0.25.1680.951" timestamp="1620111329625" />
-    <state width="1878" height="595" key="GridCell.Tab.0.right/0.25.1920.971/1920.25.1920.1055/954.1105.1680.1025@0.25.1920.971" timestamp="1620285820528" />
-    <state width="1638" height="390" key="GridCell.Tab.0.right/954.1080.1680.1050/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615768193129" />
-    <state width="1638" height="346" key="GridCell.Tab.1.bottom" timestamp="1621131573698">
-      <screen x="0" y="25" width="1680" height="945" />
-    </state>
-    <state width="1638" height="346" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1620861451407" />
-    <state width="1638" height="369" key="GridCell.Tab.1.bottom/0.23.1680.954@0.23.1680.954" timestamp="1615284256528" />
-    <state width="1638" height="369" key="GridCell.Tab.1.bottom/0.23.1680.956@0.23.1680.956" timestamp="1613715216191" />
-    <state width="1638" height="346" key="GridCell.Tab.1.bottom/0.25.1680.1025@0.25.1680.1025" timestamp="1620541967402" />
-    <state width="1638" height="346" key="GridCell.Tab.1.bottom/0.25.1680.945@0.25.1680.945" timestamp="1621131573698" />
-    <state width="1638" height="346" key="GridCell.Tab.1.bottom/0.25.1680.951@0.25.1680.951" timestamp="1620111329612" />
-    <state width="1638" height="390" key="GridCell.Tab.1.bottom/954.1080.1680.1050/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615768193137" />
-    <state width="1638" height="346" key="GridCell.Tab.1.center" timestamp="1621131573697">
-      <screen x="0" y="25" width="1680" height="945" />
-    </state>
-    <state width="1638" height="346" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1620861451401" />
-    <state width="1638" height="369" key="GridCell.Tab.1.center/0.23.1680.954@0.23.1680.954" timestamp="1615284256527" />
-    <state width="1638" height="369" key="GridCell.Tab.1.center/0.23.1680.956@0.23.1680.956" timestamp="1613715216190" />
-    <state width="1638" height="346" key="GridCell.Tab.1.center/0.25.1680.1025@0.25.1680.1025" timestamp="1620541967401" />
-    <state width="1638" height="346" key="GridCell.Tab.1.center/0.25.1680.945@0.25.1680.945" timestamp="1621131573697" />
-    <state width="1638" height="346" key="GridCell.Tab.1.center/0.25.1680.951@0.25.1680.951" timestamp="1620111329611" />
-    <state width="1638" height="390" key="GridCell.Tab.1.center/954.1080.1680.1050/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615768193134" />
-    <state width="1638" height="346" key="GridCell.Tab.1.left" timestamp="1621131573697">
-      <screen x="0" y="25" width="1680" height="945" />
-    </state>
-    <state width="1638" height="346" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1620861451398" />
-    <state width="1638" height="369" key="GridCell.Tab.1.left/0.23.1680.954@0.23.1680.954" timestamp="1615284256526" />
-    <state width="1638" height="369" key="GridCell.Tab.1.left/0.23.1680.956@0.23.1680.956" timestamp="1613715216189" />
-    <state width="1638" height="346" key="GridCell.Tab.1.left/0.25.1680.1025@0.25.1680.1025" timestamp="1620541967400" />
-    <state width="1638" height="346" key="GridCell.Tab.1.left/0.25.1680.945@0.25.1680.945" timestamp="1621131573697" />
-    <state width="1638" height="346" key="GridCell.Tab.1.left/0.25.1680.951@0.25.1680.951" timestamp="1620111329610" />
-    <state width="1638" height="390" key="GridCell.Tab.1.left/954.1080.1680.1050/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615768193132" />
-    <state width="1638" height="346" key="GridCell.Tab.1.right" timestamp="1621131573698">
-      <screen x="0" y="25" width="1680" height="945" />
-    </state>
-    <state width="1638" height="346" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1620861451404" />
-    <state width="1638" height="369" key="GridCell.Tab.1.right/0.23.1680.954@0.23.1680.954" timestamp="1615284256528" />
-    <state width="1638" height="369" key="GridCell.Tab.1.right/0.23.1680.956@0.23.1680.956" timestamp="1613715216190" />
-    <state width="1638" height="346" key="GridCell.Tab.1.right/0.25.1680.1025@0.25.1680.1025" timestamp="1620541967401" />
-    <state width="1638" height="346" key="GridCell.Tab.1.right/0.25.1680.945@0.25.1680.945" timestamp="1621131573698" />
-    <state width="1638" height="346" key="GridCell.Tab.1.right/0.25.1680.951@0.25.1680.951" timestamp="1620111329611" />
-    <state width="1638" height="390" key="GridCell.Tab.1.right/954.1080.1680.1050/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1615768193136" />
-    <state x="1439" y="1264" key="Maven.ArtifactSearchDialog" timestamp="1621833803881">
-      <screen x="1061" y="1080" width="1680" height="1050" />
-    </state>
-    <state x="1439" y="1264" key="Maven.ArtifactSearchDialog/0.0.1920.1080/1976.0.1920.1080/1061.1080.1680.1050@1061.1080.1680.1050" timestamp="1621833803881" />
-    <state x="519" y="296" key="com.intellij.ide.util.TipDialog" timestamp="1618669633650">
+    <state width="1638" height="394" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1644724703289" />
+    <state width="1638" height="394" key="GridCell.Tab.1.left/0.25.1680.1025@0.25.1680.1025" timestamp="1644450972645" />
+    <state width="1878" height="319" key="GridCell.Tab.1.left/1920.0.1920.1080/0.0.1920.1080/1125.1080.1680.1050@0.0.1920.1080" timestamp="1643241785110" />
+    <state width="1638" height="394" key="GridCell.Tab.1.right" timestamp="1644724703289">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="519" y="296" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1618669633650" />
-    <state x="519" y="296" key="com.intellij.ide.util.TipDialog/0.23.1680.952@0.23.1680.952" timestamp="1616495712851" />
-    <state x="506" y="282" width="837" height="550" key="find.popup" timestamp="1621855033156">
+    <state width="1638" height="394" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1644724703289" />
+    <state width="1638" height="394" key="GridCell.Tab.1.right/0.25.1680.1025@0.25.1680.1025" timestamp="1644450972646" />
+    <state width="1878" height="319" key="GridCell.Tab.1.right/1920.0.1920.1080/0.0.1920.1080/1125.1080.1680.1050@0.0.1920.1080" timestamp="1643241785112" />
+    <state x="349" y="161" key="SettingsEditor" timestamp="1639367523382">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="506" y="282" width="837" height="550" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1621855033156" />
-    <state x="578" y="290" width="957" height="566" key="find.popup/0.0.1920.1080/1976.0.1920.1080/1061.1080.1680.1050@0.0.1920.1080" timestamp="1620795603582" />
-    <state x="1567" y="1362" width="838" height="551" key="find.popup/0.0.1920.1080/1976.0.1920.1080/1061.1080.1680.1050@1061.1080.1680.1050" timestamp="1621828970306" />
-    <state x="1304" y="1306" key="new project wizard" timestamp="1621581304423">
-      <screen x="1061" y="1080" width="1680" height="1050" />
+    <state x="349" y="161" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1639367523382" />
+    <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1643190210054">
+      <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state x="1304" y="1306" key="new project wizard/0.0.1920.1080/1976.0.1920.1080/1061.1080.1680.1050@1061.1080.1680.1050" timestamp="1621581304423" />
-    <state x="505" y="233" key="search.everywhere.popup" timestamp="1618792251567">
+    <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.25.1680.1025@0.25.1680.1025" timestamp="1643190210054" />
+    <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1643429090881">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="233" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1618792251567" />
+    <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1643429090881" />
+    <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.25.1680.1025@0.25.1680.1025" timestamp="1641423986622" />
+    <state x="626" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1638242333419">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="626" y="446" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050@0.0.1680.1050" timestamp="1638242333419" />
+    <state x="572" y="433" key="extract.method.dialog" timestamp="1640319424095">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="572" y="433" key="extract.method.dialog/0.0.1680.1050@0.0.1680.1050" timestamp="1640319424095" />
+    <state x="506" y="282" width="1155" height="723" key="find.popup" timestamp="1644665030336">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="506" y="282" width="1155" height="723" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1644665030336" />
+    <state x="578" y="290" width="1320" height="744" key="find.popup/1920.0.1920.1080/0.0.1920.1080/1125.1080.1680.1050@0.0.1920.1080" timestamp="1643241495250" />
+    <state x="578" y="290" width="1320" height="744" key="find.popup/1920.25.1920.1055/0.0.1920.1080/1125.1105.1680.1025@0.0.1920.1080" timestamp="1642913549037" />
+    <state x="577" y="240" width="766" height="696" key="search.everywhere.popup" timestamp="1643163782614">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1636530988367" />
+    <state x="577" y="240" width="766" height="696" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1080/1125.1080.1680.1050@0.0.1920.1080" timestamp="1643163782614" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -919,11 +1057,6 @@
           <option name="timeStamp" value="300" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/HSO/flowdroid/CopyFile.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="302" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/HSO/flowdroid/HSDF.java</url>
           <line>204</line>
           <option name="timeStamp" value="304" />
@@ -932,16 +1065,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/AutoUnitTest/experimantalsetup/ExtractMinTarget.java</url>
           <line>24</line>
           <option name="timeStamp" value="344" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/AutoUnitTest/processtest/ReadCsv.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="349" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/AutoUnitTest/processtest/ReadCsv.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="350" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/AutoUnitTest/processtest/ProcessJavaTestFile.java</url>
@@ -1035,7 +1158,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/test/test.java</url>
-          <line>11</line>
+          <line>23</line>
           <option name="timeStamp" value="404" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1058,12 +1181,220 @@
           <line>21</line>
           <option name="timeStamp" value="427" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/AutoUnitTest/result/CompatibilityIssues.java</url>
+          <line>203</line>
+          <option name="timeStamp" value="435" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/RemoteTest/extractgoogletest/CollectTest.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="436" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/RemoteTest/collectCtsTests/CollectTest.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="440" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/RemoteTest/chulitinkerapk/DeleteTests.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="442" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/RemoteTest/chulitinkerapk/DeleteTests.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="444" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/RemoteTest/chulitinkerapk/DeleteTests.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="445" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/RemoteTest/chulitinkerapk/ReplaceInstrumentUsage.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="447" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/RemoteTest/chulitinkerapk/ReplaceInstrumentUsage.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="448" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/RemoteTest/chulitinkerapk/ReplaceInstrumentUsage.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="449" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/RemoteTest/chulitinkerapk/ReplaceInstrumentUsage.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="450" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/RemoteTest/chulitinkerapk/ReplaceInstrumentUsage.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="451" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/RemoteTest/chulitest/DeleteCompileFailFile.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="454" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/AutoUnitTest/CiD/CiDJunitTestGenDiff.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="459" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/RemoteTest/extractgoogletest/CollectTest.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="460" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/RemoteTest/chulitinkerapk/DeleteTests.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="461" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/RemoteTest/chulitinkerapk/DeleteTests.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="463" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/RemoteTest/testrunner/chuliTime.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="489" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/RemoteTest/testrunner/chuliTime.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="490" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/RemoteTest/testrunner/chuliTime.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="491" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/TriggerScope/CollectFileName.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="501" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/permission/CompareAPIPermission.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="508" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/permission/CompareAPIPermission.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="509" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/permission/PermissionCompatibility.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="516" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/HSO/flowdroid/HSDF.java</url>
+          <line>196</line>
+          <option name="timeStamp" value="518" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/permission/runtest/CalculateExecuteCommand.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="522" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/permission/literaturereview/CompareDiff.java</url>
+          <line>851</line>
+          <option name="timeStamp" value="527" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/permission/other/DeleteDir.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="531" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/permission/other/DeleteFile.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="543" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/permission/literaturereview/CompareDiff.java</url>
+          <line>414</line>
+          <option name="timeStamp" value="556" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/permission/literaturereview/CompareDiff.java</url>
+          <line>413</line>
+          <option name="timeStamp" value="562" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/permission/literaturereview/CompareDiff.java</url>
+          <line>560</line>
+          <option name="timeStamp" value="564" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/permission/literaturereview/CompareDiff.java</url>
+          <line>136</line>
+          <option name="timeStamp" value="565" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/RemoteTest/RQ2/CalculateMinExceptionType.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="576" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/RemoteTest/RQ2/CalculateMinExceptionType.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="577" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/RemoteTest/RQ2/CalculateMinExceptionType.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="578" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/RemoteTest/RQ2/CalculateExceptionType.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="584" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/RemoteTest/compareCiD/FalsePositives/CheckCiDFalsePositive.java</url>
+          <line>132</line>
+          <option name="timeStamp" value="601" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/RemoteTest/compareCiD/LazyCowRes.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="604" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/RemoteTest/compareCiD/FalsePositives/CalculateExceptionType.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="609" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/RemoteTest/compareCiD/FalsePositives/ModelSpecific.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="610" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="permissionSdk23.toArray()[12]" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/script$CopyFile.ic" NAME="CopyFile Coverage Results" MODIFIED="1602395946737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>HSO.flowdroid.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/script$chuliCSV.ic" NAME="chuliCSV Coverage Results" MODIFIED="1632187726295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>RemoteTest.testrunner.*</FILTER>
     </SUITE>
   </component>
 </project>
