@@ -135,6 +135,7 @@ public class TriggerNum {
 //        System.out.println("Trigger sum:"+num);
         HashMap<String, Integer> apkHSONumber = new HashMap<>();
 
+
         /**
          * 分类统计trigger condition
          */
@@ -247,29 +248,16 @@ public class TriggerNum {
 
         System.out.println("hsoNumNoCCs:"+hsoNumNoCCs);
 
-//        //sort
-//        List<Map.Entry<String, Integer>> list = new ArrayList<Map.Entry<String, Integer>>(tcbHashMap.entrySet());
-//        Collections.sort(list, new Comparator<Map.Entry<String, Integer>>() {
-//            public int compare(Map.Entry<String, Integer> o1, Map.Entry<String, Integer> o2) {
-//                return (o2.getValue() - o1.getValue());
-//            }
-//        });
-//        for (Map.Entry<String, Integer> t : list) {
-//            System.out.println(t.getKey() + ":" + t.getValue());
-//        }
 
         System.out.println("================apkHSONumber================");
 
         //sort apkHSONumber
         List<Map.Entry<String, Integer>> apkHSONumberList = new ArrayList<Map.Entry<String, Integer>>(apkHSONumber.entrySet());
-//        Collections.sort(apkHSONumberList, new Comparator<Map.Entry<String, Integer>>() {
-//            public int compare(Map.Entry<String, Integer> o1, Map.Entry<String, Integer> o2) {
-//                return (o2.getValue() - o1.getValue());
-//            }
-//        });
         for (Map.Entry<String, Integer> t : apkHSONumberList) {
             System.out.println(t.getKey() + ":" + t.getValue());
         }
+
+
 
 //        /**
 //         * 分类统计sensitive apis
@@ -501,7 +489,7 @@ public class TriggerNum {
                 ) {
                     key.set(matcher.group(1));
                     hso.coreAPIInTrigger = matcher.group(1);
-                    System.out.println(hso.coreAPIInTrigger);
+                    System.out.println("Other:"+hso.file);
                 }
 
             }
@@ -522,7 +510,7 @@ public class TriggerNum {
                 ) {
                     key.set("hardware Address:");
                     hso.coreAPIInTrigger = matcher.group(1);
-                    System.out.println(hso.coreAPIInTrigger);
+                    System.out.println("hardware Address:"+hso.file);
                     //System.out.println("hardware Address:"+hso.file+"======"+hso.declareMethod+"----------"+hso.ifStatement+"---------"+hso.sensitiveStmt.APIs);
                 }
             }
@@ -540,7 +528,7 @@ public class TriggerNum {
                 ) {
                     key.set("android content:");
                     hso.coreAPIInTrigger = matcher.group(1);
-                    System.out.println(hso.coreAPIInTrigger);
+                    System.out.println("android content:"+hso.file);
                     //System.out.println("android content:"+hso.file+"======"+hso.declareMethod+"----------"+hso.ifStatement+"---------"+hso.sensitiveStmt.APIs);
                 }
             }
@@ -567,7 +555,7 @@ public class TriggerNum {
                 ) {
                     key.set("Package Manager");
                     hso.coreAPIInTrigger = matcher.group(1);
-                    System.out.println(hso.coreAPIInTrigger);
+                    System.out.println("Package Manager:"+hso.file);
                     //System.out.println("Package Manager:"+hso.file+"======"+hso.declareMethod+"----------"+hso.ifStatement+"---------"+hso.sensitiveStmt.APIs);
                 }
             }
@@ -595,7 +583,8 @@ public class TriggerNum {
                 ) {
                     key.set("System Properties");
                     hso.coreAPIInTrigger = matcher.group(1);
-                    //System.out.println(hso.coreAPIInTrigger);
+                    System.out.println("System Properties:"+hso.file);
+                    //System.out.println("System Properties:"+hso.file+"======"+hso.declareMethod+"----------"+hso.coreAPIInTrigger+"---------"+hso.sensitiveStmt.APIs);
 
                 }
             }
@@ -619,8 +608,8 @@ public class TriggerNum {
                 ) {
                     key.set("SMS");
                     hso.coreAPIInTrigger = matcher.group(1);
-                    System.out.println(hso.coreAPIInTrigger);
-                    //System.out.println("SMS:"+hso.file+"======"+hso.declareMethod+"----------"+hso.ifStatement+"---------"+hso.sensitiveStmt.APIs);
+                    System.out.println("SMS:"+hso.file);
+                    //System.out.println("SMS:"+hso.file+"======"+hso.declareMethod+"----------"+hso.coreAPIInTrigger+"---------"+hso.sensitiveStmt.APIs);
                 }
             }
         });
@@ -642,8 +631,8 @@ public class TriggerNum {
                 ) {
                     key.set("Time");
                     hso.coreAPIInTrigger = matcher.group(1);
-                    System.out.println(hso.coreAPIInTrigger);
-                    //System.out.println("Time:"+hso.file+"======"+hso.declareMethod+"----------"+hso.ifStatement+"---------"+hso.sensitiveStmt.APIs);
+                    System.out.println("Time:"+hso.file);
+                    System.out.println("Time:"+hso.file+"======"+hso.declareMethod+"----------"+hso.ifStatement+"---------"+hso.sensitiveStmt.APIs);
                 }
             }
         });
@@ -682,8 +671,8 @@ public class TriggerNum {
                 ) {
                     key.set("Location");
                     hso.coreAPIInTrigger = matcher.group(1);
-                    System.out.println(hso.coreAPIInTrigger);
-                    //System.out.println("Location:"+hso.file+"======"+hso.declareMethod+"----------"+hso.ifStatement+"---------"+hso.sensitiveStmt.APIs);
+                    System.out.println("Location:"+hso.file);
+                    System.out.println("Location:"+hso.file+"======"+hso.declareMethod+"----------"+hso.ifStatement+"---------"+hso.sensitiveStmt.APIs);
                 }
             }
         });
