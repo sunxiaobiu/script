@@ -1,6 +1,5 @@
 package AutoUnitTest.processtest;
 
-import java.io.File;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.nio.file.Files;
@@ -22,8 +21,8 @@ public class Class2Java {
         for (String classFileName : classFileNames) {
             System.out.println("==============Process classFileName=============="+classFileName);
             Process process = Runtime.getRuntime().exec("java -jar /Users/xsun0035/workspace/monash/intellij-community/plugins/java-decompiler/engine/build/libs/fernflower.jar " +
-                    "-hes=0 /Users/xsun0035/Desktop/UnitTest-results/sootOutput/"+ classFileName +
-                    " /Users/xsun0035/Desktop/UnitTest-results/test_case_java/"
+                    "-hes=0 /Users/xsun0035/Desktop/CADroid/sootOutput/"+ classFileName +
+                    " /Users/xsun0035/Desktop/CADroid/class2java/"
             );
             int exitCode = process.waitFor();
             OutputStream os = process.getOutputStream();

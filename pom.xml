@@ -185,7 +185,7 @@
                                 <!-- 打成可执行的jar包 的主方法入口-->
                                 <transformer
                                         implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>test.CpFile</mainClass>
+                                    <mainClass>JUnitTestGen.Similarity</mainClass>
                                 </transformer>
 
                                 <!--                                <transformer-->

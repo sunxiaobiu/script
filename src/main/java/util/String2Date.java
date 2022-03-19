@@ -12,4 +12,8 @@ public class String2Date {
         Date date = formatter.parse(dateStr);
         return date;
     }
+
+    public static int xiaoyu(int a) throws ParseException {
+        return a;
+    }
 }

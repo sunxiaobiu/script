@@ -20,7 +20,7 @@ public class NoLineageAPKList {
         for (int i = 0; i < fileContent.size(); i++) {
             File apkFile = new File(fileContent.get(i));
             if(apkFile.exists()){
-                String command = "/Users/xsun0035/Library/Android/sdk/build-tools/29.0.2/aapt dump badging "+ fileContent.get(i);
+                String command = "aapt dump badging "+ fileContent.get(i);
                 Process process = Runtime.getRuntime().exec(command);
 
                 InputStream is = process.getInputStream();
