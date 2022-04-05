@@ -84,12 +84,6 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        <dependency>
-            <groupId>org.evosuite</groupId>
-            <artifactId>evosuite-standalone-runtime</artifactId>
-            <version>1.0.6</version>
-            <scope>test</scope>
-        </dependency>
     </dependencies>
 
     <build>
@@ -185,7 +179,7 @@
                                 <!-- 打成可执行的jar包 的主方法入口-->
                                 <transformer
                                         implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>JUnitTestGen.Similarity</mainClass>
+                                    <mainClass>JUnitTestGen.RunTests.DeleteExecutedTest</mainClass>
                                 </transformer>
 
                                 <!--                                <transformer-->
@@ -196,15 +190,6 @@
                         </configuration>
                     </execution>
                 </executions>
-            </plugin>
-            <plugin>
-                <groupId>org.evosuite.plugins</groupId>
-                <artifactId>evosuite-maven-plugin</artifactId>
-                <version>1.0.6</version>
-                <executions><execution>
-                    <goals> <goal> prepare </goal> </goals>
-                    <phase> process-test-classes </phase>
-                </execution></executions>
             </plugin>
         </plugins>
     </build>
