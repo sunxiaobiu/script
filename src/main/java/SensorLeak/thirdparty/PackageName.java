@@ -2,7 +2,7 @@ package SensorLeak.thirdparty;
 
 import java.io.*;
 
-import static AutoUnitTest.experimantalsetup.CollectAPK.getSubUtilSimple;
+import static AutoUnitTest_Refer2JUnitTestGen.experimantalsetup.CollectAPK.getSubUtilSimple;
 
 public class PackageName {
 
