@@ -5,57 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="329d82a7-dff4-4e11-bd1e-3e061dc9650e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/CiD/FP_CiD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/evosuite/Result/NoSuchMethodError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/evosuite/Result/RQ3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AutoUnitTest/CiD/CiDJunitTestGenDiff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/CiD/CiDJunitTestGenDiff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AutoUnitTest/CiD/CompareCiD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/CiD/CompareCiD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AutoUnitTest/CiD/JunitTestGenRes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/CiD/JunitTestGenRes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AutoUnitTest/CiD/OnlyJunitTestGenType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/CiD/OnlyJunitTestGenType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AutoUnitTest/RQ1/BoxPlotPerAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutoUnitTest_Refer2JUnitTestGen/RQ1/BoxPlotPerAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AutoUnitTest/RQ1/BoxPlotPerAPK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutoUnitTest_Refer2JUnitTestGen/RQ1/BoxPlotPerAPK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AutoUnitTest/RQ2/Performance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutoUnitTest_Refer2JUnitTestGen/RQ2/Performance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AutoUnitTest/ShardFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutoUnitTest_Refer2JUnitTestGen/ShardFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AutoUnitTest/example/Methodology.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutoUnitTest_Refer2JUnitTestGen/example/Methodology.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AutoUnitTest/experimantalsetup/Collect1kDistinceAPK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutoUnitTest_Refer2JUnitTestGen/experimantalsetup/Collect1kDistinceAPK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AutoUnitTest/experimantalsetup/CollectAPK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutoUnitTest_Refer2JUnitTestGen/experimantalsetup/CollectAPK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AutoUnitTest/experimantalsetup/ExtractMinTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutoUnitTest_Refer2JUnitTestGen/experimantalsetup/ExtractMinTarget.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AutoUnitTest/experimantalsetup/MinMaxTargetVersion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutoUnitTest_Refer2JUnitTestGen/experimantalsetup/MinMaxTargetVersion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AutoUnitTest/experimantalsetup/NoLineageAPKList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutoUnitTest_Refer2JUnitTestGen/experimantalsetup/NoLineageAPKList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AutoUnitTest/processtest/Class2Java.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutoUnitTest_Refer2JUnitTestGen/processtest/Class2Java.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AutoUnitTest/processtest/DeleteCompileFailFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutoUnitTest_Refer2JUnitTestGen/processtest/DeleteCompileFailFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AutoUnitTest/processtest/ProcessJavaTestFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutoUnitTest_Refer2JUnitTestGen/processtest/ProcessJavaTestFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AutoUnitTest/processtest/ReadCsv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutoUnitTest_Refer2JUnitTestGen/processtest/ReadCsv.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AutoUnitTest/result/CompatibilityIssues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutoUnitTest_Refer2JUnitTestGen/result/CompatibilityIssues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AutoUnitTest/result/DistinctAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutoUnitTest_Refer2JUnitTestGen/result/DistinctAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AutoUnitTest/result/EasyMockErrorNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutoUnitTest_Refer2JUnitTestGen/result/EasyMockErrorNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AutoUnitTest/result/ExcutableRate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutoUnitTest_Refer2JUnitTestGen/result/ExcutableRate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AutoUnitTest/result/NoCrashTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutoUnitTest_Refer2JUnitTestGen/result/NoCrashTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AutoUnitTest/result/ResultLogNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AutoUnitTest_Refer2JUnitTestGen/result/ResultLogNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JUnitTestGen/evosuite/CalculateTestNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/evosuite/CalculateTestNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SensorLeak/thirdparty/PackageName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SensorLeak/thirdparty/PackageName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/CpFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/CpFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AutoUnitTest/RQ1/BoxPlotPerAPI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AutoUnitTest/RQ1/BoxPlotPerAPK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AutoUnitTest/RQ2/Performance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AutoUnitTest/ShardFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AutoUnitTest/example/Methodology.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AutoUnitTest/experimantalsetup/CollectAPK.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AutoUnitTest/experimantalsetup/ExtractMinTarget.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AutoUnitTest/experimantalsetup/MinMaxTargetVersion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AutoUnitTest/experimantalsetup/NoLineageAPKList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AutoUnitTest/processtest/Class2Java.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AutoUnitTest/processtest/DeleteCompileFailFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AutoUnitTest/processtest/ProcessJavaTestFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AutoUnitTest/processtest/ReadCsv.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AutoUnitTest/result/CompatibilityIssues.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AutoUnitTest/result/DistinctAPI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AutoUnitTest/result/EasyMockErrorNum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AutoUnitTest/result/ExcutableRate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AutoUnitTest/result/NoCrashTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AutoUnitTest/result/ResultLogNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JUnitTestGen/CiD/FP_CiD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/CiD/FP_CiD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +87,7 @@
       <recent name="RemoteTest.compareCiD.FalsePositives" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CiDJunitTestGenDiff">
+  <component name="RunManager" selected="Application.FP_CiD">
     <configuration name="CSV" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="DroidRA.ExtractCSVFiles" />
       <module name="script" />
@@ -170,19 +121,6 @@
       <option name="MAIN_CLASS_NAME" value="HSO.CalculateNumberOfLeaks" />
       <module name="script" />
       <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/../../HSO-related/HSO_FlowDroid/output" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculateTestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JUnitTestGen.evosuite.CalculateTestNumber" />
-      <module name="script" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JUnitTestGen.evosuite.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -270,6 +208,19 @@
       <option name="MAIN_CLASS_NAME" value="DroidRA.ExtractSpecialTxtFile" />
       <module name="script" />
       <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/test2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FP_CiD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JUnitTestGen.CiD.FP_CiD" />
+      <module name="script" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JUnitTestGen.CiD.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -433,19 +384,19 @@
       <item itemvalue="Application.ProcessJavaTestFile" />
       <item itemvalue="Application.CalculateExecuteCommand" />
       <item itemvalue="Application.DeleteCompileFailFile" />
-      <item itemvalue="Application.CalculateTestNumber" />
       <item itemvalue="Application.RQ3" />
       <item itemvalue="Application.NoSuchMethodError" />
       <item itemvalue="Application.JunitTestGenRes" />
       <item itemvalue="Application.CiDJunitTestGenDiff" />
+      <item itemvalue="Application.FP_CiD" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FP_CiD" />
         <item itemvalue="Application.CiDJunitTestGenDiff" />
         <item itemvalue="Application.JunitTestGenRes" />
         <item itemvalue="Application.NoSuchMethodError" />
         <item itemvalue="Application.RQ3" />
-        <item itemvalue="Application.CalculateTestNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -680,6 +631,7 @@
       <workItem from="1649465116876" duration="889000" />
       <workItem from="1649467173482" duration="1892000" />
       <workItem from="1649645667307" duration="6467000" />
+      <workItem from="1649719217215" duration="1053000" />
     </task>
     <servers />
   </component>
@@ -1381,6 +1333,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/JUnitTestGen/CiD/CiDJunitTestGenDiff.java</url>
           <line>29</line>
           <option name="timeStamp" value="658" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/JUnitTestGen/CiD/FP_CiD.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="659" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
