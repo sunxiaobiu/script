@@ -5,17 +5,18 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class Similarity {
+public class TestNameAPIMap {
 
     public static void main(String[] args) throws IOException {
         String allFilesPath = args[0];
         List<String> allJavaFileNames = getFileList(allFilesPath);
 
-        HashMap<String, String> res = new HashMap<>();
         HashMap<String, String> testCaseAPIMap = new HashMap<>();
 
         for (String fileName : allJavaFileNames) {
@@ -23,10 +24,8 @@ public class Similarity {
             List<String> fileContent = new ArrayList<>(Files.readAllLines(file.toPath(), StandardCharsets.UTF_8));
 
             String targetAPI = "";
-            StringBuilder apiInvocationList = new StringBuilder();
             for(int i=0; i< fileContent.size(); i++){
                 String currentLine = fileContent.get(i);
-                apiInvocationList.append(currentLine);
                 if(i == fileContent.size() - 1){
                     targetAPI = currentLine;
                     if(targetAPI.startsWith("<java.lang.") && targetAPI.toString().contains("valueOf")){
@@ -35,25 +34,11 @@ public class Similarity {
                 }
             }
 
-            if(!res.containsKey(apiInvocationList.toString())){
-                testCaseAPIMap.put(fileName, targetAPI);
-                res.putIfAbsent(apiInvocationList.toString(), fileName);
-            }
+            testCaseAPIMap.put(fileName, targetAPI);
         }
 
-        System.out.println("test number:" + allJavaFileNames.size());
-        System.out.println("distinct test number:"+res.size());
-        System.out.println("distinct API number:"+testCaseAPIMap.size());
-
-        //output API invocations in minContext for simplicity analysis
-        String distinctTestCasesFile = "/hci/xiao/DistinctTestCases.txt";
-        for (String key : res.keySet()){
-            PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(distinctTestCasesFile, true)));
-            out.println(res.get(key));
-            out.close();
-        }
-        //output APIs
-        String distinctAPI = "/hci/xiao/DistinctAPI.txt";
+        //output test-API map
+        String distinctAPI = "/hci/xiao/TestNameAPIMap.txt";
         for (String testCaseName : testCaseAPIMap.keySet()){
             PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(distinctAPI, true)));
             out.println(testCaseName + "|" + testCaseAPIMap.get(testCaseName));

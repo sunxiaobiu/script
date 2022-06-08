@@ -1,22 +1,24 @@
-package JUnitTestGen;
+package JUnitTestGen.RQ1;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class Similarity {
+public class RQ1Num {
 
     public static void main(String[] args) throws IOException {
         String allFilesPath = args[0];
         List<String> allJavaFileNames = getFileList(allFilesPath);
 
-        HashMap<String, String> res = new HashMap<>();
-        HashMap<String, String> testCaseAPIMap = new HashMap<>();
+        //key:targetAPI,value:API invocation context
+        HashMap<String, List<String>> res = new HashMap<>();
 
         for (String fileName : allJavaFileNames) {
             File file = new File("/hci/xiao/AllTestCases_txt/" + fileName + ".txt");
@@ -29,36 +31,32 @@ public class Similarity {
                 apiInvocationList.append(currentLine);
                 if(i == fileContent.size() - 1){
                     targetAPI = currentLine;
-                    if(targetAPI.startsWith("<java.lang.") && targetAPI.toString().contains("valueOf")){
-                        targetAPI =  fileContent.get(fileContent.size() - 2);
-                    }
                 }
             }
 
-            if(!res.containsKey(apiInvocationList.toString())){
-                testCaseAPIMap.put(fileName, targetAPI);
-                res.putIfAbsent(apiInvocationList.toString(), fileName);
+            if(res.containsKey(targetAPI)){
+                List<String> newList = res.get(targetAPI);
+                newList.add(apiInvocationList.toString());
+                res.put(targetAPI, newList);
+            }else{
+                List<String> newList = new ArrayList<>();
+                newList.add(apiInvocationList.toString());
+                res.put(targetAPI, newList);
             }
         }
 
-        System.out.println("test number:" + allJavaFileNames.size());
-        System.out.println("distinct test number:"+res.size());
-        System.out.println("distinct API number:"+testCaseAPIMap.size());
+        System.out.println("res number:" + allJavaFileNames.size());
 
-        //output API invocations in minContext for simplicity analysis
-        String distinctTestCasesFile = "/hci/xiao/DistinctTestCases.txt";
+        //output EquivalentTest
+        int totalNum = 0;
         for (String key : res.keySet()){
-            PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(distinctTestCasesFile, true)));
-            out.println(res.get(key));
-            out.close();
+            if(res.get(key).size() > 1){
+                totalNum += res.get(key).size();
+            }
         }
-        //output APIs
-        String distinctAPI = "/hci/xiao/DistinctAPI.txt";
-        for (String testCaseName : testCaseAPIMap.keySet()){
-            PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(distinctAPI, true)));
-            out.println(testCaseName + "|" + testCaseAPIMap.get(testCaseName));
-            out.close();
-        }
+
+        System.out.println("totalNum:"+totalNum);
+
     }
 
     public static List<String> getFileList(String outputFilePath) throws IOException {
@@ -69,5 +67,4 @@ public class Similarity {
 
         return result;
     }
-
 }

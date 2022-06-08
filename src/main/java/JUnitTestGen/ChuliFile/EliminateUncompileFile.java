@@ -1,5 +1,7 @@
 package JUnitTestGen.ChuliFile;
 
+import org.apache.commons.lang3.StringUtils;
+
 import java.io.File;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -14,16 +16,36 @@ import java.util.stream.Stream;
 public class EliminateUncompileFile {
 
     public static void main(String[] args) throws IOException {
-        String filePath = args[0];
+        String allFilesPath = "/hci/xiao/ToBeExecuted";
+        List<String> allJavaFileNames = getFileList(allFilesPath);
 
-        File javaFile = new File(filePath);
-        List<String> content = new ArrayList<>(Files.readAllLines(javaFile.toPath(), StandardCharsets.UTF_8));
-        for(String s : content){
-            if(s.contains("Couldn't be decompiled")){
-                javaFile.delete();
+        for(String fileName : allJavaFileNames){
+            if(StringUtils.isBlank(fileName)){
                 continue;
+            }
+
+            String filePath = "/hci/xiao/ToBeExecuted/"+fileName+".java";
+            File javaFile = new File(filePath);
+
+            List<String> content = new ArrayList<>(Files.readAllLines(javaFile.toPath(), StandardCharsets.UTF_8));
+            for(String s : content){
+                if(s.contains("Couldn't be decompiled")){
+                    javaFile.delete();
+                    continue;
+                }
             }
         }
 
+
     }
+
+    public static List<String> getFileList(String outputFilePath) throws IOException {
+        Stream<Path> paths = Files.walk(Paths.get(outputFilePath));
+
+        List<String> result = paths.filter(Files::isRegularFile)
+                .map(x -> x.getFileName().toString().substring(0, x.getFileName().toString().lastIndexOf('.'))).collect(Collectors.toList());
+
+        return result;
+    }
+
 }

@@ -1,6 +1,5 @@
-package JUnitTestGen.evosuite;
+package JUnitTestGen.evosuite.Result;
 
-import org.apache.commons.lang3.StringUtils;
 import util.Regex;
 
 import java.io.File;
@@ -16,7 +15,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class CalculateTestNumber {
+public class CompatibilityIssues {
 
     public static void main(String[] args) throws IOException {
         String allFilesPath = "/Users/xsun0035/Desktop/CADroid/RQ3/Evosuite";
@@ -30,8 +29,8 @@ public class CalculateTestNumber {
 
             for(int i=0; i< fileContent.size(); i++){
                 String currentLineStr = fileContent.get(i);
-                if(currentLineStr.contains("<testcase name")){
-                    testCaseSet.add(Regex.getSubUtilSimple(currentLineStr, "(<testcase name.*_ESTest\")"));
+                if(currentLineStr.startsWith("Underlying exception") ){
+                    testCaseSet.add(currentLineStr);
                 }
             }
         }
@@ -40,8 +39,8 @@ public class CalculateTestNumber {
         for(String s : testCaseSet){
             System.out.println(s);
         }
-
     }
+
 
     public static List<String> getFileList(String outputFilePath) throws IOException {
         List<String> txtFileNames = new ArrayList<>();
@@ -51,7 +50,7 @@ public class CalculateTestNumber {
                 .map(x -> x.toAbsolutePath().toString()).collect(Collectors.toList());
 
         result.stream().forEach(filename -> {
-            if (filename.endsWith("ESTest.xml")) {
+            if (filename.endsWith(".xml")) {
                 txtFileNames.add(filename);
             }
         });

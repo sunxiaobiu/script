@@ -1,6 +1,5 @@
 package JUnitTestGen.RQ2;
 
-import JUnitTestGen.RQResult.CompatibilityIssues;
 import org.apache.commons.lang3.StringUtils;
 import util.Regex;
 
@@ -12,7 +11,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 
-public class ReturnValueDiff {
+public class ReturnValueIsNull {
 
     public static void main(String[] args) throws IOException {
         String logFolder = "/Users/xsun0035/Desktop/CADroid";
@@ -85,71 +84,19 @@ public class ReturnValueDiff {
                 resSet.add(sdk21.get(key));
             }
 
-            if (resSet.size() > 1) {
+            if (resSet.size() > 1 && !(resSet.contains("null") || resSet.contains("null.") || resSet.contains(null))) {
 //                if(resSet.contains(null) || resSet.contains("")){
 //                    System.out.println(key + "--------"+ resSet);
 //                }
                 /**
-                 * output all compatibility issues
+                 * output all compatibility issues, whose return value is null
                  */
                 String outputRes = key + "--------" + resSet;
-                PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("/Users/xsun0035/Desktop/CADroid/RQ2/ReturnValueDiff.txt", true)));
+                PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("/Users/xsun0035/Desktop/CADroid/RQ2/ReturnValueIsNotNull.txt", true)));
                 out.println(outputRes);
                 out.close();
             }
         }
-
-        //所有结果
-//        for (String key : sdk30.keySet()) {
-//            if (key.equals("TestCase_com_application_onlineshoppinginzimbabwe__363742032Test") || key.equals("TestCase_ch_fhnw__562818555Test")) {
-//                continue;
-//            }
-//            HashSet<String> resSet = new HashSet<>();
-//            resSet.add(sdk30.get(key) + "(30)");
-//
-//            if (!resSet.contains(sdk29.get(key))) {
-//                resSet.add(sdk29.get(key) + "(29)");
-//            }
-//
-//            if (!resSet.contains(sdk28.get(key))) {
-//                resSet.add(sdk28.get(key) + "(28)");
-//            }
-//
-//            if (!resSet.contains(sdk27.get(key))) {
-//                resSet.add(sdk27.get(key) + "(27)");
-//            }
-//
-//            if (!resSet.contains(sdk26.get(key))) {
-//                resSet.add(sdk26.get(key) + "(26)");
-//            }
-//
-//            if (!resSet.contains(sdk25.get(key))) {
-//                resSet.add(sdk25.get(key) + "(25)");
-//            }
-//
-//            if (!resSet.contains(sdk24.get(key))) {
-//                resSet.add(sdk24.get(key) + "(24)");
-//            }
-//
-//            if (!resSet.contains(sdk23.get(key))) {
-//                resSet.add(sdk23.get(key) + "(23)");
-//            }
-//
-//            if (!resSet.contains(sdk22.get(key))) {
-//                resSet.add(sdk22.get(key) + "(22)");
-//            }
-//
-//            if (!resSet.contains(sdk21.get(key))) {
-//                resSet.add(sdk21.get(key) + "(21)");
-//            }
-//
-//            if (resSet.size() > 1) {
-//                String outputRes = key + "--------" + resSet;
-//                PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("/Users/xsun0035/Desktop/CADroid/RQ2/AllReturnValueResult.txt", true)));
-//                out.println(outputRes);
-//                out.close();
-//            }
-//        }
     }
 
     public static void getSDKResultValueLog(String logFolder, HashMap<String, String> sdkHashMap, String sdkVersion) throws IOException {
@@ -180,6 +127,4 @@ public class ReturnValueDiff {
 //            }
         }
     }
-
-
 }

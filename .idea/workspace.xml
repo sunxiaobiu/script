@@ -5,8 +5,77 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="329d82a7-dff4-4e11-bd1e-3e061dc9650e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/APIUsageRecommend/PreliminaryStudy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/CiD/AllCompatibilityIssues_API.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/EquivalentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/ExecutedAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/RQ1/EquivalentTargetAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/RQ1/RQ1Num.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/RQ2/ReturnValueIsNull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/TestNameAPIMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/evosuite/Result/CompatibilityIssues.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/script.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JUnitTestGen/CiD/FP_CiD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/CiD/FP_CiD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JUnitTestGen/ChuliFile/EliminateUncompileFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/ChuliFile/EliminateUncompileFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JUnitTestGen/CiD/CiDJunitTestGenDiff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/CiD/CiDJunitTestGenDiff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JUnitTestGen/CiD/CompareCiD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/CiD/CompareCiD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JUnitTestGen/CiD/OnlyJunitTestGenType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JUnitTestGen/RQ1/PerAPK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/RQ1/PerAPK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JUnitTestGen/RQ2/ReturnValueDiff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/RQ2/ReturnValueDiff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JUnitTestGen/RQResult/CompatibilityIssues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/RQResult/CompatibilityIssues.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JUnitTestGen/Similarity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/Similarity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JUnitTestGen/evosuite/CalculateTestNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/evosuite/CalculateTestNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JUnitTestGen/evosuite/Result/NoSuchMethodError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/evosuite/Result/FailTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JUnitTestGen/evosuite/Result/RQ3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/APIMisuse/ClassOrInterfaceVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/APIMisuse/ClassOrInterfaceVisitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/APIMisuse/JavaSourceVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/APIMisuse/JavaSourceVisitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DroidRA/BothSuccessApks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DroidRA/BothSuccessApks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DroidRA/BothSuccessReflectionNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DroidRA/BothSuccessReflectionNum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DroidRA/CalculateDynamicFragmentNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DroidRA/CalculateDynamicFragmentNum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DroidRA/CalculateErrorMsg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DroidRA/CalculateErrorMsg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DroidRA/CalculateThreadFailed.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DroidRA/CalculateThreadFailed.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DroidRA/CompareCallGraphSize.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DroidRA/CompareCallGraphSize.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DroidRA/CompareSootResultAnalysis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DroidRA/CompareSootResultAnalysis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DroidRA/ExtractCSVFiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DroidRA/ExtractCSVFiles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DroidRA/ExtractSpecialTxtFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DroidRA/ExtractSpecialTxtFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DroidRA/IncrementalExtractCSVFiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DroidRA/IncrementalExtractCSVFiles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DroidRA/IncrementalResultAnalysis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DroidRA/IncrementalResultAnalysis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DroidRA/Rerun.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DroidRA/Rerun.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DroidRA/ResultAnalysis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DroidRA/ResultAnalysis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DroidRA/StarResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DroidRA/StarResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DroidRA/SuccessApks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DroidRA/SuccessApks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DroidRA/pattern/ReflectionPattern$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DroidRA/pattern/ReflectionPattern$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DroidRA/pattern/ReflectionPattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DroidRA/pattern/ReflectionPattern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HSO/CalculateNumberOfLeaks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HSO/CalculateNumberOfLeaks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HSO/RQ1/TriggerNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HSO/RQ1/TriggerNum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HSO/RQ1/TriggerSensitivePair$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HSO/RQ1/TriggerSensitivePair$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HSO/RQ1/TriggerSensitivePair.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HSO/RQ1/TriggerSensitivePair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HSO/RQ1/table5$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HSO/RQ1/table5$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HSO/RQ1/table5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HSO/RQ1/table5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HSO/RQ1/table6$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HSO/RQ1/table6$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HSO/RQ1/table6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HSO/RQ1/table6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HSO/RQ2/Performance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HSO/RQ2/Performance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HSO/flowdroid/CopyFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HSO/flowdroid/CopyFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HSO/flowdroid/ExtractAPK.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HSO/flowdroid/ExtractAPK.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HSO/flowdroid/HSDF.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HSO/flowdroid/HSDF.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HSO/flowdroid/SDF.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HSO/flowdroid/SDF.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HSO/flowdroid/SourceSink.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HSO/flowdroid/SourceSink.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HSO/fuzzing/CopyFiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HSO/fuzzing/CopyFiles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HSO/thirdparty/ThirdPartyAnalysis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HSO/thirdparty/ThirdPartyAnalysis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/csv/ExtractCSVData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/csv/ExtractCSVData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/csv/SourceSinkFrequentAnalysis$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/csv/SourceSinkFrequentAnalysis$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/csv/SourceSinkFrequentAnalysis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/csv/SourceSinkFrequentAnalysis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/json/CompareJson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/json/CompareJson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/json/DroidRAKey.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/json/DroidRAKey.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/CsvHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/CsvHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/LoadApkWithSoot$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/LoadApkWithSoot$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/LoadApkWithSoot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/LoadApkWithSoot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/ReadJsonFromFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/ReadJsonFromFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/Regex.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Regex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/TimeMillisToDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/TimeMillisToDate.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +106,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -50,6 +122,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -64,11 +137,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.21026284" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -80,14 +153,27 @@
       <recent name="$PROJECT_DIR$/res" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="JUnitTestGen" />
+      <recent name="JUnitTestGen.RQ1" />
+      <recent name="JUnitTestGen.evosuite.Result" />
       <recent name="JUnitTestGen.RQResult" />
       <recent name="JUnitTestGen.ChuliFile" />
-      <recent name="AutoUnitTest.experimantalsetup" />
-      <recent name="util" />
-      <recent name="RemoteTest.compareCiD.FalsePositives" />
     </key>
   </component>
   <component name="RunManager" selected="Application.FP_CiD">
+    <configuration name="AllCompatibilityIssues_API" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JUnitTestGen.CiD.AllCompatibilityIssues_API" />
+      <module name="script" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JUnitTestGen.CiD.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CSV" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="DroidRA.ExtractCSVFiles" />
       <module name="script" />
@@ -154,6 +240,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CompatibilityIssues (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JUnitTestGen.RQResult.CompatibilityIssues" />
+      <module name="script" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JUnitTestGen.RQResult.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DeleteCompileFailFile" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="AutoUnitTest_Refer2JUnitTestGen.processtest.DeleteCompileFailFile" />
       <module name="script" />
@@ -204,6 +303,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExecutedAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JUnitTestGen.ExecutedAPI" />
+      <module name="script" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JUnitTestGen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExtractSpecialTxtFile" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="DroidRA.ExtractSpecialTxtFile" />
       <module name="script" />
@@ -229,32 +341,6 @@
       <option name="MAIN_CLASS_NAME" value="DroidRA.IncrementalResultAnalysis" />
       <module name="script" />
       <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/origintest1 $USER_HOME$/Desktop/test2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JunitTestGenRes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JUnitTestGen.CiD.JunitTestGenRes" />
-      <module name="script" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JUnitTestGen.CiD.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NoSuchMethodError" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JUnitTestGen.evosuite.Result.NoSuchMethodError" />
-      <module name="script" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JUnitTestGen.evosuite.Result.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -288,19 +374,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="RemoteTest.chulitest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RQ3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JUnitTestGen.evosuite.Result.RQ3" />
-      <module name="script" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JUnitTestGen.evosuite.Result.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -384,19 +457,19 @@
       <item itemvalue="Application.ProcessJavaTestFile" />
       <item itemvalue="Application.CalculateExecuteCommand" />
       <item itemvalue="Application.DeleteCompileFailFile" />
-      <item itemvalue="Application.RQ3" />
-      <item itemvalue="Application.NoSuchMethodError" />
-      <item itemvalue="Application.JunitTestGenRes" />
+      <item itemvalue="Application.CompatibilityIssues (1)" />
       <item itemvalue="Application.CiDJunitTestGenDiff" />
+      <item itemvalue="Application.AllCompatibilityIssues_API" />
       <item itemvalue="Application.FP_CiD" />
+      <item itemvalue="Application.ExecutedAPI" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.FP_CiD" />
+        <item itemvalue="Application.ExecutedAPI" />
         <item itemvalue="Application.CiDJunitTestGenDiff" />
-        <item itemvalue="Application.JunitTestGenRes" />
-        <item itemvalue="Application.NoSuchMethodError" />
-        <item itemvalue="Application.RQ3" />
+        <item itemvalue="Application.AllCompatibilityIssues_API" />
+        <item itemvalue="Application.CompatibilityIssues (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -632,11 +705,30 @@
       <workItem from="1649467173482" duration="1892000" />
       <workItem from="1649645667307" duration="6467000" />
       <workItem from="1649719217215" duration="1053000" />
+      <workItem from="1649809466288" duration="651000" />
+      <workItem from="1649827068996" duration="1171000" />
+      <workItem from="1650007859369" duration="41936000" />
+      <workItem from="1650945614295" duration="1284000" />
+      <workItem from="1651292001010" duration="3912000" />
+      <workItem from="1652088022412" duration="1102000" />
+      <workItem from="1652320831125" duration="17000" />
+      <workItem from="1652674019146" duration="3490000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -1325,19 +1417,29 @@
           <option name="timeStamp" value="631" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/JUnitTestGen/RQ2/ReturnValueDiff.java</url>
-          <line>167</line>
-          <option name="timeStamp" value="655" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/JUnitTestGen/CiD/CiDJunitTestGenDiff.java</url>
-          <line>29</line>
+          <line>30</line>
           <option name="timeStamp" value="658" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/JUnitTestGen/CiD/FP_CiD.java</url>
           <line>33</line>
           <option name="timeStamp" value="659" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/JUnitTestGen/CiD/AllCompatibilityIssues_API.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="662" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/JUnitTestGen/ExecutedAPI.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="663" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/JUnitTestGen/ExecutedAPI.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="664" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1346,6 +1448,10 @@
         <watch expression="permissionSdk23.toArray()[12]" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/script$CopyFile.ic" NAME="CopyFile Coverage Results" MODIFIED="1602395946737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

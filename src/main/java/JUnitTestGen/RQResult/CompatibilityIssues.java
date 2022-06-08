@@ -95,7 +95,7 @@ public class CompatibilityIssues {
                 /**
                  * output all compatibility issues
                  */
-//                System.out.println(key + "--------"+ resSet);
+                System.out.println(key + "--------"+ resSet);
                 /**
                  * output type
                  */
@@ -111,14 +111,14 @@ public class CompatibilityIssues {
 //                    type1_2Num ++;
 //                }
 
-                /**
-                 * output exception type numbers
-                 */
-                for(String s : resSet){
-                    if(!s.equals("success")){
-                        IncrementHashMap.incrementValue(exceptionTypes, s);
-                    }
-                }
+//                /**
+//                 * output exception type numbers
+//                 */
+//                for(String s : resSet){
+//                    if(!s.equals("success")){
+//                        IncrementHashMap.incrementValue(exceptionTypes, s);
+//                    }
+//                }
             }
         }
 

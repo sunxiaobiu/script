@@ -1,5 +1,6 @@
 package JUnitTestGen.CiD;
 
+import util.CollectionIntersection;
 import util.Regex;
 
 import java.io.File;
@@ -15,7 +16,7 @@ public class CiDJunitTestGenDiff {
 
     public static void main(String[] args) throws IOException {
         String cidResPath = "/Users/xsun0035/Desktop/CADroid/RQ3/CID/AllCiDRes.txt";
-        String junitTestGenResPath = "/Users/xsun0035/Desktop/CADroid/RQ3/CID/AllCompatibilityIssues_API_duplicate.txt";
+        String junitTestGenResPath = "/Users/xsun0035/Desktop/CADroid/RQ3/CID/AllCompatibilityIssues_API.txt";
 
         File cidResFile = new File(cidResPath);
         List<String> cidResFileContent = extractMethodSignature(new ArrayList<>(Files.readAllLines(cidResFile.toPath(), StandardCharsets.UTF_8)));
@@ -23,15 +24,20 @@ public class CiDJunitTestGenDiff {
         File junitTestGenResFile = new File(junitTestGenResPath);
         List<String> junitTestGenResContent = extractMethodSignature(new ArrayList<>(Files.readAllLines(junitTestGenResFile.toPath(), StandardCharsets.UTF_8)));
 
-        junitTestGenResContent.removeAll(cidResFileContent);
-        for(String s : junitTestGenResContent){
-            System.out.println(s);
+//        junitTestGenResContent.removeAll(cidResFileContent);
+//        for(String s : junitTestGenResContent){
+//            System.out.println(s);
+//        }
+        cidResFileContent.removeAll(junitTestGenResContent);
+        for(String s : cidResFileContent){
+            if(!isAndroidUIMethod(s)){
+                System.out.println(s);
+            }
         }
-//        cidResFileContent.removeAll(junitTestGenResContent);
-//        for(String s : cidResFileContent){
-//            if(!isAndroidUIMethod(s)){
-//                System.out.println(s);
-//            }
+//        List<String> intersection = new ArrayList<>();
+//        CollectionIntersection.findIntersection(intersection, cidResFileContent, junitTestGenResContent);
+//        for(String s : intersection){
+//            System.out.println(s);
 //        }
     }
 

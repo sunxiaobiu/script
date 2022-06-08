@@ -93,6 +93,7 @@ public class CompareCiD {
                 || unitString.startsWith("<android.content.res.Resources")
                 || unitString.startsWith("<android.app.Dialog")
                 || unitString.startsWith("<android.app.AlertDialog")
+//                || unitString.startsWith("<android.media")
                 ;
     }
 }
