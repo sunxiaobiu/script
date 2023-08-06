@@ -12,7 +12,7 @@ import java.util.*;
 public class CollectFromPsCout {
 
     public static void main(String[] args) throws IOException {
-        File file = new File("/Users/xsun0035/workspace/monash/permissionMapping/PScout/results/API_22/allmappings");
+        File file = new File("/Users/xsun0035/workspace/monash/PScout/results/API_09/allmappings");
         List<String> fileContent = new ArrayList<>(Files.readAllLines(file.toPath(), StandardCharsets.UTF_8));
 
         HashMap<String, String> res = new HashMap<>();
@@ -66,7 +66,7 @@ public class CollectFromPsCout {
         for (String api : res.keySet()) {
             String key = api.toString();
             String value = res.get(api).toString();
-            String outputFile = "/Users/xsun0035/workspace/monash/permissionMapping/PScout/results/API_22/APIPermission_allmappings.txt";
+            String outputFile = "/Users/xsun0035/Desktop/pscout_res/API_09/APIPermission_allmappings.txt";
             PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(outputFile, true)));
             out.println(key + value);
             out.close();

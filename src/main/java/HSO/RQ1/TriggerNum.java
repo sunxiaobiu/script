@@ -22,8 +22,8 @@ import java.lang.System;
 public class TriggerNum {
 
     public static void main(String[] args) throws IOException {
-        String outputFilePath = args[0];
-        String neededFilePath = args[1];
+        String outputFilePath = "/Users/xsun0035/Desktop/MyMac/HSO/HSO_final/all";
+        String neededFilePath = "/Users/xsun0035/Desktop/need.txt";
         File neededFileFile = new File(neededFilePath);
         List<String> neededFiles = new ArrayList<>(Files.readAllLines(neededFileFile.toPath(), StandardCharsets.UTF_8));
 

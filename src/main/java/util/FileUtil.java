@@ -1,8 +1,10 @@
 package util;
 
-import java.io.BufferedReader;
-import java.io.FileOutputStream;
-import java.io.FileReader;
+import java.io.*;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.util.ArrayList;
+import java.util.List;
 
 public class FileUtil {
 
@@ -37,4 +39,22 @@ public class FileUtil {
             System.out.println("Problem reading file.");
         }
     }
+
+    public static List<String> getAllAPIListFromSourceFile(String absoluteFilePath) {
+        List<String> res = new ArrayList<>();
+        File file = new File(absoluteFilePath);
+        if (!file.exists()) {
+            return res;
+        }
+
+        List<String> fileContent = null;
+        try {
+            fileContent = new ArrayList<>(Files.readAllLines(file.toPath(), StandardCharsets.UTF_8));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return fileContent;
+    }
+
 }

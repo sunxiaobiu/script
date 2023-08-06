@@ -5,77 +5,65 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="329d82a7-dff4-4e11-bd1e-3e061dc9650e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/APIUsageRecommend/PreliminaryStudy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/CiD/AllCompatibilityIssues_API.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/EquivalentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/ExecutedAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/RQ1/EquivalentTargetAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/RQ1/RQ1Num.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/RQ2/ReturnValueIsNull.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/TestNameAPIMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/evosuite/Result/CompatibilityIssues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/script.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/RQ4/Performance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NLP/AnnotationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NLP/BasicPipelineExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NLP/preprocessing/Preprocessing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RemoteTest/TSE/CTS/CTSTestRes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RemoteTest/TSE/IncompatibilityEachDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/IccTA/IC3Res.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/RQ2/CompatibilityIssues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/RQ2/CompatibilityIssuesResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/RQ2/FilterMisuseAPKNames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/RQ2/ResourceLeaks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/RQ2/TypeStateMisuses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/RQ2/boxplot/CompatibilityIssues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/RQ2/boxplot/ResourceLeaks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/RQ2/boxplot/TypeStateMisuses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/RQ3/CompatibilityIssues_fifty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/RQ3/CrySL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/RQ3/ResourceLeaks_fifty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/RQ3/TimeMachineRes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/RQ3/TypeStateMisuses_fifty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/compatibility/AddSdk2Rules.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/compatibility/CompatibilityIssues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/compatibility/ExtractIllegalSentence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/compatibility/NumberOfAPILevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/icse/RQ1/ResourceLeaks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/icse/RQ1/TypeStateMisuses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/icse/RQ1/UniqueAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/icse/RQ1/boxplot/ControlFlowMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/icse/RQ1/timecost/Efficiency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/icse/RQ2/ExtractLineageApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/icse/RQ2/LineageAPPModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/icse/RQ2/res/FixedCases_ResourceLeak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/icse/RQ2/res/FixedCases_TypestateMisuse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/icse/RQ2/res/ReRunAPKs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/icse/RQ2/res/ResultDiff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/icse/RQ2/res/ResultDiff_ResourceLeak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/icse/RQ2/res/ResultDiff_TypestateMisuse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/icse/RQ3/AsyncChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/icse/RQ3/CompatibilityIssues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/icse/RQ3/TypeStateMisusesCompareCrySl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/icse/RQ3/VALAResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/icse/RQ3/res/ReRunAPKs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/misuse/FalsePositive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/misuse/MisuseRes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/pre_chuli/CollectUniqueAPK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/util/CollectAllAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/util/DeleteHugeFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/util/ReRunTimeout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typestate/util/ValidTxt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/ClassHelp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/HTMLHelp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JUnitTestGen/ChuliFile/EliminateUncompileFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/ChuliFile/EliminateUncompileFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JUnitTestGen/CiD/CiDJunitTestGenDiff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/CiD/CiDJunitTestGenDiff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JUnitTestGen/CiD/CompareCiD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/CiD/CompareCiD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JUnitTestGen/CiD/OnlyJunitTestGenType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JUnitTestGen/RQ1/PerAPK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/RQ1/PerAPK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JUnitTestGen/RQ2/ReturnValueDiff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/RQ2/ReturnValueDiff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JUnitTestGen/RQResult/CompatibilityIssues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/RQResult/CompatibilityIssues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JUnitTestGen/Similarity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/Similarity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JUnitTestGen/evosuite/CalculateTestNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/evosuite/CalculateTestNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JUnitTestGen/evosuite/Result/NoSuchMethodError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JUnitTestGen/evosuite/Result/FailTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JUnitTestGen/evosuite/Result/RQ3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/APIMisuse/ClassOrInterfaceVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/APIMisuse/ClassOrInterfaceVisitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/APIMisuse/JavaSourceVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/APIMisuse/JavaSourceVisitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DroidRA/BothSuccessApks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DroidRA/BothSuccessApks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DroidRA/BothSuccessReflectionNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DroidRA/BothSuccessReflectionNum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DroidRA/CalculateDynamicFragmentNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DroidRA/CalculateDynamicFragmentNum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DroidRA/CalculateErrorMsg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DroidRA/CalculateErrorMsg.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DroidRA/CalculateThreadFailed.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DroidRA/CalculateThreadFailed.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DroidRA/CompareCallGraphSize.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DroidRA/CompareCallGraphSize.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DroidRA/CompareSootResultAnalysis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DroidRA/CompareSootResultAnalysis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DroidRA/ExtractCSVFiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DroidRA/ExtractCSVFiles.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DroidRA/ExtractSpecialTxtFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DroidRA/ExtractSpecialTxtFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DroidRA/IncrementalExtractCSVFiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DroidRA/IncrementalExtractCSVFiles.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DroidRA/IncrementalResultAnalysis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DroidRA/IncrementalResultAnalysis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DroidRA/Rerun.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DroidRA/Rerun.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DroidRA/ResultAnalysis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DroidRA/ResultAnalysis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DroidRA/StarResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DroidRA/StarResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DroidRA/SuccessApks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DroidRA/SuccessApks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DroidRA/pattern/ReflectionPattern$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DroidRA/pattern/ReflectionPattern$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DroidRA/pattern/ReflectionPattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DroidRA/pattern/ReflectionPattern.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HSO/CalculateNumberOfLeaks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HSO/CalculateNumberOfLeaks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HSO/RQ1/TriggerNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HSO/RQ1/TriggerNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/permission/literaturereview/CollectFromPsCout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/permission/literaturereview/CollectFromPsCout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/CollectionIntersection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/CollectionIntersection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/FileUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/IncrementHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/IncrementHashMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/HSO/RQ1/TriggerNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HSO/RQ1/TriggerNum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HSO/RQ1/TriggerSensitivePair$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HSO/RQ1/TriggerSensitivePair$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HSO/RQ1/TriggerSensitivePair.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HSO/RQ1/TriggerSensitivePair.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HSO/RQ1/table5$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HSO/RQ1/table5$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HSO/RQ1/table5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HSO/RQ1/table5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HSO/RQ1/table6$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HSO/RQ1/table6$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HSO/RQ1/table6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HSO/RQ1/table6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HSO/RQ2/Performance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HSO/RQ2/Performance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HSO/flowdroid/CopyFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HSO/flowdroid/CopyFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HSO/flowdroid/ExtractAPK.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HSO/flowdroid/ExtractAPK.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HSO/flowdroid/HSDF.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HSO/flowdroid/HSDF.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HSO/flowdroid/SDF.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HSO/flowdroid/SDF.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HSO/flowdroid/SourceSink.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HSO/flowdroid/SourceSink.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HSO/fuzzing/CopyFiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HSO/fuzzing/CopyFiles.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HSO/thirdparty/ThirdPartyAnalysis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HSO/thirdparty/ThirdPartyAnalysis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/csv/ExtractCSVData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/csv/ExtractCSVData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/csv/SourceSinkFrequentAnalysis$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/csv/SourceSinkFrequentAnalysis$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/csv/SourceSinkFrequentAnalysis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/csv/SourceSinkFrequentAnalysis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/json/CompareJson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/json/CompareJson.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/json/DroidRAKey.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/json/DroidRAKey.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/CsvHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/CsvHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/LoadApkWithSoot$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/LoadApkWithSoot$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/LoadApkWithSoot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/LoadApkWithSoot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/ReadJsonFromFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/ReadJsonFromFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/Regex.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Regex.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/TimeMillisToDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/TimeMillisToDate.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,8 +76,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Python Script" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -129,7 +117,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/typestate/icse/RQ1" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -137,43 +125,33 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.21026284" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/typestate/icse/RQ1" />
       <recent name="$PROJECT_DIR$/src/main/java/RemoteTest/compareCiD/FalsePositives" />
       <recent name="$PROJECT_DIR$/src/main/java/RemoteTest/collectCtsTests" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/.idea" />
-      <recent name="$PROJECT_DIR$/res" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="JUnitTestGen" />
-      <recent name="JUnitTestGen.RQ1" />
-      <recent name="JUnitTestGen.evosuite.Result" />
-      <recent name="JUnitTestGen.RQResult" />
-      <recent name="JUnitTestGen.ChuliFile" />
+      <recent name="typestate.icse.RQ3.res" />
+      <recent name="typestate.icse.RQ3" />
+      <recent name="typestate.icse.RQ1.timecost" />
+      <recent name="typestate.icse.RQ1.boxplot" />
+      <recent name="typestate.icse.RQ2.res" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FP_CiD">
-    <configuration name="AllCompatibilityIssues_API" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JUnitTestGen.CiD.AllCompatibilityIssues_API" />
-      <module name="script" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JUnitTestGen.CiD.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ReRunAPKs">
     <configuration name="CSV" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="DroidRA.ExtractCSVFiles" />
       <module name="script" />
@@ -211,19 +189,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CiDJunitTestGenDiff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JUnitTestGen.CiD.CiDJunitTestGenDiff" />
-      <module name="script" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JUnitTestGen.CiD.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CompareCallGraphSize" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="DroidRA.CompareCallGraphSize" />
       <module name="script" />
@@ -240,12 +205,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompatibilityIssues (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JUnitTestGen.RQResult.CompatibilityIssues" />
+    <configuration name="CompatibilityIssues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="typestate.icse.RQ3.CompatibilityIssues" />
       <module name="script" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JUnitTestGen.RQResult.*" />
+          <option name="PATTERN" value="typestate.icse.RQ3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrySL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="typestate.RQ3.CrySL" />
+      <module name="script" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="typestate.RQ3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -303,36 +281,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExecutedAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JUnitTestGen.ExecutedAPI" />
-      <module name="script" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JUnitTestGen.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ExtractSpecialTxtFile" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="DroidRA.ExtractSpecialTxtFile" />
       <module name="script" />
       <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/Desktop/test2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FP_CiD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JUnitTestGen.CiD.FP_CiD" />
-      <module name="script" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JUnitTestGen.CiD.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -374,6 +326,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="RemoteTest.chulitest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReRunAPKs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="typestate.icse.RQ3.res.ReRunAPKs" />
+      <module name="script" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="typestate.icse.RQ3.res.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -425,6 +390,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TypeStateMisusesCompareCrySl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="typestate.icse.RQ3.TypeStateMisusesCompareCrySl" />
+      <module name="script" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="typestate.icse.RQ3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UniqueAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="typestate.icse.RQ1.UniqueAPI" />
+      <module name="script" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="typestate.icse.RQ1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="incrementalCSV" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="DroidRA.IncrementalExtractCSVFiles" />
       <module name="script" />
@@ -457,19 +448,19 @@
       <item itemvalue="Application.ProcessJavaTestFile" />
       <item itemvalue="Application.CalculateExecuteCommand" />
       <item itemvalue="Application.DeleteCompileFailFile" />
-      <item itemvalue="Application.CompatibilityIssues (1)" />
-      <item itemvalue="Application.CiDJunitTestGenDiff" />
-      <item itemvalue="Application.AllCompatibilityIssues_API" />
-      <item itemvalue="Application.FP_CiD" />
-      <item itemvalue="Application.ExecutedAPI" />
+      <item itemvalue="Application.UniqueAPI" />
+      <item itemvalue="Application.CrySL" />
+      <item itemvalue="Application.TypeStateMisusesCompareCrySl" />
+      <item itemvalue="Application.CompatibilityIssues" />
+      <item itemvalue="Application.ReRunAPKs" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FP_CiD" />
-        <item itemvalue="Application.ExecutedAPI" />
-        <item itemvalue="Application.CiDJunitTestGenDiff" />
-        <item itemvalue="Application.AllCompatibilityIssues_API" />
-        <item itemvalue="Application.CompatibilityIssues (1)" />
+        <item itemvalue="Application.ReRunAPKs" />
+        <item itemvalue="Application.CompatibilityIssues" />
+        <item itemvalue="Application.TypeStateMisusesCompareCrySl" />
+        <item itemvalue="Application.CrySL" />
+        <item itemvalue="Application.UniqueAPI" />
       </list>
     </recent_temporary>
   </component>
@@ -713,6 +704,51 @@
       <workItem from="1652088022412" duration="1102000" />
       <workItem from="1652320831125" duration="17000" />
       <workItem from="1652674019146" duration="3490000" />
+      <workItem from="1654668318715" duration="29704000" />
+      <workItem from="1655265168943" duration="5242000" />
+      <workItem from="1656305850098" duration="4911000" />
+      <workItem from="1656899078405" duration="212000" />
+      <workItem from="1657366395567" duration="1044000" />
+      <workItem from="1658195938019" duration="2036000" />
+      <workItem from="1658583773694" duration="911000" />
+      <workItem from="1658630260761" duration="1467000" />
+      <workItem from="1659071601739" duration="1752000" />
+      <workItem from="1659076213130" duration="13953000" />
+      <workItem from="1659486632834" duration="1385000" />
+      <workItem from="1659583484102" duration="6225000" />
+      <workItem from="1659867577796" duration="966000" />
+      <workItem from="1660089069381" duration="1399000" />
+      <workItem from="1660369429457" duration="24880000" />
+      <workItem from="1661656018231" duration="24493000" />
+      <workItem from="1662195782810" duration="771000" />
+      <workItem from="1662459404334" duration="981000" />
+      <workItem from="1663215755153" duration="11040000" />
+      <workItem from="1663998985634" duration="3055000" />
+      <workItem from="1664162973662" duration="2076000" />
+      <workItem from="1664327614112" duration="6928000" />
+      <workItem from="1664508921372" duration="34000" />
+      <workItem from="1664509476976" duration="107000" />
+      <workItem from="1664590716287" duration="472000" />
+      <workItem from="1666054023080" duration="21107000" />
+      <workItem from="1670024989594" duration="2689000" />
+      <workItem from="1670300038917" duration="1796000" />
+      <workItem from="1670566614134" duration="1153000" />
+      <workItem from="1670570185198" duration="14971000" />
+      <workItem from="1671513278693" duration="10253000" />
+      <workItem from="1671771915936" duration="178000" />
+      <workItem from="1671781798474" duration="4209000" />
+      <workItem from="1672387822217" duration="33264000" />
+      <workItem from="1673918667924" duration="11627000" />
+      <workItem from="1674188410760" duration="8764000" />
+      <workItem from="1680665073823" duration="389000" />
+      <workItem from="1686198917300" duration="4800000" />
+      <workItem from="1686723947898" duration="33000" />
+      <workItem from="1686906986045" duration="19884000" />
+      <workItem from="1687578415558" duration="2666000" />
+      <workItem from="1687596765845" duration="905000" />
+      <workItem from="1688105109294" duration="26456000" />
+      <workItem from="1689297457726" duration="14826000" />
+      <workItem from="1690195086838" duration="22672000" />
     </task>
     <servers />
   </component>
@@ -1440,6 +1476,76 @@
           <url>file://$PROJECT_DIR$/src/main/java/JUnitTestGen/ExecutedAPI.java</url>
           <line>24</line>
           <option name="timeStamp" value="664" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/util/HTMLHelp.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="666" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/typestate/compatibility/ExtractIllegalSentence.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="667" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/typestate/compatibility/NumberOfAPILevel.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="668" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/typestate/compatibility/AddSdk2Rules.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="670" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/typestate/compatibility/AddSdk2Rules.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="671" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/typestate/util/CollectAllAPI.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="672" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/typestate/RQ2/Efficiency.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="674" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/typestate/RQ1/TypeStateUsage.java</url>
+          <line>122</line>
+          <option name="timeStamp" value="677" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/RemoteTest/RQ2/CompatibilityIssues.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="678" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/typestate/util/ReRunTimeout.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="681" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/typestate/RQ3/TimeMachineRes.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="686" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/typestate/RQ1/TypeStateUsage.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="688" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/typestate/icse/RQ3/CompatibilityIssues.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="689" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/typestate/icse/RQ3/res/ReRunAPKs.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="693" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
